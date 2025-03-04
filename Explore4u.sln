@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33723.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "google4news", "Explore4u\google4news.csproj", "{77B8678B-BDE6-4B2F-BF74-0771A6FBD080}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Android Test", "Android Test\Android Test.csproj", "{14D77DEA-8DEF-4D33-B7AC-146E357A83D7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{77B8678B-BDE6-4B2F-BF74-0771A6FBD080}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77B8678B-BDE6-4B2F-BF74-0771A6FBD080}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77B8678B-BDE6-4B2F-BF74-0771A6FBD080}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77B8678B-BDE6-4B2F-BF74-0771A6FBD080}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14D77DEA-8DEF-4D33-B7AC-146E357A83D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14D77DEA-8DEF-4D33-B7AC-146E357A83D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14D77DEA-8DEF-4D33-B7AC-146E357A83D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14D77DEA-8DEF-4D33-B7AC-146E357A83D7}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6AAE9462-815F-4A5A-A73E-5BEB8C95C3F0}
+	EndGlobalSection
+EndGlobal
