@@ -1,0 +1,86 @@
+﻿.jqpopupmenu, .jqpopupmenu ul {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom:100%;
+  list-style-type : none;
+  visibility: hidden;
+  display: none;
+  text-align : center;
+  box-shadow: 4px 4px 10px rgb(0,0,255); /*shadow for CSS3 capable browsers.*/
+  -webkit-box-shadow: 3px 3px 8px #FFFFFF;
+  -moz-box-shadow: 3px 3px 8px #FFFFFF;
+}
+
+
+/* to center the list, except IE6 */
+
+.jqpopupmenu li {
+
+  position: relative;
+}
+
+/* re-center text in IE6 */
+
+* html .jqpopupmenu li {
+  display: inline-block;
+  width: 170px;
+}
+
+.jqpopupmenu li a {
+  width : 150px;
+  height : auto;
+  display : block;
+  border : 2px outset #669900;
+  border-left: 7px solid rgba(127,255,0,0.80);
+  border-right: 6px solid rgba(127,255,0,0.65);
+  text-decoration : none;
+  background-color:rgba(0,0,0,0.75);
+  color : #eee;
+  font-weight : bold;
+  padding : 4px 5px;
+  outline : 0;
+  cursor : pointer;
+}
+
+* html .jqpopupmenu li{ /*IE6 CSS hack*/
+display: inline-block;
+width: 170px; /*width of menu (include side paddings of LI A*/
+}
+
+.jqpopupmenu a:hover, .jqpopupmenu a:focus {
+  border : 2px outset #537800;
+  background-color : rgba(127,255,0,0.80);
+  border-left: 7px solid rgba(0,0,255,0.85);
+  border-right: 6px solid rgba(0,0,255,0.85);
+  color : #000;
+}
+
+.jqpopupmenu a:active {
+  border : 2px inset #27470e;
+  background-color : rgba(120,0,0,0.55);
+  color : #999;
+  padding : 2px 11px 4px 9px;
+}
+
+.jqpopupmenu a#popup-on, .jqpopupmenu a#popup-on:hover, .jqpopupmenu a#popup-on:focus, .jqpopupmenu a#popup-on:active {
+  border : 2px outset  #27470e;
+  background-color : rgba(255,255,255,0.9);
+  color : #000000;
+  border-left: 7px solid rgba(255,255,255,0.8);
+  border-right: 6px solid rgba(255,255,255,0.65);
+  cursor : default;
+  text-transform : uppercase;
+  text-shadow: none;
+  padding : 4px 5px;
+  text-align: left;
+}
+
+.rightarrowclass{
+position: absolute;
+top: 3px;
+right: 6px;
+}
+

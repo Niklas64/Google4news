@@ -1,0 +1,512 @@
+﻿@{
+    ViewData["Title"] = "Australia";
+}
+
+<script src="../js/AngularWorldNews/australiaNews.js" type="text/javascript"></script>
+<script src="../js/jquery.editWorld.imagemapster.js" type="text/javascript"></script>
+<script src="~/js/JavaScriptImageMapster.js" type="text/javascript"></script>
+
+<!-- Google Tag Manager -->
+<script>
+    (function (w, d, s, l, i) {
+        w[l] = w[l] || []; w[l].push({
+            'gtm.start':
+                new Date().getTime(), event: 'gtm.js'
+        }); var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-56R3HPGS');</script>
+<!-- End Google Tag Manager -->
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-FDV46RZ94D"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-FDV46RZ94D');
+</script>
+
+<!-- First carousel for ads and more -->
+<div class="container-fluid container-carousel containerMarginTop">
+    <div id="myCarousel" class="carousel slide carousel-fade" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+            <li data-target="#myCarousel" data-slide-to="3"></li>
+            <li data-target="#myCarousel" data-slide-to="4"></li>
+            <li data-target="#myCarousel" data-slide-to="5"></li>
+        </ol>
+
+        <!-- Carousel for ads -->
+        <div class="carousel-inner" role="listbox">
+            <div class="item active">
+                <img src="../images/background/2FaceRomainLaurent.jpg" alt="">
+                <div class="carousel-caption">
+                    <div class="animated flip">
+                        <a href="https://www.zatista.com/product/details/142991/The-Greatest-Revolution-Original-Painting-Canvas" target="_blank">
+                            <img class="adPainting" src="../images/Paintings/Zatista/TheGreatestRevolution.png" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="../images/background/Android.jpg" alt="">
+                <div class="carousel-caption">
+                    <div class="animated zoomInRight">
+                        <a href="https://www.saatchiart.com/art/Photography-Faith-Coloured-Limited-Edition-of-2-1AP/908925/8404868/view" target="_blank">
+                            <img class="adPainting" src="../images/Paintings/Saatchiart/FaithColoured.png" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="../images/background/TheWall.jpg" alt="">
+                <div class="carousel-caption">
+                    <div class="animated zoomInDown">
+                        <a href="https://www.saatchiart.com/art/Painting-FLATSCREEN-EIN-PROZENTER-2014-mixed-media-on-canvas-200x150cm/122339/2275251/view" target="_blank">
+                            <img class="adPainting" src="../images/Paintings/Saatchiart/FLATSCREENEINPROZENTER.png" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="../images/background/Shanghai.jpg" alt="">
+                <div class="carousel-caption">
+                    <div class="animated rotateIn">
+                        <a href="https://www.saatchiart.com/art/Painting-MALGR-L-HIVER/664392/2841806/view" target="_blank">
+                            <img class="adPainting" src="~/images/Paintings/Saatchiart/MALGRÉ_L'HIVER_Painting.png">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="../images/background/Photo.jpg" alt="">
+                <div class="carousel-caption">
+                    <div class="animated zoomInRight">
+                        <a href="https://www.zatista.com/product/details/138944/Sky-Above-Us" target="_blank">
+                            <img class="adPainting" src="~/images/Paintings/Zatista/SkyAboveUs.png">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="../images/background/Bensinmack.jpg" alt="">
+                <div class="carousel-caption">
+                    <div class="animated flip">
+                        <a href="https://www.saatchiart.com/art/Painting-PORTRAIT/84668/9369463/view" target="_blank">
+                            <img class="adPainting" src="../images/Paintings/Saatchiart/PORTRAITPainting.png" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Carousel -->
+        <!-- Left and right controls -->
+        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+</div>
+
+<!-- Carousel for news papers -->
+<div class="container-fluid backgroundMaps containerMarginTopNews">
+    <div class="row ipadBottom">
+        <div class="col-sm-3 col-md-3 col-lg-3">
+            <h3 class="mobileHeader">Find country and news</h3>
+            <input type="text" id="myInput" onkeyup="myFunctionSearch()" placeholder="Search country..." title="Type in a name" />
+            <div class="searchState">
+                <ul id="myUL">
+                    <li><a id="Fiji Islands" class="selectAustralia">Fiji Islands</a></li>
+                    <li><a id="New Caledonia" class="selectAustralia">New Caledonia</a></li>
+                    <li><a id="New Zealand" class="selectAustralia">New Zealand</a></li>
+                    <li><a id="New South Wales" class="selectAustralia">New South Wales</a></li>
+                    <li><a id="Papua New Guinea" class="selectAustralia">Papua New Guinea</a></li>
+                    <li><a id="Northern Territory" class="selectAustralia">Northern Territory</a></li>
+                    <li><a id="Queensland" class="selectAustralia">Queensland</a></li>
+                    <li><a id="Solomon Islands" class="selectAustralia">Solomon Islands</a></li>
+                    <li><a id="South Australia" class="selectAustralia">South Australia</a></li>
+                    <li><a id="Tasmania" class="selectAustralia">Tasmania</a></li>
+                    <li><a id="Victoria" class="selectAustralia">Victoria</a></li>
+                    <li><a id="Western Australia" class="selectAustralia">Western Australia</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="col-sm-7 col-md-7 col-lg-7">
+            <img id="world" src="../images/Australia-a.png" usemap="#world" style="width:100%;">
+            <map id="usa_image_map" name="world">
+                <area data-popupmenu="westaustralia" coords="163,347, 162,281, 157,188, 157,185, 154,182, 148,182, 146,182, 144,180, 142,178, 139,176, 136,173, 131,172, 128,175, 124,178, 122,182, 119,183, 116,188, 112,192, 111,196, 110,201, 107,199, 104,202, 102,205, 99,204, 96,206, 91,211, 92,217, 92,223, 88,229, 86,236, 81,238, 75,242, 70,241, 67,243, 64,247, 58,253, 53,254, 49,253, 46,258, 41,263, 36,266, 35,271, 31,273, 28,276, 30,280, 30,291, 31,299, 34,304, 37,311, 37,315, 33,315, 34,319, 39,323, 44,327, 46,331, 46,335, 51,336, 52,343, 54,349, 59,357, 64,367, 66,373, 66,382, 63,385, 67,388, 71,387, 75,391, 80,393, 86,391, 92,390, 94,385, 100,382, 103,378, 109,375, 118,373, 124,373, 129,373, 132,367, 134,361, 140,359, 145,353, 154,350, 162,348" shape="poly" alt="#" full="Western Australia" state="Western Australia" href="#">
+                <area data-popupmenu="southaustralia" coords="162,280, 163,346, 170,344, 177,341, 183,341, 188,341, 195,343, 200,343, 205,345, 211,347, 211,352, 214,353, 215,356, 219,361, 222,365, 224,369, 228,365, 231,360, 237,355, 241,354, 242,358, 238,362, 235,368, 238,370, 240,367, 244,365, 247,368, 246,373, 249,373, 256,377, 257,382, 256,387, 261,391, 263,387, 263,382, 262,379, 269,280, 162,279" shape="poly" alt="#" full="South Australia" state="South Australia" href="#">
+                <area data-popupmenu="northterri" coords="247,200, 246,197, 244,195, 242,195, 238,194, 236,192, 231,189, 225,185, 214,181, 212,178, 213,174, 215,168, 215,165, 219,161, 221,156, 226,152, 223,151, 220,150, 216,152, 211,150, 206,151, 199,150, 189,148, 185,147, 178,147, 175,149, 178,153, 172,154, 166,156, 162,160, 160,165, 158,170, 155,176, 157,181, 157,189, 161,279, 242,279, 247,203" shape="poly" alt="#" full="Northern Territory" state="Northern Territory" href="#">
+                <area data-popupmenu="queensland" coords="287,170, 284,159, 283,153, 282,152, 282,147, 280,147, 278,143, 278,139, 274,138, 272,138, 270,142, 268,149, 267,158, 265,166, 266,176, 265,182, 265,189, 263,191, 262,196, 259,199, 256,201, 251,200, 247,200, 242,279, 270,280, 268,306, 335,311, 340,309, 347,309, 353,310, 359,314, 366,311, 369,310, 368,305, 370,301, 369,297, 365,295, 369,290, 368,286, 367,283, 366,277, 362,271, 360,267, 358,265, 355,261, 350,258, 351,253, 351,249, 350,246, 345,245, 339,246, 338,237, 334,231, 335,227, 334,224, 329,223, 327,222, 322,218, 319,216, 313,213, 307,207, 310,201, 310,197, 307,194, 304,190, 302,182, 300,177, 298,172, 298,169, 295,170, 290,173" shape="poly" alt="#" full="Queensland" state="Queensland" href="#">
+                <area data-popupmenu="newsouthwales" coords="334,385, 336,379, 337,375, 340,369, 344,366, 345,359, 349,352, 353,347, 357,345, 360,340, 362,334, 363,328, 366,319, 366,314, 358,314, 356,311, 351,310, 345,309, 341,310, 335,311, 267,307, 264,350, 269,350, 274,353, 276,357, 282,357, 283,362, 289,365, 294,370, 296,368, 303,370, 312,371, 319,371, 322,376, 322,379, 333,384" shape="poly" alt="#" full="New South Wales" state="New South Wales" href="#">
+                <area data-popupmenu="victoria" coords="335,386, 330,383, 325,380, 322,378, 321,371, 318,372, 313,371, 306,371, 302,369, 298,368, 294,370, 291,366, 286,362, 284,359, 281,357, 276,356, 274,351, 265,350, 263,380, 260,382, 258,386, 258,389, 261,392, 265,396, 269,399, 276,399, 283,402, 287,403, 293,398, 298,396, 300,400, 305,405, 308,405, 311,402, 315,399, 317,396, 323,394, 329,393, 333,392, 335,389" shape="poly" alt="#" full="Victoria" state="Victoria" href="#">
+                <area data-popupmenu="tasmania" coords="286,409,336,459" shape="rect" alt="#" full="Tasmania" state="Tasmania" href="#">
+                <area data-popupmenu="newzealand" coords="424,295,550,453" shape="rect" alt="#" full="New Zealand" state="New Zealand " href="#">
+                <area data-popupmenu="papuang" coords="131,6,303,116" shape="rect" alt="#" full="Papua New Guinea" state="Papua New Guinea" href="#">
+                <area data-popupmenu="fiji" coords="497,20,602,130" shape="rect" alt="#" full="Fiji Islands" state="Fiji Islands" href="#">
+                <area data-popupmenu="solomon" coords="351,18,460,133" shape="rect" alt="#" full="Solomon Islands" state="Solomon Islands" href="#">
+                <area data-popupmenu="caledonia" coords="374,158,512,251" shape="rect" alt="#" full="New Caledonia" state="New Caledonia" href="#">
+            </map>
+
+            <div ng-controller="australiaController">
+                <ul id="caledonia" class="jqpopupmenu" style="visibility: visible; z-index: 1001; left: 0px; top: 0px; display: none;">
+                    <li>
+                        <a id="popup-on" href="#">New Caledonia<img class="rightarrowclass" style="border:0;" src="../Flags/Australia/New_Caledonia_flag.png"></a>
+                    </li>
+                    <li ng-repeat="paper in caledonia">
+                        <a href="{{paper.news}}" target="_blank">{{paper.name}}</a>
+                    </li>
+                </ul>
+
+                <ul id="solomon" class="jqpopupmenu" style="visibility: visible; z-index: 1001; left: 0px; top: 0px; display: none;">
+                    <li>
+                        <a id="popup-on" href="#">Solomon Islands<img class="rightarrowclass" style="border:0;" src="../Flags/Australia/Solomon_Islands_flag.png"></a>
+                    </li>
+                    <li ng-repeat="paper in solomon">
+                        <a href="{{paper.news}}" target="_blank">{{paper.name}}</a>
+                    </li>
+                </ul>
+
+                <ul id="fiji" class="jqpopupmenu" style="visibility: visible; z-index: 1001; left: 0px; top: 0px; display: none;">
+                    <li>
+                        <a id="popup-on" href="#">Fiji<img class="rightarrowclass" style="border:0;" src="../Flags/Australia/Fiji_flag.png"></a>
+                    </li>
+                    <li ng-repeat="paper in fiji">
+                        <a href="{{paper.news}}" target="_blank">{{paper.name}}</a>
+                    </li>
+                </ul>
+
+                <ul id="papuang" class="jqpopupmenu" style="visibility: visible; z-index: 1001; left: 0px; top: 0px; display: none;">
+                    <li>
+                        <a id="popup-on" href="#">Papua New Guinea<img class="rightarrowclass" style="border:0;" src="../Flags/Australia/Papua_New_Guinea_flag.png"></a>
+                    </li>
+                    <li ng-repeat="paper in papuang">
+                        <a href="{{paper.news}}" target="_blank">{{paper.name}}</a>
+                    </li>
+                </ul>
+
+                <ul id="newzealand" class="jqpopupmenu" style="visibility: visible; z-index: 1001; left: 0px; top: 0px; display: none;">
+                    <li>
+                        <a id="popup-on" href="#"><span style="font-size:12px;">New Zealand</span><img class="rightarrowclass" style="border:0;" src="../Flags/Australia/New_Zealand_flag.png"></a>
+                    </li>
+                    <li ng-repeat="paper in newzealand">
+                        <a href="{{paper.news}}" target="_blank">{{paper.name}}</a>
+                    </li>
+                </ul>
+
+                <ul id="tasmania" class="jqpopupmenu" style="visibility: visible; z-index: 1001; left: 0px; top: 0px; display: none;">
+                    <li>
+                        <a id="popup-on" href="#">Tasmania<img class="rightarrowclass" style="border:0;"></a>
+                    </li>
+                       <li ng-repeat="paper in tasmania">
+                        <a href="{{paper.news}}" target="_blank">{{paper.name}}</a>
+                    </li>
+                </ul>
+
+                <ul id="victoria" class="jqpopupmenu" style="visibility: visible; z-index: 1001; left: 0px; top: 0px; display: none;">
+                    <li>
+                        <a id="popup-on" href="#">Victoria<img class="rightarrowclass" style="border:0;" src="../Flags/Australia/Victoria-flag.png"></a>
+                    </li>
+                    <li ng-repeat="paper in victoria">
+                        <a href="{{paper.news}}" target="_blank">{{paper.name}}</a>
+                    </li>
+                </ul>
+
+                <ul id="newsouthwales" class="jqpopupmenu" style="visibility: visible; z-index: 1001; left: 0px; top: 0px; display: none;">
+                    <li>
+                        <a id="popup-on" href="#">New South Wales<img class="rightarrowclass" style="border:0;" src="../Flags/Australia/New_South_Wales-flag.png"></a>
+                    </li>
+                    <li ng-repeat="paper in newsouthwales">
+                        <a href="{{paper.news}}" target="_blank">{{paper.name}}</a>
+                    </li>
+                </ul>
+
+                <ul id="queensland" class="jqpopupmenu" style="visibility: visible; z-index: 1001; left: 0px; top: 0px; display: none;">
+                    <li>
+                        <a id="popup-on" href="#"><span style="font-size:13px;">Queensland</span><img class="rightarrowclass" style="border:0;" src="../Flags/Australia/Queensland-flag.png"></a>
+                    </li>
+                    <li ng-repeat="paper in queensland">
+                        <a href="{{paper.news}}" target="_blank">{{paper.name}}</a>
+                    </li>
+                </ul>
+
+                <ul id="northterri" class="jqpopupmenu" style="visibility: visible; z-index: 1001; left: 0px; top: 0px; display: none;">
+                    <li>
+                        <a id="popup-on" href="#">Northern Territory<img class="rightarrowclass" style="border:0;" src="../Flags/Australia/Northern_Territory_flag.png"></a>
+                    </li>
+                    <li ng-repeat="paper in northterri">
+                        <a href="{{paper.news}}" target="_blank">{{paper.name}}</a>
+                    </li>
+                </ul>
+
+                <ul id="southaustralia" class="jqpopupmenu" style="visibility: visible; z-index: 1001; left: 0px; top: 0px; display: none;">
+                    <li>
+                        <a id="popup-on" href="#">South Australia<img class="rightarrowclass" style="border:0;" src="../Flags/Australia/South_Australia_flag.png"></a>
+                    </li>
+                    <li ng-repeat="paper in southaustralia">
+                        <a href="{{paper.news}}" target="_blank">{{paper.name}}</a>
+                    </li>
+                </ul>
+
+                <ul id="westaustralia" class="jqpopupmenu" style="visibility: visible; z-index: 1001; left: 0px; top: 0px; display: none;">
+                    <li>
+                        <a id="popup-on" href="#">Western Australia<img class="rightarrowclass" style="border:0;" src="../Flags/Australia/Western_Australia_flag2.png"></a>
+                    </li>
+                    <li ng-repeat="paper in westaustralia">
+                        <a href="{{paper.news}}" target="_blank">{{paper.name}}</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="col-sm-2 col-md-2 col-lg-2">
+            <a target="_blank" href="http://www.cnn.com/" class="highlightit"><img class="mobilApp" src="../pic/newsapps/cnn.png" title="CNN World" width="53" height="53" /></a>
+            <a target="_blank" href="http://www.foxnews.com/" class="highlightit"><img class="mobilApp" src="../pic/newsapps/Fox.png" title="Fox News" width="53" height="53" /></a>
+            <a target="_blank" href="http://abcnews.go.com/" class="highlightit"><img class="mobilApp" src="../pic/newsapps/abc.png" title="ABC News" width="53" height="53" /></a>
+            <a target="_blank" href="https://www.cbsnews.com/" class="highlightit"><img class="mobilApp" src="../pic/newsapps/cbs.png" title="CBS News" width="53" height="53" /></a>
+            <a target="_blank" href="https://www.bbc.com/" class="highlightit"><img class="mobilApp" src="../pic/newsapps/bbc.png" title="BBC World" width="53" height="53" /></a>
+            <a target="_blank" href="https://www.dw.com/" class="highlightit"><img class="mobilApp" src="../pic/newsapps/DW.PNG" title="DW World" width="53" height="53" /></a>
+            <a target="_blank" href="http://www.nbcnews.com/" class="highlightit"><img class="mobilApp" src="../pic/newsapps/nbc.png" title="NBC News" width="53" height="53" /></a>
+            <a target="_blank" href="http://www.aljazeera.com/" class="highlightit"><img class="mobilApp" src="../pic/newsapps/aljaz.png" title="Al Jazeera" width="53" height="53" /></a>
+            <a target="_blank" href="https://www.france24.com/" class="highlightit"><img class="mobilApp" src="../pic/newsapps/Fr24.png" title="MSN News" width="53" height="53" /></a>
+            <a target="_blank" href="http://www.aljazeera.com/" class="highlightit"><img class="mobilApp" src="../pic/newsapps/Reut.png" title="Reuters" width="53" height="53" /></a>
+            <a target="_blank" href="http://www.cbc.ca/" class="highlightit"><img class="mobilApp" src="../pic/newsapps/cbc.png" title="CBC News" width="53" height="53" /></a>
+            <a target="_blank" href="https://www.ctvnews.ca/" class="highlightit"><img class="mobilApp" src="../pic/newsapps/ctv.png" title="CTV News" width="53" height="53" /></a>
+            <a target="_blank" href="http://news.sky.com/" class="highlightit"><img class="mobilApp" src="../pic/newsapps/Sky.png" title="Sky News" width="53" height="53" /></a>
+            <a target="_blank" href="http://espn.go.com/" class="highlightit"><img class="mobilApp" src="../pic/newsapps/espn.png" title="ESPN" width="53" height="53" /></a>
+            <a target="_blank" href="https://www.msn.com/en-us/news/world" class="highlightit"><img class="mobilApp" src="../pic/newsapps/msn.png" title="MSN News" width="53" height="53" /></a>
+        </div>
+    </div>
+</div>
+
+<!-----------                Marketing messaging and featurettes                    ------>
+<!------------------ Shopping Hover Effect Style --------------->
+<div class="container-fluid">
+    <h1 class="text-center">Time for shopping</h1>
+    <div class="row rowShop">
+        <div class="col-md-4 col-sm-6 rowShopResp">
+            <div class="pictureBox">
+                <a href="https://www.ebay.com/" target="_blank"><img class="featurette-image img-responsive" data-src="holder.js/200x200/auto" alt="Generic placeholder image" src="~/images/Shopping/eBay.png"></a>
+                <!---  <div class="pictureBox-content">
+                     <h2 class="title">eBay</h2>
+                </div> --->
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-6 rowShopResp">
+            <div class="pictureBox">
+                <a href="https://www.lightinthebox.com/" target="_blank"><img src="~/images/retail/LightInTheBox.jpg" alt=""></a>
+                <!--- <div class="pictureBox-content">
+                    <h3 class="title">Dam</h3>
+                    <span class="post">Skjortor och blusar</span>
+                </div>  --->
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-6 rowShopResp">
+            <div class="pictureBox">
+                <a href="https://www.walmart.com/" target="_blank"> <img src="~/images/retail/Walmart.jpg" alt=""></a>
+                <!--- <div class="pictureBox-content">
+                    <h3 class="title">Herr</h3>
+                    <span class="post">Jackor & rockar för herr</span>
+                </div>  --->
+            </div>
+        </div>
+
+    </div>
+</div>
+<!------------------ End shopping Hover Effect Style --------------->
+<!------------------ Shopping eBay, Alibaba, Amazon  --------------->
+<div class="container-fluid">
+    <div class="row rowShop">
+        <div class="col-md-4 col-sm-6 rowShopResp">
+            <div class="pictureBox">
+                <a href="https://www.amazon.com/" target="_blank"><img class="featurette-image img-responsive" data-src="holder.js/200x200/auto" alt="Generic placeholder image" src="~/images/Shopping/Amazon.jpg"></a>
+                <!---<div class="pictureBox-content">
+                      <h2 class="title">Amazon</h2>
+                 </div>--->
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-6 rowShopResp">
+            <div class="pictureBox">
+                <a href="https://www.alibaba.com/" target="_blank"><img class="featurette-image img-responsive" data-src="holder.js/200x200/auto" alt="Generic placeholder image" src="~/images/Shopping/Alibaba.png"></a>
+                <!---<div class="pictureBox-content">
+                     <h2 class="title">Alibaba</h2>
+                </div>--->
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-6 rowShopResp">
+            <div class="pictureBox">
+                <a href="https://www2.hm.com/en_us/index.html" target="_blank"> <img src="~/images/retail/H&MHem.PNG"></a>
+                <!---   <div class="pictureBox-content">
+                       <h3 class="title">H&M</h3>
+                       <span class="post"></span>
+                   </div> --->
+            </div>
+        </div>
+    </div>
+</div>
+<!------------------ End shopping eBay, Alibaba, Amazon  --------------->
+
+<!--- Food delivery-->
+<div class="container-fluid">
+    <h1 class="text-center">Hungry?</h1>
+    <div class="row rowShop">
+        <div class="col-md-4 col-sm-6">
+            <div class="pictureBox">
+                <a href="https://www.ubereats.com/" target="_blank"><img class="featurette-image img-responsive" data-src="holder.js/200x200/auto" alt="Generic placeholder image" src="~/images/food/McDonldsBigMac.jpg"></a>
+                <div class="pictureBox-content">
+                    <h2 class="title">Uber Eats Delivery</h2>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-7">
+            <div class="pictureBox">
+                <a href="https://www.doordash.com/restaurants-near-me/" target="_blank"><img class="featurette-image img-responsive" data-src="holder.js/200x200/auto" alt="Generic placeholder image" src="~/images/food/bistroMD.jpg"></a>
+                <div class="pictureBox-content">
+                    <h2 class="title">Door Dash</h2>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-7">
+            <div class="pictureBox">
+                <a href="https://www.menulog.com.au/" target="_blank"><img class="featurette-image img-responsive" data-src="holder.js/200x200/auto" alt="Generic placeholder image" src="~/images/food/Menulog.jpg"></a>
+                <div class="pictureBox-content">
+                    <h2 class="title">Menulog</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!---- End Food delivery  -->
+
+<!--------------------- Travel ------------------------------->
+<div class="container-fluid">
+    <h1 class="text-center">Travel somewhere?</h1>
+    <div class="row featurette rowShop">
+        <div class="col-md-4 col-sm-6">
+            <div class="pictureBox">
+                <a href="https://www.cheapoair.com/" target="_blank"><img class="featurette-image img-responsive" data-src="holder.js/200x200/auto" alt="Generic placeholder image" src="~/images/travel/NewYorkManhattan.jpg"></a>
+                <div class="pictureBox-content">
+                    <h2 class="title">CheapOair</h2>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-6">
+            <div class="pictureBox">
+                <a href="https://www.booking.com/flights" target="_blank"><img class="featurette-image img-responsive" data-src="holder.js/200x200/auto" alt="Generic placeholder image" src="~/images/travel/SanFransisco.jpg"></a>
+                <div class="pictureBox-content">
+                    <h2 class="title">Booking.com</h2>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-6">
+            <div class="pictureBox">
+                <a href="https://www.cheapflights.com/" target="_blank"><img class="featurette-image img-responsive" data-src="holder.js/200x200/auto" alt="Generic placeholder image" src="~/images/travel/LosAngelesHollywood.jpg"></a>
+                <div class="pictureBox-content">
+                    <h2 class="title">Cheap Flights</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container-fluid">
+    <div class="row featurette rowShop">
+        <div class="col-md-4 col-sm-6">
+            <div class="pictureBox">
+                <a href="https://www.expedia.com/" target="_blank"><img class="featurette-image img-responsive" data-src="holder.js/200x200/auto" alt="Generic placeholder image" src="~/images/travel/LondonBigBen.jpg"></a>
+                <div class="pictureBox-content">
+                    <h2 class="title">Expedia</h2>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-6">
+            <div class="pictureBox">
+                <a href="https://www.onetravel.com/" target="_blank"><img class="featurette-image img-responsive" data-src="holder.js/200x200/auto" alt="Generic placeholder image" src="~/images/travel/MoulinRouge.jpg"></a>
+                <div class="pictureBox-content">
+                    <h2 class="title">OneTravel</h2>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-6">
+            <div class="pictureBox">
+                <a href="https://www.momondo.com/flight/" target="_blank"><img class="featurette-image img-responsive" data-src="holder.js/200x200/auto" alt="Generic placeholder image" src="~/images/travel/Rom.jpg"></a>
+                <div class="pictureBox-content">
+                    <h2 class="title">Momondo</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!----------------------- End Travel ----------------------->
+
+<!-- Job Sites  -->
+<div class="container-fluid">
+    <h1 class="text-center">Looking for a job?</h1>
+    <div class="row featurette rowShop">
+        <div class="col-md-4 col-sm-6">
+            <div class="pictureBox">
+                <a href="https://www.linkedin.com/jobs" target="_blank"><img class="featurette-image img-responsive" data-src="holder.js/200x200/auto" alt="Generic placeholder image" src="~/images/Jobs/LinkedInJobs.jpg"></a>
+                <!----<div class="pictureBox-content">
+                    <h2 class="title">Job</h2>
+                    <span class="post">Now</span>
+                </div>  --->
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-6">
+            <div class="pictureBox">
+                <a href="https://www.indeed.com/" target="_blank"><img class="featurette-image img-responsive" data-src="holder.js/200x200/auto" alt="Generic placeholder image" src="~/images/Jobs/IndeedJobs.jpg"></a>
+                <!----<div class="pictureBox-content">
+                    <h2 class="title">Weekend in New York</h2>
+                    <span class="post">Book now</span>
+                </div> ---->
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-6">
+            <div class="pictureBox">
+                <a href="https://www.monster.com/" target="_blank"><img class="featurette-image img-responsive" data-src="holder.js/200x200/auto" alt="Generic placeholder image" src="~/images/Jobs/MonsterJobs.jpg"></a>
+                <!----<div class="pictureBox-content">
+                    <h2 class="title">Job</h2>
+                    <span class="post">Now</span>
+                </div> ---->
+            </div>
+        </div>
+    </div>
+</div>
+<!---- End Job Sites -->
+
+<!-- Google Tag Manager (noscript) -->
+<noscript>
+    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-56R3HPGS"
+            height="0" width="0" style="display:none;visibility:hidden"></iframe>
+</noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+<div class="footercon">
+    <div class="footer">
+        <div class="footer-content">
+            <div class="footer-header">
+                <a href="/"><p class="footfont" title="ExploreMe"></p></a>
+            </div>
+            <div class="footer-col" style="color:#fff;">
+                <!--- Contact info --->
+                <a href="">
+                    <!--- email: -->
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+

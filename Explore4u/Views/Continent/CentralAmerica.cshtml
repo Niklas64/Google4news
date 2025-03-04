@@ -1,0 +1,588 @@
+﻿@{
+    ViewData["Title"] = "Central America";
+}
+
+<script src="../js/AngularWorldNews/centralamNews.js" type="text/javascript"></script>
+<script src="../js/jquery.editWorld.imagemapster.js" type="text/javascript"></script>
+<script src="~/js/JavaScriptImageMapster.js" type="text/javascript"></script>
+
+<!-- Google Tag Manager -->
+<script>
+    (function (w, d, s, l, i) {
+        w[l] = w[l] || []; w[l].push({
+            'gtm.start':
+                new Date().getTime(), event: 'gtm.js'
+        }); var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-56R3HPGS');</script>
+<!-- End Google Tag Manager -->
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-FDV46RZ94D"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-FDV46RZ94D');
+</script>
+
+<!-- First carousel for ads and more -->
+<div class="container-fluid container-carousel containerMarginTop">
+    <div id="myCarousel" class="carousel slide carousel-fade" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+            <li data-target="#myCarousel" data-slide-to="3"></li>
+            <li data-target="#myCarousel" data-slide-to="4"></li>
+            <li data-target="#myCarousel" data-slide-to="5"></li>
+        </ol>
+
+        <!-- Carousel for ads -->
+        <div class="carousel-inner" role="listbox">
+            <div class="item active">
+                    <img src="../images/background/2FaceRomainLaurent.jpg" alt="">
+                <div class="carousel-caption">
+                    <div class="animated flip">
+                        <a href="https://www.zatista.com/product/details/142991/The-Greatest-Revolution-Original-Painting-Canvas" target="_blank">
+                            <img class="adPainting" src="../images/Paintings/Zatista/TheGreatestRevolution.png" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="../images/background/Android.jpg" alt="">
+                <div class="carousel-caption">
+                    <div class="animated zoomInRight">
+                        <a href="https://www.saatchiart.com/art/Photography-Faith-Coloured-Limited-Edition-of-2-1AP/908925/8404868/view" target="_blank">
+                            <img class="adPainting" src="../images/Paintings/Saatchiart/FaithColoured.png" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="../images/background/TheWall.jpg" alt="">
+                <div class="carousel-caption">
+                    <div class="animated zoomInDown">
+                        <a href="https://www.saatchiart.com/art/Painting-FLATSCREEN-EIN-PROZENTER-2014-mixed-media-on-canvas-200x150cm/122339/2275251/view" target="_blank">
+                            <img class="adPainting" src="../images/Paintings/Saatchiart/FLATSCREENEINPROZENTER.png" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="../images/background/Shanghai.jpg" alt="">
+                <div class="carousel-caption">
+                    <div class="animated rotateIn">
+                        <a href="https://www.saatchiart.com/art/Painting-MALGR-L-HIVER/664392/2841806/view" target="_blank">
+                            <img class="adPainting" src="~/images/Paintings/Saatchiart/MALGRÉ_L'HIVER_Painting.png">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="../images/background/Photo.jpg" alt="">
+                <div class="carousel-caption">
+                    <div class="animated zoomInRight">
+                        <a href="https://www.zatista.com/product/details/138944/Sky-Above-Us" target="_blank">
+                            <img class="adPainting" src="~/images/Paintings/Zatista/SkyAboveUs.png">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="../images/background/Bensinmack.jpg" alt="">
+                <div class="carousel-caption">
+                    <div class="animated flip">
+                        <a href="https://www.saatchiart.com/art/Painting-PORTRAIT/84668/9369463/view" target="_blank">
+                            <img class="adPainting" src="../images/Paintings/Saatchiart/PORTRAITPainting.png" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Carousel -->
+        <!-- Left and right controls -->
+        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+</div>
+
+<!-----<div class="container-fluid">
+    <div class="row" style="margin-top:20px; margin-bottom:20px;">
+        <div class="col-sm-6 col-md-6 col-lg-6 text-center">
+            <p class="thick">World News</p>
+        </div>
+        <div class="col-sm-6 col-md-6 col-lg-6 text-center">
+            <button id="column-centered" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+                Launch modal
+            </button>
+        </div>
+    </div>
+</div>  --->
+
+<div class="container-fluid backgroundMaps containerMarginTopNews">
+    <div class="row ipadBottom">
+        <div class="col-sm-3 col-md-3 col-lg-3">
+            <h3 class="mobileHeader">Find country and news</h3>
+            <input type="text" id="myInput" onkeyup="myFunctionSearch()" placeholder="Search country..." title="Type in a name" />
+            <div class="searchState">
+                <ul id="myUL">
+                    <li><a id="Aruba Curacao" class="selectCentralAm">Aruba Curacao</a></li>
+                    <li><a id="Bahamas" class="selectCentralAm">Bahamas</a></li>
+                    <li><a id="Belize" class="selectCentralAm">Belize</a></li>
+                    <li><a id="Caribbean" class="selectCentralAm">East Caribbean</a></li>
+                    <li><a id="Cayman Islands" class="selectCentralAm">Cayman Islands</a></li>
+                    <li><a id="Costa Rica" class="selectCentralAm">Costa Rica</a></li>
+                    <li><a id="Cuba" class="selectCentralAm">Cuba</a></li>
+                    <li><a id="Dominican" class="selectCentralAm">Dominican</a></li>
+                    <li><a id="El Salvador" class="selectCentralAm">El Salvador</a></li>
+                    <li><a id="Guatemala" class="selectCentralAm">Guatemala</a></li>
+                    <li><a id="Haiti" class="selectCentralAm">Haiti</a></li>
+                    <li><a id="Honduras" class="selectCentralAm">Honduras</a></li>
+                    <li><a id="Jamaica" class="selectCentralAm">Jamaica</a></li>
+                    <li><a id="Mexico" class="selectCentralAm">Mexico</a></li>
+                    <li><a id="Mexico City" class="selectCentralAm">Mexico City</a></li>
+                    <li><a id="Nicaragua" class="selectCentralAm">Nicaragua</a></li>
+                    <li><a id="Panama" class="selectCentralAm">Panama</a></li>
+                    <li><a id="Puerto Rico" class="selectCentralAm">Puerto Rico</a></li>
+                    <li><a id="Trinidad and Tobago" class="selectCentralAm">Trinidad and Tobago</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="col-sm-7 col-md-7 col-lg-7">
+            <img id="world" src="../images/CentralAm-a.png" usemap="#world" style="width:100%;">
+            <map id="usa_image_map" name="world">
+                <area data-popupmenu="mexico" coords="230,141, 222,140, 218,137, 214,137, 210,137, 204,131, 203,122, 202,118, 199,114, 194,105, 190,98, 187,92, 184,87, 179,85, 176,84, 172,83, 170,83, 165,84, 162,90, 160,93, 158,94, 156,92, 153,89, 151,87, 147,82, 144,74, 145,68, 137,58, 130,52, 129,49, 119,47, 112,45, 110,45, 108,50, 92,48, 87,45, 82,45, 75,39, 53,22, 49,19, 46,20, 43,16, 43,14, 21,9, 19,10, 20,18, 21,26, 23,36, 24,47, 23,50, 30,58, 32,64, 38,72, 36,77, 29,78, 26,80, 34,89, 40,96, 44,97, 45,102, 52,112, 51,117, 50,124, 58,134, 65,145, 70,151, 71,155, 78,154, 81,151, 78,143, 75,139, 72,137, 70,135, 68,129, 68,125, 68,121, 67,118, 65,115, 64,110, 65,106, 65,104, 61,103, 59,99, 57,95, 56,91, 53,86, 53,79, 51,76, 51,71, 46,67, 45,63, 40,54, 39,43, 39,30, 41,27, 46,34, 52,36, 56,42, 56,47, 57,58, 62,73, 68,87, 75,91, 73,99, 79,104, 82,108, 86,113, 84,120, 87,123, 91,128, 96,133, 98,142, 103,143, 112,154, 116,166, 122,172, 123,180, 126,190, 123,199, 123,205, 128,210, 132,215, 137,217, 145,226, 151,231, 162,235, 172,244, 201,257, 233,271, 252,266, 269,270, 286,285, 289,279, 296,270, 300,267, 310,268, 311,265, 299,255, 298,253, 305,251, 307,247, 330,246, 335,237, 341,235, 344,239, 349,230, 348,221, 351,217, 356,210, 356,201, 353,200, 348,200, 343,199, 336,199, 331,201, 322,203, 314,203, 312,205, 310,212, 307,226, 303,230, 299,231, 298,237, 294,237, 293,236, 290,236, 288,234, 281,236, 278,237, 271,238, 262,241, 258,238, 256,235, 252,234, 250,234, 246,232, 243,231, 239,228, 236,216, 234,215, 227,204, 227,200, 226,196, 221,191, 222,183, 221,162, 223,154, 224,150, 229,148, 231,144" shape="poly" alt="#" full="Mexico" state="Mexico" href="#">
+                <area data-popupmenu="mexicoDF" coords="17,235,158,269" shape="rect" alt="#" full="Mexico City" state="Mexico City" href="#">
+                <area data-popupmenu="belize" coords="329,269, 328,269, 327,259, 328,246, 331,245, 338,234, 342,240, 340,249, 340,260, 339,263, 331,268" shape="poly" alt="#" full="Belize" state="Belize" href="#">
+                <area data-popupmenu="guatemala" coords="328,269, 328,247, 305,247, 304,251, 298,253, 311,266, 300,268, 294,270, 287,283, 297,293, 303,293, 317,296, 325,287, 328,282, 336,274, 329,272" shape="poly" alt="#" full="Guatemala" state="Guatemala" href="#">
+                <area data-popupmenu="elsalvador" coords="345,292, 338,291, 333,288, 326,285, 322,286, 319,290, 318,294, 328,298, 338,300, 344,296, 346,295" shape="poly" alt="#" full="El Salvador" state="El Salvador" href="#">
+                <area data-popupmenu="honduras" coords="406,272, 397,268, 386,265, 380,266, 369,265, 363,266, 353,266, 342,269, 337,266, 335,271, 334,275, 327,277, 323,281, 326,286, 334,289, 345,290, 349,297, 355,300, 356,296, 362,292, 366,288, 373,287, 377,283, 384,281, 392,280, 405,275" shape="poly" alt="#" full="Honduras" state="Honduras" href="#">
+                <area data-popupmenu="nicaragua" coords="353,299, 357,299, 358,295, 359,291, 364,290, 368,288, 372,288, 375,285, 379,282, 381,280, 386,278, 392,279, 402,275, 405,277, 399,319, 401,325, 395,324, 390,322, 385,322, 374,322, 352,306, 350,303, 352,301" shape="poly" alt="#" full="Nicaragua" state="Nicaragua" href="#">
+                <area data-popupmenu="costarica" coords="400,323, 395,322, 389,321, 385,321, 380,322, 372,321, 372,327, 372,334, 380,338, 380,333, 385,333, 390,337, 398,339, 402,345, 405,349, 412,349, 412,343, 411,340, 411,336, 412,333, 409,332, 407,328, 403,324" shape="poly" alt="#" full="Costa Rica" state="Costa Rica" href="#">
+                <area data-popupmenu="panama" coords="413,351, 426,351, 432,356, 437,352, 440,357, 447,358, 445,353, 447,346, 458,340, 471,341, 477,344, 476,352, 481,350, 488,347, 486,343, 487,337, 483,334, 475,331, 470,331, 463,330, 455,329, 451,332, 446,336, 438,340, 432,341, 424,341, 419,336, 414,335, 413,342, 412,348" shape="poly" alt="#" full="Panama" state="Panama" href="#">
+                <area data-popupmenu="bahamas" coords="344,50,335,87,409,131,442,135,459,118,369,52,356,52," shape="poly" alt="#" full="Bahamas" state="Bahamas" href="#">
+                <area data-popupmenu="cuba" coords="252,104,251,116,275,125,322,124,339,137,361,150,401,147,412,136,388,123,356,107,337,98,307,91,284,94,257,101," shape="poly" alt="#" full="Cuba" state="Cuba" href="#">
+                <area data-popupmenu="puertorico" coords="494,134,544,185," shape="rect" alt="#" full="Puerto Rico " state="Puerto Rico" href="#">
+                <area data-popupmenu="haiti" coords="436,138, 428,134, 418,134, 393,159, 409,173, 434,172, 439,139" shape="poly" alt="#" full="Haiti" state="Haiti" href="#">
+                <area data-popupmenu="jamaica" coords="334,153,386,188," shape="rect" alt="#" full="Jamaica" state="Jamaica" href="#">
+                <area data-popupmenu="dominican" coords="441,135,498,185," shape="rect" alt="#" full="Dominican" state="Dominican" href="#">
+                <area data-popupmenu="cayman" coords="281,140,336,176," shape="rect" alt="#" full="Cayman Islands" state="Cayman Islands" href="#">
+                <area data-popupmenu="aruba" coords="446,216,520,264" shape="rect" alt="#" full="Aruba Curacao" state="Aruba Curacao" href="#">
+                <area data-popupmenu="trinidad" coords="577,242,625,288" shape="rect" alt="#" full="Trinidad and Tobago" state="Trinidad and Tobago" href="#">
+                <area data-popupmenu="caribbean" coords="553,151,627,239" shape="rect" alt="#" full="Caribbean" state="Caribbean" href="#">
+            </map>
+
+            <div ng-controller="centralamController">
+
+                <ul id="trinidad" class="popup" style="visibility: visible; z-index: 1002; left: 0px; top: 0px; display: none;">
+                    <li>
+                        <a id="popup-on" href="#">Trinidad Tobago<img class="rightarrowclass" style="border:0;" src="../Flags/CentralAm/Trinidad_flag.png"></a>
+                    </li>
+                    <li ng-repeat="paper in trinidad">
+                        <a href="{{paper.news}}" target="_blank">{{paper.name}}</a>
+                    </li>
+                </ul>
+
+                <ul id="caribbean" class="popup" style="visibility: visible; z-index: 1001; left: 0px; top:0px;display: none;">
+                    <li>
+                        <a id="popup-on" href="#">East Carribean</a>
+                    </li>
+                    <li ng-repeat="paper in caribbean">
+                        <a href="{{paper.news}}" target="_blank">{{paper.name}}</a>
+                    </li>
+                </ul>
+
+                <ul id="aruba" class="popup" style="visibility: visible; z-index: 1002; left: 0px; top: 0px; display: none;">
+                    <li>
+                        <a id="popup-on" href="#">Aruba Curacao</a>
+                    </li>
+                    <li ng-repeat="paper in aruba">
+                        <a href="{{paper.news}}" target="_blank">{{paper.name}}</a>
+                    </li>
+                </ul>
+
+                <ul id="cayman" class="popup" style="visibility: visible; z-index: 1002; left: 0px; top: 0px; display: none;">
+                    <li>
+                        <a id="popup-on" href="#">Cayman Islands<img class="rightarrowclass" style="border:0;" src="../Flags/CentralAm/Cayman_flag.png "></a>
+                    </li>
+                    <li ng-repeat="paper in cayman">
+                        <a href="{{paper.news}}" target="_blank">{{paper.name}}</a>
+                    </li>
+                </ul>
+
+                <ul id="dominican" class="popup" style="visibility: visible; z-index: 1002; left: 0px; top: 0px; display: none;">
+                    <li>
+                        <a id="popup-on" href="#">Dominican Republic<img class="rightarrowclass" style="border:0;" src="../Flags/CentralAm/Dominican_flag.png "></a>
+                    <li ng-repeat="paper in dominican">
+                        <a href="{{paper.news}}" target="_blank">{{paper.name}}</a>
+                    </li>
+                </ul>
+
+                <ul id="jamaica" class="popup" style="visibility: visible; z-index: 1002; left: 0px; top: 0px; display: none;">
+                    <li>
+                        <a id="popup-on" href="#">Jamaica<img class="rightarrowclass" style="border:0;" src="../Flags/CentralAm/Jamaica_flag.png "></a>
+                    <li ng-repeat="paper in jamaica">
+                        <a href="{{paper.news}}" target="_blank">{{paper.name}}</a>
+                    </li>
+                </ul>
+
+                <ul id="haiti" class="popup" style="visibility: visible; z-index: 1002; left: 0px; top: 0px; display: none;">
+                    <li>
+                        <a id="popup-on" href="#">Haiti<img class="rightarrowclass" style="border:0;" src="../Flags/CentralAm/Haiti_flag.png "></a>
+                    <li ng-repeat="paper in haiti">
+                        <a href="{{paper.news}}" target="_blank">{{paper.name}}</a>
+                    </li>
+                </ul>
+
+                <ul id="puertorico" class="popup" style="visibility: visible; z-index: 1001; left: 0px; top: 0px; display: none;">
+                    <li>
+                        <a id="popup-on" href="#">Puerto Rico<img class="rightarrowclass" style="border:0;" src="../Flags/CentralAm/Puerto_Rico_flag.png"></a>
+                    <li ng-repeat="paper in puertorico">
+                        <a href="{{paper.news}}" target="_blank">{{paper.name}}</a>
+                    </li>
+                </ul>
+
+                <ul id="cuba" class="popup" style="visibility: visible; z-index: 1002; left: 0px; top: 0px; display: none;">
+                    <li>
+                        <a id="popup-on" href="#">Cuba<img class="rightarrowclass" style="border:0;" src="../Flags/CentralAm/Cuba_flag.png "></a>
+                    <li ng-repeat="paper in cuba">
+                        <a href="{{paper.news}}" target="_blank">{{paper.name}}</a>
+                    </li>
+                </ul>
+
+                <ul id="bahamas" class="popup" style="visibility: visible; z-index: 1002; left: 0px; top: 0px; display: none;">
+                    <li>
+                        <a id="popup-on" href="#">Bahamas, Turks and Caicos</a>
+                    <li ng-repeat="paper in bahamas">
+                        <a href="{{paper.news}}" target="_blank">{{paper.name}}</a>
+                    </li>
+                </ul>
+
+                <ul id="panama" class="popup" style="visibility: visible; z-index: 1002; left: 0px; top: 0px; display: none;">
+                    <li>
+                        <a id="popup-on" href="#">Panama<img class="rightarrowclass" style="border:0;" src="../Flags/CentralAm/Panama_flag.png"></a>
+                    <li ng-repeat="paper in panama">
+                        <a href="{{paper.news}}" target="_blank">{{paper.name}}</a>
+                    </li>
+                </ul>
+
+                <ul id="costarica" class="popup" style="visibility: visible; z-index: 1002; left: 0px; top: 0px; display: none;">
+                    <li>
+                        <a id="popup-on" href="#">Costa Rica<img class="rightarrowclass" style="border:0;" src="../Flags/CentralAm/CostaRica_flag.png"></a>
+                    <li ng-repeat="paper in costarica">
+                        <a href="{{paper.news}}" target="_blank">{{paper.name}}</a>
+                    </li>
+                </ul>
+
+                <ul id="nicaragua" class="popup" style="visibility: visible; z-index: 1002; left: 0px; top: 0px; display: none;">
+                    <li>
+                        <a id="popup-on" href="#">Nicaragua<img class="rightarrowclass" style="border:0;" src="../Flags/CentralAm/Nicaragua_flag.png"></a>
+                    <li ng-repeat="paper in nicaragua">
+                        <a href="{{paper.news}}" target="_blank">{{paper.name}}</a>
+                    </li>
+                </ul>
+
+                <ul id="honduras" class="popup" style="visibility: visible; z-index: 1002; left: 0px; top: 0px; display: none;">
+                    <li>
+                        <a id="popup-on" href="#">Honduras<img class="rightarrowclass" style="border:0;" src="../Flags/CentralAm/Honduras_flag.png"></a>
+                    <li ng-repeat="paper in honduras">
+                        <a href="{{paper.news}}" target="_blank">{{paper.name}}</a>
+                    </li>
+                </ul>
+
+                <ul id="elsalvador" class="popup" style="visibility: visible; z-index: 1002; left: 0px; top: 0px; display: none;">
+                    <li>
+                        <a id="popup-on" href="#">El Salvador<img class="rightarrowclass" style="border:0;" src="../Flags/CentralAm/ElSalvador_flag.png"></a>
+                    <li ng-repeat="paper in elsalvador">
+                        <a href="{{paper.news}}" target="_blank">{{paper.name}}</a>
+                    </li>
+                </ul>
+
+                <ul id="guatemala" class="popup" style="visibility: visible; z-index: 1002; left: 0px; top: 0px; display: none;">
+                    <li>
+                        <a id="popup-on" href="#">Guatemala<img class="rightarrowclass" style="border:0;" src="../Flags/CentralAm/Guatemala_flag.png"></a>
+                    <li ng-repeat="paper in guatemala">
+                        <a href="{{paper.news}}" target="_blank">{{paper.name}}</a>
+                    </li>
+                </ul>
+
+                <ul id="belize" class="popup" style="visibility: visible; z-index: 1002; left: 0px; top: 0px; display: none;">
+                    <li>
+                        <a id="popup-on" href="#">Belize<img class="rightarrowclass" style="border:0;" src="../Flags/CentralAm/Belize_flag.png"></a>
+                    <li ng-repeat="paper in belize">
+                        <a href="{{paper.news}}" target="_blank">{{paper.name}}</a>
+                    </li>
+                </ul>
+
+
+
+                <ul id="mexicoDF" class="popup" style="visibility: visible; z-index: 1002; left: 0px; top: 0px; display: none;">
+                    <li>
+                        <a id="popup-on" href="#">Mexico City<img class="rightarrowclass" style="border:0;" src="../Flags/CentralAm/Mexico_flag.png"></a>
+                    <li ng-repeat="paper in mexicoDF">
+                        <a href="{{paper.news}}" target="_blank">{{paper.name}}</a>
+                    </li>
+                </ul>
+
+
+                <ul id="mexico" class="popup" style="visibility: visible; z-index: 1002; left: 0px; top: 0px; display: none;">
+                    <li>
+                        <a id="popup-on" href="#">Mexico<img class="rightarrowclass" style="border:0;" src="../Flags/CentralAm/Mexico_flag.png"></a>
+                    <li ng-repeat="paper in mexico">
+                        <a href="{{paper.news}}" target="_blank">{{paper.name}}</a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+
+        <div class="col-sm-2 col-md-2 col-lg-2">
+            <a target="_blank" href="http://www.cnn.com/" class="highlightit"><img class="mobilApp" src="../pic/newsapps/cnn.png" title="CNN World" width="53" height="53" /></a>
+            <a target="_blank" href="http://www.foxnews.com/" class="highlightit"><img class="mobilApp" src="../pic/newsapps/Fox.png" title="Fox News" width="53" height="53" /></a>
+            <a target="_blank" href="http://abcnews.go.com/" class="highlightit"><img class="mobilApp" src="../pic/newsapps/abc.png" title="ABC News" width="53" height="53" /></a>
+            <a target="_blank" href="https://www.cbsnews.com/" class="highlightit"><img class="mobilApp" src="../pic/newsapps/cbs.png" title="CBS News" width="53" height="53" /></a>
+            <a target="_blank" href="https://www.bbc.com/" class="highlightit"><img class="mobilApp" src="../pic/newsapps/bbc.png" title="BBC World" width="53" height="53" /></a>
+            <a target="_blank" href="https://www.dw.com/" class="highlightit"><img class="mobilApp" src="../pic/newsapps/DW.PNG" title="DW World" width="53" height="53" /></a>
+            <a target="_blank" href="http://www.nbcnews.com/" class="highlightit"><img class="mobilApp" src="../pic/newsapps/nbc.png" title="NBC News" width="53" height="53" /></a>
+            <a target="_blank" href="http://www.aljazeera.com/" class="highlightit"><img class="mobilApp" src="../pic/newsapps/aljaz.png" title="Al Jazeera" width="53" height="53" /></a>
+            <a target="_blank" href="https://www.france24.com/" class="highlightit"><img class="mobilApp" src="../pic/newsapps/Fr24.png" title="MSN News" width="53" height="53" /></a>
+            <a target="_blank" href="http://www.aljazeera.com/" class="highlightit"><img class="mobilApp" src="../pic/newsapps/Reut.png" title="Reuters" width="53" height="53" /></a>
+            <a target="_blank" href="http://www.cbc.ca/" class="highlightit"><img class="mobilApp" src="../pic/newsapps/cbc.png" title="CBC News" width="53" height="53" /></a>
+            <a target="_blank" href="https://www.ctvnews.ca/" class="highlightit"><img class="mobilApp" src="../pic/newsapps/ctv.png" title="CTV News" width="53" height="53" /></a>
+            <a target="_blank" href="http://news.sky.com/" class="highlightit"><img class="mobilApp" src="../pic/newsapps/Sky.png" title="Sky News" width="53" height="53" /></a>
+            <a target="_blank" href="http://espn.go.com/" class="highlightit"><img class="mobilApp" src="../pic/newsapps/espn.png" title="ESPN" width="53" height="53" /></a>
+            <a target="_blank" href="https://www.msn.com/en-us/news/world" class="highlightit"><img class="mobilApp" src="../pic/newsapps/msn.png" title="MSN News" width="53" height="53" /></a>
+        </div>
+    </div>
+</div>
+
+<!-----------                Marketing messaging and featurettes                    ------>
+<!------------------ Shopping Hover Effect Style --------------->
+<div class="container-fluid">
+    <h1 class="text-center">Time for shopping</h1>
+    <div class="row rowShop">
+        <div class="col-md-4 col-sm-6 rowShopResp">
+            <div class="pictureBox">
+                <a href="https://www.ebay.com/" target="_blank"><img class="featurette-image img-responsive" data-src="holder.js/200x200/auto" alt="Generic placeholder image" src="~/images/Shopping/eBay.png"></a>
+                <!---  <div class="pictureBox-content">
+                     <h2 class="title">eBay</h2>
+                </div> --->
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-6 rowShopResp">
+            <div class="pictureBox">
+                <a href="https://www.lightinthebox.com/" target="_blank"><img src="~/images/retail/LightInTheBox.jpg" alt=""></a>
+                <!--- <div class="pictureBox-content">
+                    <h3 class="title">Dam</h3>
+                    <span class="post">Skjortor och blusar</span>
+                </div>  --->
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-6 rowShopResp">
+            <div class="pictureBox">
+                <a href="https://www.walmart.com/" target="_blank"> <img src="~/images/retail/Walmart.jpg" alt=""></a>
+                <!--- <div class="pictureBox-content">
+                    <h3 class="title">Herr</h3>
+                    <span class="post">Jackor & rockar för herr</span>
+                </div>  --->
+            </div>
+        </div>
+
+    </div>
+</div>
+<!------------------ End shopping Hover Effect Style --------------->
+<!------------------ Shopping eBay, Alibaba, Amazon  --------------->
+<div class="container-fluid">
+    <div class="row rowShop">
+        <div class="col-md-4 col-sm-6 rowShopResp">
+            <div class="pictureBox">
+                <a href="https://www.amazon.com/" target="_blank"><img class="featurette-image img-responsive" data-src="holder.js/200x200/auto" alt="Generic placeholder image" src="~/images/Shopping/Amazon.jpg"></a>
+                <!---<div class="pictureBox-content">
+                      <h2 class="title">Amazon</h2>
+                 </div>--->
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-6 rowShopResp">
+            <div class="pictureBox">
+                <a href="https://www.alibaba.com/" target="_blank"><img class="featurette-image img-responsive" data-src="holder.js/200x200/auto" alt="Generic placeholder image" src="~/images/Shopping/Alibaba.png"></a>
+                <!---<div class="pictureBox-content">
+                     <h2 class="title">Alibaba</h2>
+                </div>--->
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-6 rowShopResp">
+            <div class="pictureBox">
+                <a href="https://www2.hm.com/en_us/index.html" target="_blank"> <img src="~/images/retail/H&MHem.PNG"></a>
+                <!---   <div class="pictureBox-content">
+                       <h3 class="title">H&M</h3>
+                       <span class="post"></span>
+                   </div> --->
+            </div>
+        </div>
+    </div>
+</div>
+<!------------------ End shopping eBay, Alibaba, Amazon  --------------->
+
+<!--- Food delivery-->
+<div class="container-fluid">
+    <h1 class="text-center">Hungry?</h1>
+    <div class="row rowShop">
+        <div class="col-md-4 col-sm-6">
+            <div class="pictureBox">
+                <a href="https://www.ubereats.com/" target="_blank"><img class="featurette-image img-responsive" data-src="holder.js/200x200/auto" alt="Generic placeholder image" src="~/images/food/Homechef.jpg"></a>
+                <div class="pictureBox-content">
+                    <h2 class="title">Uber Eats Delivery</h2>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-7">
+            <div class="pictureBox">
+                <a href="https://www.dominos.com.mx/pages/order/menu#!/menu/category/viewall/" target="_blank"><img class="featurette-image img-responsive" data-src="holder.js/200x200/auto" alt="Generic placeholder image" src="~/images/food/PizzaHut.jpg"></a>
+                <div class="pictureBox-content">
+                    <h2 class="title">Domino's Pizza</h2>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-7">
+            <div class="pictureBox">
+                <a href="https://www.mcdonalds.com.mx/" target="_blank"><img class="featurette-image img-responsive" data-src="holder.js/200x200/auto" alt="Generic placeholder image" src="~/images/food/McDonldsBigMac.jpg"></a>
+                <div class="pictureBox-content">
+                    <h2 class="title">Mc Donald's'</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!---- End Food delivery  -->
+
+
+<!--------------------- Travel ------------------------------->
+<div class="container-fluid">
+    <h1 class="text-center">Travel somewhere?</h1>
+    <div class="row featurette rowShop">
+        <div class="col-md-4 col-sm-6">
+            <div class="pictureBox">
+                <a href="https://www.cheapoair.com/" target="_blank"><img class="featurette-image img-responsive" data-src="holder.js/200x200/auto" alt="Generic placeholder image" src="~/images/travel/NewYorkManhattan.jpg"></a>
+                <div class="pictureBox-content">
+                    <h2 class="title">CheapOair</h2>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-6">
+            <div class="pictureBox">
+                <a href="https://www.booking.com/flights" target="_blank"><img class="featurette-image img-responsive" data-src="holder.js/200x200/auto" alt="Generic placeholder image" src="~/images/travel/SanFransisco.jpg"></a>
+                <div class="pictureBox-content">
+                    <h2 class="title">Booking.com</h2>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-6">
+            <div class="pictureBox">
+                <a href="https://www.cheapflights.com/" target="_blank"><img class="featurette-image img-responsive" data-src="holder.js/200x200/auto" alt="Generic placeholder image" src="~/images/travel/LosAngelesHollywood.jpg"></a>
+                <div class="pictureBox-content">
+                    <h2 class="title">Cheap Flights</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container-fluid">
+    <div class="row featurette rowShop">
+        <div class="col-md-4 col-sm-6">
+            <div class="pictureBox">
+                <a href="https://www.expedia.com/" target="_blank"><img class="featurette-image img-responsive" data-src="holder.js/200x200/auto" alt="Generic placeholder image" src="~/images/travel/LondonBigBen.jpg"></a>
+                <div class="pictureBox-content">
+                    <h2 class="title">Expedia</h2>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-6">
+            <div class="pictureBox">
+                <a href="https://www.onetravel.com/" target="_blank"><img class="featurette-image img-responsive" data-src="holder.js/200x200/auto" alt="Generic placeholder image" src="~/images/travel/MoulinRouge.jpg"></a>
+                <div class="pictureBox-content">
+                    <h2 class="title">OneTravel</h2>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-6">
+            <div class="pictureBox">
+                <a href="https://www.momondo.com/flight/" target="_blank"><img class="featurette-image img-responsive" data-src="holder.js/200x200/auto" alt="Generic placeholder image" src="~/images/travel/Rom.jpg"></a>
+                <div class="pictureBox-content">
+                    <h2 class="title">Momondo</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!----------------------- End Travel ----------------------->
+
+<!-- Job Sites  -->
+<div class="container-fluid">
+    <h1 class="text-center">Looking for a job?</h1>
+    <div class="row featurette rowShop">
+        <div class="col-md-4 col-sm-6">
+            <div class="pictureBox">
+                <a href="https://www.linkedin.com/jobs" target="_blank"><img class="featurette-image img-responsive" data-src="holder.js/200x200/auto" alt="Generic placeholder image" src="~/images/Jobs/LinkedInJobs.jpg"></a>
+                <!----<div class="pictureBox-content">
+                    <h2 class="title">Job</h2>
+                    <span class="post">Now</span>
+                </div>  --->
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-6">
+            <div class="pictureBox">
+                <a href="https://www.indeed.com/" target="_blank"><img class="featurette-image img-responsive" data-src="holder.js/200x200/auto" alt="Generic placeholder image" src="~/images/Jobs/IndeedJobs.jpg"></a>
+                <!----<div class="pictureBox-content">
+                    <h2 class="title">Weekend in New York</h2>
+                    <span class="post">Book now</span>
+                </div> ---->
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-6">
+            <div class="pictureBox">
+                <a href="https://www.monster.com/" target="_blank"><img class="featurette-image img-responsive" data-src="holder.js/200x200/auto" alt="Generic placeholder image" src="~/images/Jobs/MonsterJobs.jpg"></a>
+                <!----<div class="pictureBox-content">
+                    <h2 class="title">Job</h2>
+                    <span class="post">Now</span>
+                </div> ---->
+            </div>
+        </div>
+    </div>
+</div>
+<!---- End Job Sites -->
+
+<!-- Google Tag Manager (noscript) -->
+<noscript>
+    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-56R3HPGS"
+            height="0" width="0" style="display:none;visibility:hidden"></iframe>
+</noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<div class="footercon">
+    <div class="footer">
+        <div class="footer-content">
+            <div class="footer-header">
+                <a href="/"><p class="footfont" title="ExploreMe"></p></a>
+            </div>
+            <div class="footer-col" style="color:#fff;">
+                <!--- Contact info --->
+                <a href="">
+                    <!--- email: -->
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+

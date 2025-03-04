@@ -1,0 +1,52 @@
+﻿#myInput {
+  background-image: url('../pic/searchIcon20.png');
+  background-position: 10px 8px;
+  background-repeat: no-repeat;
+  width: 220px;
+  font-size: 16px;
+  padding: 6px 20px 6px 40px;
+  border: 1px solid #ddd;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  color: gray;
+  display:block;
+}
+
+#myUL {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  width: 200px;
+}
+
+#myUL li a {
+  /*border: 1px solid #ddd; */
+  margin-top: -1px; /* Prevent double borders */
+  background-color: #f6f6f6;
+  padding: 3px;
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+  display: block;
+}
+
+.searchState {
+    /*float: left; */
+    padding: 0;
+    width: 220px; /* Change for mobile size */
+    background-color: #f6f6f6;
+    margin-top: -17px;
+    margin-bottom: 0;
+    /*width: 200px;*/
+    height: 97px;
+    overflow-y: scroll;
+    /*z-index: 10; */
+    border: 1px solid gray;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+#myUL li a:hover:not(.header) {
+  background-color: #eee;
+  cursor: pointer;
+}

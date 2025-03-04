@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "NhPUFavyQ2Y=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\google4news.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\nikla\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\9.0.2\\microsoft.entityframeworkcore.tools.9.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}

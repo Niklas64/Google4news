@@ -1,0 +1,1074 @@
+﻿html, body {
+    background-color: white;
+    width: 100%;
+    color: black;
+    font-family: Garamond, serif;
+}
+dropdown
+
+* {
+    box-sizing: border-box;
+}
+
+.fit-picture {
+    height: 250px;
+    width: 250px;
+}
+
+.item {
+
+}
+
+.img-container {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    height: 50px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+label {
+    font-family: "Fira Sans", sans-serif;
+}
+
+.pictureBoxMap {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.containerMarginTop {
+    margin-top: 54px;
+    height: 540px;
+}
+
+.containerMarginTopNews {
+    margin-top: 0px;
+    /*height: 550px; */
+}
+
+.container-fluid > .backgroundMaps {
+    margin-right: 0;
+    margin-left: 0;
+    margin-top: 75px;
+    height: 100%;
+}
+
+.marginTopShop {
+    margin-top: -10px;
+}
+
+.img-circle {
+    border-radius: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+}
+
+.container > .navbar-header {
+    margin-right: 60px;
+    margin-left: -110px;
+    background-color: transparent;
+}
+
+nav {
+    z-index: 11;
+}
+
+.navbar-inverse {
+    background-image: -webkit-linear-gradient(top,#5b5a5a 0,#000 100%);
+    background-image: linear-gradient(to bottom,#5b5a5a 0,#000 100%);
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff5b5a5a', endColorstr='#ff000000', GradientType=0);
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+}
+
+.navbar {
+    border-radius: 0;
+    min-height: 55px;
+    margin-bottom: 0;
+}
+
+.navbar-inverse .navbar-nav > li > a,
+.navbar-inverse .navbar-nav > li > ul > li > a {
+    color: #fff;
+    font-size: 25px;
+}
+
+.navbar-inverse .navbar-header > a:focus, .navbar-inverse .navbar-header > a:hover {
+    background-color: transparent;
+}
+
+.navbar-inverse .navbar-nav > li > ul > li > a:hover {
+    color: #000;
+    background-color: #fff;
+}
+
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+    background-color: #6A6A6A;
+    color: #fff;
+} 
+
+.navbar-inverse .navbar-nav > li > a:focus, .navbar-inverse .navbar-nav > li > a:hover {
+    color: red;
+    background-color: #000;
+}
+
+/*.navbar-inverse .navbar-brand > .active > a:hover {
+    color: #fff;
+    background-color: transparent;
+}
+
+.navbar-inverse .navbar-brand:focus, .navbar-inverse .navbar-brand:hover {
+    color: blue;
+    background-color: transparent;
+}
+
+ .navbar-default .navbar-nav > .active {
+    color: #fff;
+   background: #000;
+ } */
+
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus {
+    color: #fff;
+    background-image: -webkit-linear-gradient(top,#8185f9 0,#000 100%);
+    background-image: linear-gradient(to bottom,#8185f9 0,#000 100%);
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff8185f9', endColorstr='#ff000000', GradientType=0);
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+    font-size: 17px;
+}
+
+.dropdown-menu {
+    background-color: #000;
+}
+
+.dropdown-menu > li > a {
+    color: #fff;
+    background-color: #000;
+    font-size: 24px;
+}
+
+.row {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 20px;
+}
+
+.rowShop {
+    margin-top: 20px;
+}
+
+p.thick {
+    color: #fff;
+}
+
+.mobileHeader {
+    color: #fff;
+}
+
+.backgroundMaps {
+    background-image: url('../images/background/CapBakgrund.jpg');
+    background-position: top;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    scroll-padding-top: 30px;
+}
+
+.backgroundMaps2 {
+    background-image: url('../../images/background/BLACK3.jpg');
+    background-position: top;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container-carousel {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.carousel-inner {
+    height: 543px;
+}
+
+.carousel-fade .carousel-inner .item {
+    opacity: 0;
+    transition-property: opacity;
+}
+
+.carousel-fade .carousel-inner .active {
+    opacity: 1;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+    left: 0;
+    opacity: 0;
+    z-index: 1;
+}
+
+.carousel-fade .carousel-inner .next.left,
+.carousel-fade .carousel-inner .prev.right {
+    opacity: 1;
+}
+
+.carousel-fade .carousel-control {
+    z-index: 2;
+}
+
+.img-responsive, .thumbnail > img, .thumbnail a > img, .carousel-inner > .item > img, .carousel-inner > .item > a > img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+/*----.featurette-image, .img-responsive > img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}  */
+
+.pictureBox {
+    position: relative
+}
+
+.pictureBox img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.pictureBox:hover img {
+    opacity: .5
+}
+
+.pictureBox-content {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: rgba(0,0,0,.3);
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    z-index: 1;
+}
+
+/*
+WHAT IS NEW IN 3.3: "Added transforms to improve carousel performance in modern browsers."
+now override the 3.3 new styles for modern browsers & apply opacity
+
+@media all and (transform-3d), (-webkit-transform-3d) {
+    .carousel-fade .carousel-inner > .item.next,
+    .carousel-fade .carousel-inner > .item.active.right {
+        opacity: 0;
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
+
+    .carousel-fade .carousel-inner > .item.prev,
+    .carousel-fade .carousel-inner > .item.active.left {
+        opacity: 0;
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
+
+        .carousel-fade .carousel-inner > .item.next.left,
+        .carousel-fade .carousel-inner > .item.prev.right,
+        .carousel-fade .carousel-inner > .item.active {
+            opacity: 1;
+            -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+        }
+} */
+
+    @media only screen and (max-width:1180px) and (min-width:1021px) {
+        .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+            float: none;
+            position: relative;
+            min-height: 1px;
+            padding-right: 0;
+            padding-left: 0;
+            width: 100%;
+            padding-bottom: 7px;
+        }
+
+        /* .col-sm-2, .col-md-2, .col-lg-2 {
+            margin-left: 20px;
+        } */
+
+        .row {
+            margin-left: 10px;
+            margin-right: 10px;
+            margin-bottom: -20px;
+        }
+
+        .rowShop {
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+
+        .ipadBottom {
+            margin-bottom: 0px;
+            margin-right: 0;
+            margin-left: 0;
+        }
+
+        .box6 {
+            margin-bottom: 12px;
+        }
+
+        .container-fluid {
+            padding-right: 0;
+            padding-left: 0;
+            margin-right: 0;
+            margin-left: 0;
+        }
+
+        .container-fluid, .container-carousel {
+            padding-right: 0;
+            padding-left: 0;
+            margin-right: 0;
+            margin-left: 0;
+            padding-top: 50px;
+        }
+
+        .carousel-inner {
+            height: auto;
+            overflow: visible;
+        }
+
+        h3 {
+            font-size: 20px;
+        }
+
+        .navbar-toggle {
+            position: fixed;
+            margin-left: 800px;
+        }
+
+        .navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
+            padding-left: 10px;
+            color: #fff;
+        }
+
+        .navbar-inverse .navbar-nav > li > ul > li > a:hover {
+            color: #000;
+            background-color: #fff;
+        }
+
+        .mobileHeader {
+            text-align: center;
+        }
+
+        #myInput {
+            width: 40%;
+            margin: 0 auto;
+            font-size: 15px;
+        }
+
+        #myUL {
+            width: 40%;
+            margin: 0 auto;
+            font-size: 15px;
+            float: left;
+        }
+
+            #myUL li a {
+                font-size: 17px;
+                width: 250%;
+            }
+
+        .searchState {
+            width: 40%;
+            margin: 0 auto;
+            height: 89px;
+        }
+
+        .backgroundMaps {
+            background: url('../images/background/CapBakgrund.jpg');
+            background-position: top;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            background-size: cover;
+            /*  background-size: 100%;
+        height: 150px; */
+        }
+
+        .containerMarginTop {
+            margin-top: 0;
+            height: 0px;
+            margin-bottom: 0px;
+            padding-right: 0;
+            padding-left: 0;
+        }
+
+        .containerMarginTopNews {
+            margin-top: 0px;
+            height: 810px;
+            margin-bottom: 260px;
+        }
+
+        /*.backgroundMaps2 {
+        background: url('../images/background/black3.jpg');
+        background-position: top;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: 100%;
+         } */
+    }
+
+    /*@media only screen and (max-width:1179px) and (min-width:1025px) {
+        .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+            float: none;
+            position: relative;
+            min-height: 1px;
+            padding-right: 0;
+            padding-left: 0;
+            width: 100%;
+            padding-bottom: 7px;
+        }
+
+        .col-sm-2, .col-md-2, .col-lg-2 {
+            margin-left: 20px;
+        }
+
+        .row {
+            margin-left: 10px;
+            margin-right: 10px;
+            margin-bottom: -20px;
+        }
+
+        .rowShop {
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+
+        .ipadBottom {
+            margin-bottom: 0px;
+            margin-right: 0;
+            margin-left: 0;
+            margin-top: 160px;
+        }
+
+        .box6 {
+            margin-bottom: 12px;
+        }
+
+        .container-fluid {
+            padding-right: 0;
+            padding-left: 0;
+            margin-right: 0;
+            margin-left: 0;
+        }
+
+        .container-fluid, .container-carousel {
+            padding-right: 0;
+            padding-left: 0;
+            margin-right: 0;
+            margin-left: 0;
+            /*margin-top: 0px; 
+        }
+
+        .containerMarginTop {
+            padding-right: 0;
+            padding-left: 0;
+        }
+
+        .carousel-inner {
+            height: auto;
+            overflow: visible;
+        }
+
+        h3 {
+            font-size: 20px;
+        }
+
+        .navbar-toggle {
+            position: fixed;
+            margin-left: 600px;
+        }
+
+        .navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
+            padding-left: 10px;
+            color: #fff;
+        }
+
+        .navbar-inverse .navbar-nav > li > ul > li > a:hover {
+            color: #000;
+            background-color: #fff;
+        }
+
+        .mobileHeader {
+            text-align: center;
+        }
+
+        #myInput {
+            width: 40%;
+            margin: 0 auto;
+            font-size: 15px;
+        }
+
+        #myUL {
+            width: 40%;
+            margin: 0 auto;
+            font-size: 15px;
+            float: left;
+        }
+
+            #myUL li a {
+                font-size: 17px;
+                width: 250%;
+            }
+
+        .searchState {
+            width: 40%;
+            margin: 0 auto;
+            height: 89px;
+        }
+
+        .backgroundMaps {
+            background: url('../images/background/CapBakgrund.jpg');
+            background-position: top;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            background-size: cover;
+            /*  background-size: 100%;
+        height: 150px; */
+        }
+
+         /* .containerMarginTop {
+            margin-top: 0px;
+            height: 450px;
+            margin-bottom: 0px;
+        }
+
+        .containerMarginTopNews {
+            margin-top: 0px;
+            height: 1190px;
+            margin-bottom: -40px;
+        }
+
+        .backgroundMaps2 {
+        background: url('../images/background/black3.jpg');
+        background-position: top;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        } 
+    } */
+
+
+
+@media only screen and (max-width:1020px) and (min-width:800px) {
+    .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+            float: none;
+            position: relative;
+            min-height: 1px;
+            padding-right: 0;
+            padding-left: 0;
+            width: 100%;
+            padding-bottom: 7px;
+        }
+
+        .col-sm-2, .col-md-2, .col-lg-2 {
+            margin-left: 20px;
+        }
+
+        .row {
+            margin-left: 10px;
+            margin-right: 10px;
+            margin-bottom: -20px;
+        }
+
+        .rowShop {
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+
+        .ipadBottom {
+            margin-bottom: 0px;
+            margin-right: 0;
+            margin-left: 0;
+        }
+
+        .box6 {
+            margin-bottom: 12px;
+        }
+
+        .container-fluid {
+            padding-right: 0;
+            padding-left: 0;
+            margin-right: 0;
+            margin-left: 0;
+        }
+
+        .container-fluid, .container-carousel {
+            padding-right: 0;
+            padding-left: 0;
+            margin-right: 0;
+            margin-left: 0;
+            /*margin-top: 0px; */
+        }
+
+        .containerMarginTop {
+            padding-right: 0;
+            padding-left: 0;
+        }
+
+        .carousel-inner {
+            height: auto;
+            overflow: visible;
+        }
+
+        h3 {
+            font-size: 20px;
+        }
+
+        .navbar-toggle {
+            position: fixed;
+            margin-left: 600px;
+        }
+
+        .navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
+            padding-left: 10px;
+            color: #fff;
+        }
+
+        .navbar-inverse .navbar-nav > li > ul > li > a:hover {
+            color: #000;
+            background-color: #fff;
+        }
+
+        .mobileHeader {
+            text-align: center;
+        }
+
+        #myInput {
+            width: 40%;
+            margin: 0 auto;
+            font-size: 15px;
+        }
+
+        #myUL {
+            width: 40%;
+            margin: 0 auto;
+            font-size: 15px;
+            float: left;
+        }
+
+            #myUL li a {
+                font-size: 17px;
+                width: 250%;
+            }
+
+        .searchState {
+            width: 40%;
+            margin: 0 auto;
+            height: 89px;
+        }
+
+        .backgroundMaps {
+            background: url('../images/background/CapBakgrund.jpg');
+            background-position: top;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            background-size: cover;
+            /* background-size: 100%;
+        height: 150px; */
+        }
+
+        .containerMarginTop {
+            margin-top: 55px;
+            height: 550px;
+            margin-bottom: -96px;
+        }
+
+        .containerMarginTopNews {
+            margin-top: 0px;
+            /*height: 810px; 
+        margin-bottom: 260px; */
+        }
+
+        /*.backgroundMaps2 {
+        background: url('../images/background/black3.jpg');
+        background-position: top;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: 100%;
+    } */
+    }
+
+    @media only screen and (max-width: 930px) and (min-width: 890px) {
+        .containerMarginTop {
+            margin-top: 55px;
+            height: 550px;
+            margin-bottom: -54px;
+        }
+    }
+
+    @media only screen and (max-width:799px) and (min-width:767px) {
+
+        .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+            float: none;
+            position: relative;
+            min-height: 1px;
+            padding-right: 0;
+            padding-left: 0;
+            width: 100%;
+            padding-bottom: 7px;
+        }
+
+        .col-sm-2, .col-md-2, .col-lg-2 {
+            margin-left: 20px;
+        }
+
+        .row {
+            margin-left: 10px;
+            margin-right: 10px;
+            margin-bottom: -20px;
+        }
+
+        .rowShop {
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+
+        .ipadBottom {
+            margin-bottom: 0px;
+            margin-right: 0;
+            margin-left: 0;
+        }
+
+        .box6 {
+            margin-bottom: 12px;
+        }
+
+        .container-fluid {
+            padding-right: 0;
+            padding-left: 0;
+            margin-right: 0;
+            margin-left: 0;
+        }
+
+        .container-fluid, .container-carousel {
+            padding-right: 0;
+            padding-left: 0;
+            margin-right: 0;
+            margin-left: 0;
+            /*margin-top: 0px; */
+        }
+
+        .containerMarginTop {
+            padding-right: 0;
+            padding-left: 0;
+        }
+
+        .carousel-inner {
+            height: auto;
+            overflow: visible;
+        }
+
+        h3 {
+            font-size: 20px;
+        }
+
+        .navbar-toggle {
+            position: fixed;
+            margin-left: 300px;
+        }
+
+        .navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
+            padding-left: 10px;
+            color: #fff;
+        }
+
+        .navbar-inverse .navbar-nav > li > ul > li > a:hover {
+            color: #000;
+            background-color: #fff;
+        }
+
+        .mobileHeader {
+            text-align: center;
+        }
+
+        #myInput {
+            width: 40%;
+            margin: 0 auto;
+            font-size: 15px;
+        }
+
+        #myUL {
+            width: 40%;
+            margin: 0 auto;
+            font-size: 15px;
+            float: left;
+        }
+
+            #myUL li a {
+                font-size: 17px;
+                width: 250%;
+            }
+
+        .searchState {
+            width: 40%;
+            margin: 0 auto;
+            height: 89px;
+        }
+
+        .backgroundMaps {
+            background: url('../images/background/CapBakgrund.jpg');
+            background-position: top;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            background-size: cover;
+            /* background-size: 100%;
+        height: 150px;*/
+        }
+
+        .containerMarginTop {
+            margin-top: 55px;
+            height: 500px;
+            margin-bottom: -68px;
+        }
+
+        .containerMarginTopNews {
+            margin-top: 0px;
+            height: 840px;
+            /*margin-bottom: 260px; */
+        }
+
+        /*.backgroundMaps2 {
+        background: url('../images/background/black3.jpg');
+        background-position: top;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: 100%;
+    } */
+    }
+
+    @media only screen and (min-width:320px) and (max-width:767px) {
+
+        .container-fluid, .container {
+            padding-right: 0;
+            padding-left: 0;
+            /*margin-top: 0px; */
+        }
+
+        .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+            padding-right: 0;
+            padding-left: 0;
+            padding-bottom: 7px;
+        }
+
+        .row {
+            margin-left: 0;
+            margin-right: 0;
+            margin-bottom: -20px;
+        }
+
+        .ipadBottom {
+            margin-bottom: 0px;
+            margin-right: 0;
+            margin-left: 0;
+        }
+
+        .marginRows {
+            margin-top: 0px;
+        }
+
+        .margBottom {
+            margin-right: -10px;
+            margin-left: -10px;
+            padding-bottom: 20px;
+        }
+
+        .box6 {
+            margin-bottom: 12px;
+        }
+
+        .carousel {
+            margin-bottom: -12px;
+        }
+
+        .carousel-inner {
+            height: auto;
+            overflow: visible;
+        }
+
+        /*   .featurette-image, .img-responsive, .thumbnail > img, .thumbnail a > img, .carousel-inner > .item > img, .carousel-inner > .item > a > img {
+        display: block;
+        max-width: 100%;
+        height: auto;
+        padding-bottom: 10px;
+    }
+    */
+
+        .containerMarginTop {
+            margin-top: 55px;
+            height: 100%;
+        }
+
+        .rowShopResp {
+            margin-bottom: 0px;
+        }
+
+        .rowShop {
+            margin-top: 20px;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+
+        .foodShop {
+            margin-top: -20px;
+            padding-left: 0;
+            padding-right: 0;
+        }
+
+        .featurette-image, .img-responsive > img {
+            display: block;
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 10px;
+        }
+
+        .navbar-nav > li > a {
+            color: #fff;
+            margin-left: 15px;
+        }
+
+        h3 {
+            margin-left: 30px;
+            font-size: 20px;
+        }
+
+        h2 {
+            margin-left: 20px;
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        h1 {
+            margin-left: 0;
+            font-size: 30px;
+        }
+
+        .mobileHeader {
+            text-align: center;
+            color: #fff;
+        }
+
+        #myInput {
+            width: 60%;
+            margin: 0 auto;
+            font-size: 15px;
+        }
+
+        #myUL {
+            width: 40%;
+            margin: 0 auto;
+            font-size: 15px;
+            float: left;
+        }
+
+            #myUL li a {
+                font-size: 17px;
+                width: 250%;
+            }
+
+        .searchState {
+            width: 60%;
+            margin: 0 auto;
+            height: 89px;
+        }
+
+        .mobilApp {
+            height: 40px;
+            width: 40px;
+        }
+
+        .dropdown-menu {
+            padding-left: 25px;
+            color: #fff;
+        }
+
+        .navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
+            color: #fff;
+            font-size: 20px;
+        }
+
+        .container > .navbar-header {
+            margin-right: 20px;
+            margin-left: 10px;
+        }
+
+        .navbar-toggle {
+            position: fixed;
+            margin-left: 300px;
+        }
+
+        .navbar-inverse .navbar-nav > li > ul > li > a:hover {
+            color: #000;
+            background-color: #fff;
+        }
+
+        .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:focus, .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover {
+            color: red;
+        }
+
+        .backgroundMaps {
+            background: url('../images/background/CapBakgrund.jpg');
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: auto;
+        }
+
+        /*.backgroundMaps2 {
+        background: url('../images/background/BLACK3.jpg');
+        background-attachment: fixed;
+    } */
+    }
+
+    /*@media only screen and (min-width: 320px) and (max-width: 479px) { 
+
+    #myInput {
+        width: 60%;
+        margin: 0 auto;
+        font-size: 15px;
+    }
+
+    #myUL {
+        width: 60%;
+        margin: 0 auto;
+        font-size: 15px;
+        float:left;
+    }
+
+    #myUL li a {
+        font-size: 17px;
+        width: 250%;
+    }
+
+    .searchState {
+        width: 60%;
+        margin: 0 auto;
+        height: 89px;
+    }
+} */
+
+
+

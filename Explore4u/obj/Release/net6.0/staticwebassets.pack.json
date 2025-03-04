@@ -1,0 +1,2237 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\FAVICON.ICO",
+      "PackagePath": "staticwebassets\\FAVICON.ICO"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\Africa\\Algeria_flag.png",
+      "PackagePath": "staticwebassets\\Flags\\Africa\\Algeria_flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\Africa\\Angola_flag.png",
+      "PackagePath": "staticwebassets\\Flags\\Africa\\Angola_flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\Africa\\Benin_flag.png",
+      "PackagePath": "staticwebassets\\Flags\\Africa\\Benin_flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\Africa\\Botswana_flag.png",
+      "PackagePath": "staticwebassets\\Flags\\Africa\\Botswana_flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\Africa\\BurkinaFaso_flag.png",
+      "PackagePath": "staticwebassets\\Flags\\Africa\\BurkinaFaso_flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\Africa\\Cameroon_flag.png",
+      "PackagePath": "staticwebassets\\Flags\\Africa\\Cameroon_flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\Africa\\CentralAfrican_flag.png",
+      "PackagePath": "staticwebassets\\Flags\\Africa\\CentralAfrican_flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\Africa\\Chad_flag.png",
+      "PackagePath": "staticwebassets\\Flags\\Africa\\Chad_flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\Africa\\CongoDR_flag.png",
+      "PackagePath": "staticwebassets\\Flags\\Africa\\CongoDR_flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\Africa\\Djibouti_flag.png",
+      "PackagePath": "staticwebassets\\Flags\\Africa\\Djibouti_flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\Africa\\Egypt_flag.png",
+      "PackagePath": "staticwebassets\\Flags\\Africa\\Egypt_flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\Africa\\EquatorialGuinea-flag.png",
+      "PackagePath": "staticwebassets\\Flags\\Africa\\EquatorialGuinea-flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\Africa\\Eritrea_flag.png",
+      "PackagePath": "staticwebassets\\Flags\\Africa\\Eritrea_flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\Africa\\Ethiopia_flag.png",
+      "PackagePath": "staticwebassets\\Flags\\Africa\\Ethiopia_flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\Africa\\Gabon_flag.png",
+      "PackagePath": "staticwebassets\\Flags\\Africa\\Gabon_flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\Africa\\Gambia_flag.png",
+      "PackagePath": "staticwebassets\\Flags\\Africa\\Gambia_flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\Africa\\Ghana_flag.png",
+      "PackagePath": "staticwebassets\\Flags\\Africa\\Ghana_flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\Africa\\Guinea_Flag.png",
+      "PackagePath": "staticwebassets\\Flags\\Africa\\Guinea_Flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\Africa\\Ivory_flag.png",
+      "PackagePath": "staticwebassets\\Flags\\Africa\\Ivory_flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\Africa\\Kenya_flag.png",
+      "PackagePath": "staticwebassets\\Flags\\Africa\\Kenya_flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\Africa\\Liberia_flag.png",
+      "PackagePath": "staticwebassets\\Flags\\Africa\\Liberia_flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\Africa\\Libya_flag.png",
+      "PackagePath": "staticwebassets\\Flags\\Africa\\Libya_flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\Africa\\Madagascar_flag.png",
+      "PackagePath": "staticwebassets\\Flags\\Africa\\Madagascar_flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\Africa\\Malawi_flag.png",
+      "PackagePath": "staticwebassets\\Flags\\Africa\\Malawi_flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\Africa\\Mali_flag.png",
+      "PackagePath": "staticwebassets\\Flags\\Africa\\Mali_flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\Africa\\Marocco_flag.png",
+      "PackagePath": "staticwebassets\\Flags\\Africa\\Marocco_flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\Africa\\Mauritanian_flag.png",
+      "PackagePath": "staticwebassets\\Flags\\Africa\\Mauritanian_flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\Africa\\Mozambique_flag.png",
+      "PackagePath": "staticwebassets\\Flags\\Africa\\Mozambique_flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\Africa\\Namibia_flag.png",
+      "PackagePath": "staticwebassets\\Flags\\Africa\\Namibia_flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\Africa\\Niger_flag.png",
+      "PackagePath": "staticwebassets\\Flags\\Africa\\Niger_flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\Africa\\Nigeria_flag.png",
+      "PackagePath": "staticwebassets\\Flags\\Africa\\Nigeria_flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\Africa\\RCongo_flag.png",
+      "PackagePath": "staticwebassets\\Flags\\Africa\\RCongo_flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\Africa\\Rwanda_flag.png",
+      "PackagePath": "staticwebassets\\Flags\\Africa\\Rwanda_flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\Africa\\Senegal_flag.png",
+      "PackagePath": "staticwebassets\\Flags\\Africa\\Senegal_flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\Africa\\SierraLeone_flag.png",
+      "PackagePath": "staticwebassets\\Flags\\Africa\\SierraLeone_flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\Africa\\Somalia_flag.png",
+      "PackagePath": "staticwebassets\\Flags\\Africa\\Somalia_flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\Africa\\SouthAfrica_flag.png",
+      "PackagePath": "staticwebassets\\Flags\\Africa\\SouthAfrica_flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\Africa\\South_Sudan_flag.png",
+      "PackagePath": "staticwebassets\\Flags\\Africa\\South_Sudan_flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\Africa\\Sudan_flag.png",
+      "PackagePath": "staticwebassets\\Flags\\Africa\\Sudan_flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\Africa\\Tanzania_flag.png",
+      "PackagePath": "staticwebassets\\Flags\\Africa\\Tanzania_flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\Africa\\Togo_flag.png",
+      "PackagePath": "staticwebassets\\Flags\\Africa\\Togo_flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\Africa\\Tunisia_flag.png",
+      "PackagePath": "staticwebassets\\Flags\\Africa\\Tunisia_flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\Africa\\Uganda_flag.png",
+      "PackagePath": "staticwebassets\\Flags\\Africa\\Uganda_flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\Africa\\WesternSahara-flag.png",
+      "PackagePath": "staticwebassets\\Flags\\Africa\\WesternSahara-flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\Africa\\Zambia_flag.png",
+      "PackagePath": "staticwebassets\\Flags\\Africa\\Zambia_flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\Africa\\Zimbabwe_flag.png",
+      "PackagePath": "staticwebassets\\Flags\\Africa\\Zimbabwe_flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\Asia\\Afghanistan_flag.png",
+      "PackagePath": "staticwebassets\\Flags\\Asia\\Afghanistan_flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\Asia\\Bangladesh_flag.png",
+      "PackagePath": "staticwebassets\\Flags\\Asia\\Bangladesh_flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\Asia\\Bhutan_flag.png",
+      "PackagePath": "staticwebassets\\Flags\\Asia\\Bhutan_flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\Asia\\Burma_flag.png",
+      "PackagePath": "staticwebassets\\Flags\\Asia\\Burma_flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\Asia\\Cambodia_flag.png",
+      "PackagePath": "staticwebassets\\Flags\\Asia\\Cambodia_flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\Asia\\China_flag.png",
+      "PackagePath": "staticwebassets\\Flags\\Asia\\China_flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\Asia\\Hong_Kong_flag.png",
+      "PackagePath": "staticwebassets\\Flags\\Asia\\Hong_Kong_flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\Asia\\India_flag.png",
+      "PackagePath": "staticwebassets\\Flags\\Asia\\India_flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\Asia\\Indonesia_flag.png",
+      "PackagePath": "staticwebassets\\Flags\\Asia\\Indonesia_flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\Asia\\Iran_flag.png",
+      "PackagePath": "staticwebassets\\Flags\\Asia\\Iran_flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\Asia\\Iraq_flag.png",
+      "PackagePath": "staticwebassets\\Flags\\Asia\\Iraq_flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\Asia\\Israel_flag.png",
+      "PackagePath": "staticwebassets\\Flags\\Asia\\Israel_flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\Asia\\Japan_flag.png",
+      "PackagePath": "staticwebassets\\Flags\\Asia\\Japan_flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\Asia\\Jordan_flag.png",
+      "PackagePath": "staticwebassets\\Flags\\Asia\\Jordan_flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\Asia\\Kazakhstan_flag.png",
+      "PackagePath": "staticwebassets\\Flags\\Asia\\Kazakhstan_flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\Asia\\Kyrgyzstan_flag.png",
+      "PackagePath": "staticwebassets\\Flags\\Asia\\Kyrgyzstan_flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\Asia\\Laos_flag.png",
+      "PackagePath": "staticwebassets\\Flags\\Asia\\Laos_flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\Asia\\Lebanon.png",
+      "PackagePath": "staticwebassets\\Flags\\Asia\\Lebanon.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\Asia\\Malaysia_flag.png",
+      "PackagePath": "staticwebassets\\Flags\\Asia\\Malaysia_flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\Asia\\Mongolia_flag.png",
+      "PackagePath": "staticwebassets\\Flags\\Asia\\Mongolia_flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\Asia\\Nepal_flag.png",
+      "PackagePath": "staticwebassets\\Flags\\Asia\\Nepal_flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\Asia\\Oman_flag.png",
+      "PackagePath": "staticwebassets\\Flags\\Asia\\Oman_flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\Asia\\Pakistan_flag.png",
+      "PackagePath": "staticwebassets\\Flags\\Asia\\Pakistan_flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\Asia\\Philippines_flag.png",
+      "PackagePath": "staticwebassets\\Flags\\Asia\\Philippines_flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\Asia\\Russia_flag.png",
+      "PackagePath": "staticwebassets\\Flags\\Asia\\Russia_flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\Asia\\Saudi_flag.png",
+      "PackagePath": "staticwebassets\\Flags\\Asia\\Saudi_flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\Asia\\Singapore_flag.png",
+      "PackagePath": "staticwebassets\\Flags\\Asia\\Singapore_flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\Asia\\South_Korea_flag.png",
+      "PackagePath": "staticwebassets\\Flags\\Asia\\South_Korea_flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\Asia\\Sri_Lanka_flag.png",
+      "PackagePath": "staticwebassets\\Flags\\Asia\\Sri_Lanka_flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\Asia\\Syria_flag.png",
+      "PackagePath": "staticwebassets\\Flags\\Asia\\Syria_flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\Asia\\Taiwan_flag.png",
+      "PackagePath": "staticwebassets\\Flags\\Asia\\Taiwan_flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\Asia\\Tajikistan_flag.png",
+      "PackagePath": "staticwebassets\\Flags\\Asia\\Tajikistan_flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\Asia\\Thailand_flag.png",
+      "PackagePath": "staticwebassets\\Flags\\Asia\\Thailand_flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\Asia\\Turkmenistan_flag.png",
+      "PackagePath": "staticwebassets\\Flags\\Asia\\Turkmenistan_flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\Asia\\UAE_flag.png",
+      "PackagePath": "staticwebassets\\Flags\\Asia\\UAE_flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\Asia\\Uzbekistan_flag.png",
+      "PackagePath": "staticwebassets\\Flags\\Asia\\Uzbekistan_flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\Asia\\Vietnam_flag.png",
+      "PackagePath": "staticwebassets\\Flags\\Asia\\Vietnam_flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\Asia\\Yemen_flag.png",
+      "PackagePath": "staticwebassets\\Flags\\Asia\\Yemen_flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\Australia\\Australia_flag.png",
+      "PackagePath": "staticwebassets\\Flags\\Australia\\Australia_flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\Australia\\Fiji_flag.png",
+      "PackagePath": "staticwebassets\\Flags\\Australia\\Fiji_flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\Australia\\New_Caledonia_flag.png",
+      "PackagePath": "staticwebassets\\Flags\\Australia\\New_Caledonia_flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\Australia\\New_South_Wales-flag.png",
+      "PackagePath": "staticwebassets\\Flags\\Australia\\New_South_Wales-flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\Australia\\New_Zealand_flag.png",
+      "PackagePath": "staticwebassets\\Flags\\Australia\\New_Zealand_flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\Australia\\Northern_Territory_flag.png",
+      "PackagePath": "staticwebassets\\Flags\\Australia\\Northern_Territory_flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\Australia\\Papua_New_Guinea_flag.png",
+      "PackagePath": "staticwebassets\\Flags\\Australia\\Papua_New_Guinea_flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\Australia\\Queensland-flag.png",
+      "PackagePath": "staticwebassets\\Flags\\Australia\\Queensland-flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\Australia\\Solomon_Islands_flag.png",
+      "PackagePath": "staticwebassets\\Flags\\Australia\\Solomon_Islands_flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\Australia\\South_Australia_flag.png",
+      "PackagePath": "staticwebassets\\Flags\\Australia\\South_Australia_flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\Australia\\Victoria-flag.png",
+      "PackagePath": "staticwebassets\\Flags\\Australia\\Victoria-flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\Australia\\Western_Australia_flag.png",
+      "PackagePath": "staticwebassets\\Flags\\Australia\\Western_Australia_flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\Australia\\Western_Australia_flag2.png",
+      "PackagePath": "staticwebassets\\Flags\\Australia\\Western_Australia_flag2.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\Canada\\Alberta_flag.png",
+      "PackagePath": "staticwebassets\\Flags\\Canada\\Alberta_flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\Canada\\British-columbia-flag.png",
+      "PackagePath": "staticwebassets\\Flags\\Canada\\British-columbia-flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\Canada\\Brunswick-flag.png",
+      "PackagePath": "staticwebassets\\Flags\\Canada\\Brunswick-flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\Canada\\Manitoba_flag.png",
+      "PackagePath": "staticwebassets\\Flags\\Canada\\Manitoba_flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\Canada\\Newfoundland-flag.png",
+      "PackagePath": "staticwebassets\\Flags\\Canada\\Newfoundland-flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\Canada\\North_West_flag.png",
+      "PackagePath": "staticwebassets\\Flags\\Canada\\North_West_flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\Canada\\Nova_Scotia_flag.png",
+      "PackagePath": "staticwebassets\\Flags\\Canada\\Nova_Scotia_flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\Canada\\Nunavut_flag.png",
+      "PackagePath": "staticwebassets\\Flags\\Canada\\Nunavut_flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\Canada\\Ontario_flag.png",
+      "PackagePath": "staticwebassets\\Flags\\Canada\\Ontario_flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\Canada\\Quebec_flag.png",
+      "PackagePath": "staticwebassets\\Flags\\Canada\\Quebec_flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\Canada\\Saskatchewan-flag.png",
+      "PackagePath": "staticwebassets\\Flags\\Canada\\Saskatchewan-flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\Canada\\Yukon_flag.png",
+      "PackagePath": "staticwebassets\\Flags\\Canada\\Yukon_flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\Canada\\canada-flag.png",
+      "PackagePath": "staticwebassets\\Flags\\Canada\\canada-flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\CentralAm\\Bahamas_flag.png",
+      "PackagePath": "staticwebassets\\Flags\\CentralAm\\Bahamas_flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\CentralAm\\Belize_flag.png",
+      "PackagePath": "staticwebassets\\Flags\\CentralAm\\Belize_flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\CentralAm\\Cayman_flag.png",
+      "PackagePath": "staticwebassets\\Flags\\CentralAm\\Cayman_flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\CentralAm\\CostaRica_flag.png",
+      "PackagePath": "staticwebassets\\Flags\\CentralAm\\CostaRica_flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\CentralAm\\Cuba_flag.png",
+      "PackagePath": "staticwebassets\\Flags\\CentralAm\\Cuba_flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\CentralAm\\Dominican_flag.png",
+      "PackagePath": "staticwebassets\\Flags\\CentralAm\\Dominican_flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\CentralAm\\ElSalvador_flag.png",
+      "PackagePath": "staticwebassets\\Flags\\CentralAm\\ElSalvador_flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\CentralAm\\Guatemala_flag.png",
+      "PackagePath": "staticwebassets\\Flags\\CentralAm\\Guatemala_flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\CentralAm\\Haiti_flag.png",
+      "PackagePath": "staticwebassets\\Flags\\CentralAm\\Haiti_flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\CentralAm\\Honduras_flag.png",
+      "PackagePath": "staticwebassets\\Flags\\CentralAm\\Honduras_flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\CentralAm\\Jamaica_flag.png",
+      "PackagePath": "staticwebassets\\Flags\\CentralAm\\Jamaica_flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\CentralAm\\Mexico_flag.png",
+      "PackagePath": "staticwebassets\\Flags\\CentralAm\\Mexico_flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\CentralAm\\Nicaragua_flag.png",
+      "PackagePath": "staticwebassets\\Flags\\CentralAm\\Nicaragua_flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\CentralAm\\Panama_flag.png",
+      "PackagePath": "staticwebassets\\Flags\\CentralAm\\Panama_flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\CentralAm\\Puerto_rico_flag.png",
+      "PackagePath": "staticwebassets\\Flags\\CentralAm\\Puerto_rico_flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\CentralAm\\Trinidad_flag.png",
+      "PackagePath": "staticwebassets\\Flags\\CentralAm\\Trinidad_flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\CentralAm\\Turkos_flag.png",
+      "PackagePath": "staticwebassets\\Flags\\CentralAm\\Turkos_flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\Europe\\ARROW.PNG",
+      "PackagePath": "staticwebassets\\Flags\\Europe\\ARROW.PNG"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\Europe\\Albania-32.png",
+      "PackagePath": "staticwebassets\\Flags\\Europe\\Albania-32.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\Europe\\Belarus_flag-26.png",
+      "PackagePath": "staticwebassets\\Flags\\Europe\\Belarus_flag-26.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\Europe\\Bosnia36.png",
+      "PackagePath": "staticwebassets\\Flags\\Europe\\Bosnia36.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\Europe\\CH-flagga-21.png",
+      "PackagePath": "staticwebassets\\Flags\\Europe\\CH-flagga-21.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\Europe\\CH-flagga-23.png",
+      "PackagePath": "staticwebassets\\Flags\\Europe\\CH-flagga-23.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\Europe\\Croatia_flag-29.png",
+      "PackagePath": "staticwebassets\\Flags\\Europe\\Croatia_flag-29.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\Europe\\Denmark_flag-27.png",
+      "PackagePath": "staticwebassets\\Flags\\Europe\\Denmark_flag-27.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\Europe\\Flag_Austria-29.png",
+      "PackagePath": "staticwebassets\\Flags\\Europe\\Flag_Austria-29.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\Europe\\Greek_Flag-25.png",
+      "PackagePath": "staticwebassets\\Flags\\Europe\\Greek_Flag-25.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\Europe\\Hungary_flag-26.png",
+      "PackagePath": "staticwebassets\\Flags\\Europe\\Hungary_flag-26.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\Europe\\Iceland-flag-30.png",
+      "PackagePath": "staticwebassets\\Flags\\Europe\\Iceland-flag-30.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\Europe\\Ireland_flag-26.png",
+      "PackagePath": "staticwebassets\\Flags\\Europe\\Ireland_flag-26.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\Europe\\Israel_flag.png",
+      "PackagePath": "staticwebassets\\Flags\\Europe\\Israel_flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\Europe\\Macedonia32.png",
+      "PackagePath": "staticwebassets\\Flags\\Europe\\Macedonia32.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\Europe\\Moldova34.png",
+      "PackagePath": "staticwebassets\\Flags\\Europe\\Moldova34.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\Europe\\Montenegro28.png",
+      "PackagePath": "staticwebassets\\Flags\\Europe\\Montenegro28.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\Europe\\Norway-flag-32.png",
+      "PackagePath": "staticwebassets\\Flags\\Europe\\Norway-flag-32.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\Europe\\Russia_flag-27.png",
+      "PackagePath": "staticwebassets\\Flags\\Europe\\Russia_flag-27.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\Europe\\Serbia-flag-28.png",
+      "PackagePath": "staticwebassets\\Flags\\Europe\\Serbia-flag-28.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\Europe\\Serbia34.png",
+      "PackagePath": "staticwebassets\\Flags\\Europe\\Serbia34.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\Europe\\Slovenia34.png",
+      "PackagePath": "staticwebassets\\Flags\\Europe\\Slovenia34.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\Europe\\Spaniens-flagga-32.png",
+      "PackagePath": "staticwebassets\\Flags\\Europe\\Spaniens-flagga-32.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\Europe\\Swedish_flag-29.png",
+      "PackagePath": "staticwebassets\\Flags\\Europe\\Swedish_flag-29.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\Europe\\UK_flag-27.png",
+      "PackagePath": "staticwebassets\\Flags\\Europe\\UK_flag-27.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\Europe\\UK_flag-34.png",
+      "PackagePath": "staticwebassets\\Flags\\Europe\\UK_flag-34.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\Europe\\Ukraine_flag-26.png",
+      "PackagePath": "staticwebassets\\Flags\\Europe\\Ukraine_flag-26.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\Europe\\belgiens-flagga-29.png",
+      "PackagePath": "staticwebassets\\Flags\\Europe\\belgiens-flagga-29.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\Europe\\bulgaria_flag-29.png",
+      "PackagePath": "staticwebassets\\Flags\\Europe\\bulgaria_flag-29.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\Europe\\cyprus_flag-29.png",
+      "PackagePath": "staticwebassets\\Flags\\Europe\\cyprus_flag-29.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\Europe\\czech_republic_flag-26.png",
+      "PackagePath": "staticwebassets\\Flags\\Europe\\czech_republic_flag-26.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\Europe\\dutch-flag-29.png",
+      "PackagePath": "staticwebassets\\Flags\\Europe\\dutch-flag-29.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\Europe\\estonia_flag-28.png",
+      "PackagePath": "staticwebassets\\Flags\\Europe\\estonia_flag-28.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\Europe\\flag-finland-34.png",
+      "PackagePath": "staticwebassets\\Flags\\Europe\\flag-finland-34.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\Europe\\flag-france-33.png",
+      "PackagePath": "staticwebassets\\Flags\\Europe\\flag-france-33.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\Europe\\flag-italy-32.png",
+      "PackagePath": "staticwebassets\\Flags\\Europe\\flag-italy-32.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\Europe\\flag-litauen-28.png",
+      "PackagePath": "staticwebassets\\Flags\\Europe\\flag-litauen-28.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\Europe\\flag_portugal-29.png",
+      "PackagePath": "staticwebassets\\Flags\\Europe\\flag_portugal-29.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\Europe\\flag_tyskland-31.png",
+      "PackagePath": "staticwebassets\\Flags\\Europe\\flag_tyskland-31.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\Europe\\israel_flag-27.png",
+      "PackagePath": "staticwebassets\\Flags\\Europe\\israel_flag-27.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\Europe\\latvia_flag-25.png",
+      "PackagePath": "staticwebassets\\Flags\\Europe\\latvia_flag-25.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\Europe\\new_go_next.png",
+      "PackagePath": "staticwebassets\\Flags\\Europe\\new_go_next.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\Europe\\polska_flaga-27.png",
+      "PackagePath": "staticwebassets\\Flags\\Europe\\polska_flaga-27.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\Europe\\romania-flag-26.png",
+      "PackagePath": "staticwebassets\\Flags\\Europe\\romania-flag-26.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\Europe\\slovakia-flag-28.png",
+      "PackagePath": "staticwebassets\\Flags\\Europe\\slovakia-flag-28.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\Europe\\turkey-flag-29.png",
+      "PackagePath": "staticwebassets\\Flags\\Europe\\turkey-flag-29.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\SouthAm\\Argentina_flag.png",
+      "PackagePath": "staticwebassets\\Flags\\SouthAm\\Argentina_flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\SouthAm\\Bolivia_flag.png",
+      "PackagePath": "staticwebassets\\Flags\\SouthAm\\Bolivia_flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\SouthAm\\Brasilia_flag.png",
+      "PackagePath": "staticwebassets\\Flags\\SouthAm\\Brasilia_flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\SouthAm\\Brazil_flag.png",
+      "PackagePath": "staticwebassets\\Flags\\SouthAm\\Brazil_flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\SouthAm\\BuenosAires_flag.png",
+      "PackagePath": "staticwebassets\\Flags\\SouthAm\\BuenosAires_flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\SouthAm\\Chile_flag.png",
+      "PackagePath": "staticwebassets\\Flags\\SouthAm\\Chile_flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\SouthAm\\Colombia_flag.png",
+      "PackagePath": "staticwebassets\\Flags\\SouthAm\\Colombia_flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\SouthAm\\Ecuador_flag.png",
+      "PackagePath": "staticwebassets\\Flags\\SouthAm\\Ecuador_flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\SouthAm\\FalklandIslands-flag.png",
+      "PackagePath": "staticwebassets\\Flags\\SouthAm\\FalklandIslands-flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\SouthAm\\FrenchGuiana-flag.png",
+      "PackagePath": "staticwebassets\\Flags\\SouthAm\\FrenchGuiana-flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\SouthAm\\Guyana_flag.png",
+      "PackagePath": "staticwebassets\\Flags\\SouthAm\\Guyana_flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\SouthAm\\Paraguay_flag.png",
+      "PackagePath": "staticwebassets\\Flags\\SouthAm\\Paraguay_flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\SouthAm\\Peru_flag.png",
+      "PackagePath": "staticwebassets\\Flags\\SouthAm\\Peru_flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\SouthAm\\Rio_flag.png",
+      "PackagePath": "staticwebassets\\Flags\\SouthAm\\Rio_flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\SouthAm\\SaoPaulo_flag.png",
+      "PackagePath": "staticwebassets\\Flags\\SouthAm\\SaoPaulo_flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\SouthAm\\Suriname_flag.png",
+      "PackagePath": "staticwebassets\\Flags\\SouthAm\\Suriname_flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\SouthAm\\Uruguay_flag.png",
+      "PackagePath": "staticwebassets\\Flags\\SouthAm\\Uruguay_flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\SouthAm\\Venezuela_flag.png",
+      "PackagePath": "staticwebassets\\Flags\\SouthAm\\Venezuela_flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\USA\\Alabama_flag.png",
+      "PackagePath": "staticwebassets\\Flags\\USA\\Alabama_flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\USA\\Alaska_flag.png",
+      "PackagePath": "staticwebassets\\Flags\\USA\\Alaska_flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\USA\\Arizona_flag.png",
+      "PackagePath": "staticwebassets\\Flags\\USA\\Arizona_flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\USA\\Arkansas_flag.png",
+      "PackagePath": "staticwebassets\\Flags\\USA\\Arkansas_flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\USA\\CALIFORNIA-FLAG-29.png",
+      "PackagePath": "staticwebassets\\Flags\\USA\\CALIFORNIA-FLAG-29.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\USA\\Colorado_flag.png",
+      "PackagePath": "staticwebassets\\Flags\\USA\\Colorado_flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\USA\\DC_flag.png",
+      "PackagePath": "staticwebassets\\Flags\\USA\\DC_flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\USA\\Delaware_flag.png",
+      "PackagePath": "staticwebassets\\Flags\\USA\\Delaware_flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\USA\\Florida_flag.png",
+      "PackagePath": "staticwebassets\\Flags\\USA\\Florida_flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\USA\\Georgia_flag.png",
+      "PackagePath": "staticwebassets\\Flags\\USA\\Georgia_flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\USA\\HAWAII_FLAG.png",
+      "PackagePath": "staticwebassets\\Flags\\USA\\HAWAII_FLAG.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\USA\\Illinois_flag.png",
+      "PackagePath": "staticwebassets\\Flags\\USA\\Illinois_flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\USA\\Indiana_flag.png",
+      "PackagePath": "staticwebassets\\Flags\\USA\\Indiana_flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\USA\\Iowa_flag.png",
+      "PackagePath": "staticwebassets\\Flags\\USA\\Iowa_flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\USA\\Kansas_flag.png",
+      "PackagePath": "staticwebassets\\Flags\\USA\\Kansas_flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\USA\\Kentucky_flag.png",
+      "PackagePath": "staticwebassets\\Flags\\USA\\Kentucky_flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\USA\\Lousiana.png",
+      "PackagePath": "staticwebassets\\Flags\\USA\\Lousiana.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\USA\\Lousiana_flag.png",
+      "PackagePath": "staticwebassets\\Flags\\USA\\Lousiana_flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\USA\\Main_flag.png",
+      "PackagePath": "staticwebassets\\Flags\\USA\\Main_flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\USA\\Maryland_flag.png",
+      "PackagePath": "staticwebassets\\Flags\\USA\\Maryland_flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\USA\\Massachusette_flag.png",
+      "PackagePath": "staticwebassets\\Flags\\USA\\Massachusette_flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\USA\\Massachusetts_flag.png",
+      "PackagePath": "staticwebassets\\Flags\\USA\\Massachusetts_flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\USA\\Michigan_flag.png",
+      "PackagePath": "staticwebassets\\Flags\\USA\\Michigan_flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\USA\\Minnesota_flag.png",
+      "PackagePath": "staticwebassets\\Flags\\USA\\Minnesota_flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\USA\\Mississippi_flag.png",
+      "PackagePath": "staticwebassets\\Flags\\USA\\Mississippi_flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\USA\\Missouri_flag.png",
+      "PackagePath": "staticwebassets\\Flags\\USA\\Missouri_flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\USA\\NY_City_Flag.png",
+      "PackagePath": "staticwebassets\\Flags\\USA\\NY_City_Flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\USA\\Nebraska_flag.png",
+      "PackagePath": "staticwebassets\\Flags\\USA\\Nebraska_flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\USA\\Nevada.png",
+      "PackagePath": "staticwebassets\\Flags\\USA\\Nevada.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\USA\\New_Hampshire_flag.png",
+      "PackagePath": "staticwebassets\\Flags\\USA\\New_Hampshire_flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\USA\\New_York_flag.png",
+      "PackagePath": "staticwebassets\\Flags\\USA\\New_York_flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\USA\\New_jersey_flag.png",
+      "PackagePath": "staticwebassets\\Flags\\USA\\New_jersey_flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\USA\\New_mexico_flag.png",
+      "PackagePath": "staticwebassets\\Flags\\USA\\New_mexico_flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\USA\\North_Carolina_flag.png",
+      "PackagePath": "staticwebassets\\Flags\\USA\\North_Carolina_flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\USA\\North_dakota_flag.png",
+      "PackagePath": "staticwebassets\\Flags\\USA\\North_dakota_flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\USA\\Ohio_flag.png",
+      "PackagePath": "staticwebassets\\Flags\\USA\\Ohio_flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\USA\\Oklahoma_flag.png",
+      "PackagePath": "staticwebassets\\Flags\\USA\\Oklahoma_flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\USA\\Oregon_flag.png",
+      "PackagePath": "staticwebassets\\Flags\\USA\\Oregon_flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\USA\\Pennsylvania_flag.png",
+      "PackagePath": "staticwebassets\\Flags\\USA\\Pennsylvania_flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\USA\\Puerto_rico_flag.png",
+      "PackagePath": "staticwebassets\\Flags\\USA\\Puerto_rico_flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\USA\\South_Carolina_flag.png",
+      "PackagePath": "staticwebassets\\Flags\\USA\\South_Carolina_flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\USA\\South_dakota_flag.png",
+      "PackagePath": "staticwebassets\\Flags\\USA\\South_dakota_flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\USA\\Tennessee_flag.png",
+      "PackagePath": "staticwebassets\\Flags\\USA\\Tennessee_flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\USA\\Texas_flag.png",
+      "PackagePath": "staticwebassets\\Flags\\USA\\Texas_flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\USA\\USAFLAG.PNG",
+      "PackagePath": "staticwebassets\\Flags\\USA\\USAFLAG.PNG"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\USA\\Utah_flag.png",
+      "PackagePath": "staticwebassets\\Flags\\USA\\Utah_flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\USA\\Vermont_flag.png",
+      "PackagePath": "staticwebassets\\Flags\\USA\\Vermont_flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\USA\\Virginia_flag.png",
+      "PackagePath": "staticwebassets\\Flags\\USA\\Virginia_flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\USA\\West_Virginia_flag.png",
+      "PackagePath": "staticwebassets\\Flags\\USA\\West_Virginia_flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\USA\\Wisconsin_flag.png",
+      "PackagePath": "staticwebassets\\Flags\\USA\\Wisconsin_flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\USA\\connecticut_flag.png",
+      "PackagePath": "staticwebassets\\Flags\\USA\\connecticut_flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\USA\\idaho_flag.png",
+      "PackagePath": "staticwebassets\\Flags\\USA\\idaho_flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\USA\\montana_flag.png",
+      "PackagePath": "staticwebassets\\Flags\\USA\\montana_flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\USA\\new_go_next.jpg",
+      "PackagePath": "staticwebassets\\Flags\\USA\\new_go_next.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\USA\\new_go_next.png",
+      "PackagePath": "staticwebassets\\Flags\\USA\\new_go_next.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\USA\\rhode_island_flag.png",
+      "PackagePath": "staticwebassets\\Flags\\USA\\rhode_island_flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\USA\\washington_flag.png",
+      "PackagePath": "staticwebassets\\Flags\\USA\\washington_flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Flags\\USA\\wyoming_flag.png",
+      "PackagePath": "staticwebassets\\Flags\\USA\\wyoming_flag.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\IMAGES\\ASPNetCore21.png",
+      "PackagePath": "staticwebassets\\IMAGES\\ASPNetCore21.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\IMAGES\\Africa-a.png",
+      "PackagePath": "staticwebassets\\IMAGES\\Africa-a.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\IMAGES\\Asia-a.png",
+      "PackagePath": "staticwebassets\\IMAGES\\Asia-a.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\IMAGES\\Australia-a.png",
+      "PackagePath": "staticwebassets\\IMAGES\\Australia-a.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\IMAGES\\BANNER1.SVG",
+      "PackagePath": "staticwebassets\\IMAGES\\BANNER1.SVG"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\IMAGES\\BANNER2.SVG",
+      "PackagePath": "staticwebassets\\IMAGES\\BANNER2.SVG"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\IMAGES\\BANNER3.SVG",
+      "PackagePath": "staticwebassets\\IMAGES\\BANNER3.SVG"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\IMAGES\\Bild-Stater3.jpg",
+      "PackagePath": "staticwebassets\\IMAGES\\Bild-Stater3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\IMAGES\\Bild1 - kopia-stater-namn3-black.jpg",
+      "PackagePath": "staticwebassets\\IMAGES\\Bild1 - kopia-stater-namn3-black.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\IMAGES\\Bild1-Background-Imapper.png",
+      "PackagePath": "staticwebassets\\IMAGES\\Bild1-Background-Imapper.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\IMAGES\\Bild1-kopia2.png",
+      "PackagePath": "staticwebassets\\IMAGES\\Bild1-kopia2.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\IMAGES\\Bild1-test1.jpg",
+      "PackagePath": "staticwebassets\\IMAGES\\Bild1-test1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\IMAGES\\Bild1.png",
+      "PackagePath": "staticwebassets\\IMAGES\\Bild1.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\IMAGES\\Bild1a-jpg.png",
+      "PackagePath": "staticwebassets\\IMAGES\\Bild1a-jpg.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\IMAGES\\Bild1b-black.jpg",
+      "PackagePath": "staticwebassets\\IMAGES\\Bild1b-black.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\IMAGES\\Bild1b.jpg",
+      "PackagePath": "staticwebassets\\IMAGES\\Bild1b.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\IMAGES\\Bild1bc.jpg",
+      "PackagePath": "staticwebassets\\IMAGES\\Bild1bc.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\IMAGES\\Bild1bc2.png",
+      "PackagePath": "staticwebassets\\IMAGES\\Bild1bc2.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\IMAGES\\Canada-a.png",
+      "PackagePath": "staticwebassets\\IMAGES\\Canada-a.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\IMAGES\\Canada-b.jpg",
+      "PackagePath": "staticwebassets\\IMAGES\\Canada-b.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\IMAGES\\CentralAm-a.png",
+      "PackagePath": "staticwebassets\\IMAGES\\CentralAm-a.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\IMAGES\\CentralAm-b.png",
+      "PackagePath": "staticwebassets\\IMAGES\\CentralAm-b.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\IMAGES\\EARTH2.JPG",
+      "PackagePath": "staticwebassets\\IMAGES\\EARTH2.JPG"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\IMAGES\\EARTH5.JPG",
+      "PackagePath": "staticwebassets\\IMAGES\\EARTH5.JPG"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\IMAGES\\Earth.jpg",
+      "PackagePath": "staticwebassets\\IMAGES\\Earth.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\IMAGES\\Earth1.jpg",
+      "PackagePath": "staticwebassets\\IMAGES\\Earth1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\IMAGES\\Earth4.jpg",
+      "PackagePath": "staticwebassets\\IMAGES\\Earth4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\IMAGES\\Europa-a.png",
+      "PackagePath": "staticwebassets\\IMAGES\\Europa-a.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\IMAGES\\ExploreMe.png",
+      "PackagePath": "staticwebassets\\IMAGES\\ExploreMe.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\IMAGES\\ExplorerTrans62px.png",
+      "PackagePath": "staticwebassets\\IMAGES\\ExplorerTrans62px.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\IMAGES\\Google4NewsColumbus.png",
+      "PackagePath": "staticwebassets\\IMAGES\\Google4NewsColumbus.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\IMAGES\\Google4NewsColumbus2.png",
+      "PackagePath": "staticwebassets\\IMAGES\\Google4NewsColumbus2.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\IMAGES\\Google4news.png",
+      "PackagePath": "staticwebassets\\IMAGES\\Google4news.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\IMAGES\\Google4u.png",
+      "PackagePath": "staticwebassets\\IMAGES\\Google4u.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\IMAGES\\Google4uLobster.png",
+      "PackagePath": "staticwebassets\\IMAGES\\Google4uLobster.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\IMAGES\\Google4uLobster2.png",
+      "PackagePath": "staticwebassets\\IMAGES\\Google4uLobster2.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\IMAGES\\Jobs\\IndeedJobs.jpg",
+      "PackagePath": "staticwebassets\\IMAGES\\Jobs\\IndeedJobs.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\IMAGES\\Jobs\\LinkedInJobs.jpg",
+      "PackagePath": "staticwebassets\\IMAGES\\Jobs\\LinkedInJobs.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\IMAGES\\Jobs\\MonsterJobs.jpg",
+      "PackagePath": "staticwebassets\\IMAGES\\Jobs\\MonsterJobs.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\IMAGES\\LINKS\\Buffalo.jpg",
+      "PackagePath": "staticwebassets\\IMAGES\\LINKS\\Buffalo.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\IMAGES\\LINKS\\Elephant2.jpg",
+      "PackagePath": "staticwebassets\\IMAGES\\LINKS\\Elephant2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\IMAGES\\LINKS\\Geopard.jpg",
+      "PackagePath": "staticwebassets\\IMAGES\\LINKS\\Geopard.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\IMAGES\\LINKS\\Geopard2.jpg",
+      "PackagePath": "staticwebassets\\IMAGES\\LINKS\\Geopard2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\IMAGES\\LINKS\\Giraff2.jpg",
+      "PackagePath": "staticwebassets\\IMAGES\\LINKS\\Giraff2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\IMAGES\\LINKS\\Hyena.jpg",
+      "PackagePath": "staticwebassets\\IMAGES\\LINKS\\Hyena.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\IMAGES\\LINKS\\Leopard.jpg",
+      "PackagePath": "staticwebassets\\IMAGES\\LINKS\\Leopard.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\IMAGES\\LINKS\\NYHETER.PNG",
+      "PackagePath": "staticwebassets\\IMAGES\\LINKS\\NYHETER.PNG"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\IMAGES\\LINKS\\Nick-Brandt-elephant.jpg",
+      "PackagePath": "staticwebassets\\IMAGES\\LINKS\\Nick-Brandt-elephant.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\IMAGES\\LINKS\\Universe4.jpg",
+      "PackagePath": "staticwebassets\\IMAGES\\LINKS\\Universe4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\IMAGES\\LINKS\\Zebra.jpg",
+      "PackagePath": "staticwebassets\\IMAGES\\LINKS\\Zebra.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\IMAGES\\Paintings\\Elephant\\AbstractGoldenMountainsWatercolor.png",
+      "PackagePath": "staticwebassets\\IMAGES\\Paintings\\Elephant\\AbstractGoldenMountainsWatercolor.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\IMAGES\\Paintings\\Elephant\\Elephant.png",
+      "PackagePath": "staticwebassets\\IMAGES\\Paintings\\Elephant\\Elephant.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\IMAGES\\Paintings\\Elephant\\Elephant2.png",
+      "PackagePath": "staticwebassets\\IMAGES\\Paintings\\Elephant\\Elephant2.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\IMAGES\\Paintings\\Elephant\\Tierra In Gold And Black Wall Art.png",
+      "PackagePath": "staticwebassets\\IMAGES\\Paintings\\Elephant\\Tierra In Gold And Black Wall Art.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\IMAGES\\Paintings\\Saatchiart\\FLATSCREENEINPROZENTER.png",
+      "PackagePath": "staticwebassets\\IMAGES\\Paintings\\Saatchiart\\FLATSCREENEINPROZENTER.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\IMAGES\\Paintings\\Saatchiart\\Faith (Coloured) - Limited Edition.png",
+      "PackagePath": "staticwebassets\\IMAGES\\Paintings\\Saatchiart\\Faith (Coloured) - Limited Edition.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\IMAGES\\Paintings\\Saatchiart\\FaithColoured.png",
+      "PackagePath": "staticwebassets\\IMAGES\\Paintings\\Saatchiart\\FaithColoured.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\IMAGES\\Paintings\\Saatchiart\\MALGRÉ_L'HIVER_Painting.png",
+      "PackagePath": "staticwebassets\\IMAGES\\Paintings\\Saatchiart\\MALGRÉ_L'HIVER_Painting.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\IMAGES\\Paintings\\Saatchiart\\PORTRAITPainting.png",
+      "PackagePath": "staticwebassets\\IMAGES\\Paintings\\Saatchiart\\PORTRAITPainting.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\IMAGES\\Paintings\\Skärmbild 2023-05-27 171151.png",
+      "PackagePath": "staticwebassets\\IMAGES\\Paintings\\Skärmbild 2023-05-27 171151.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\IMAGES\\Paintings\\Zatista\\LustForLife.JPG",
+      "PackagePath": "staticwebassets\\IMAGES\\Paintings\\Zatista\\LustForLife.JPG"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\IMAGES\\Paintings\\Zatista\\Realism.JPG",
+      "PackagePath": "staticwebassets\\IMAGES\\Paintings\\Zatista\\Realism.JPG"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\IMAGES\\Paintings\\Zatista\\SkyAboveUs.png",
+      "PackagePath": "staticwebassets\\IMAGES\\Paintings\\Zatista\\SkyAboveUs.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\IMAGES\\Paintings\\Zatista\\TheGreatestRevolution.png",
+      "PackagePath": "staticwebassets\\IMAGES\\Paintings\\Zatista\\TheGreatestRevolution.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\IMAGES\\Shopping\\Alibaba.png",
+      "PackagePath": "staticwebassets\\IMAGES\\Shopping\\Alibaba.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\IMAGES\\Shopping\\Amazon.jpg",
+      "PackagePath": "staticwebassets\\IMAGES\\Shopping\\Amazon.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\IMAGES\\Shopping\\eBay.png",
+      "PackagePath": "staticwebassets\\IMAGES\\Shopping\\eBay.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\IMAGES\\SouthAm-a.png",
+      "PackagePath": "staticwebassets\\IMAGES\\SouthAm-a.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\IMAGES\\SouthAm-a2.png",
+      "PackagePath": "staticwebassets\\IMAGES\\SouthAm-a2.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\IMAGES\\SouthAmMap.png",
+      "PackagePath": "staticwebassets\\IMAGES\\SouthAmMap.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\IMAGES\\USA.PNG",
+      "PackagePath": "staticwebassets\\IMAGES\\USA.PNG"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\IMAGES\\USA2.png",
+      "PackagePath": "staticwebassets\\IMAGES\\USA2.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\IMAGES\\USA2b.png",
+      "PackagePath": "staticwebassets\\IMAGES\\USA2b.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\IMAGES\\World-Shopping-white.png",
+      "PackagePath": "staticwebassets\\IMAGES\\World-Shopping-white.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\IMAGES\\World-Shopping.png",
+      "PackagePath": "staticwebassets\\IMAGES\\World-Shopping.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\IMAGES\\ads\\coronaNow180.png",
+      "PackagePath": "staticwebassets\\IMAGES\\ads\\coronaNow180.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\IMAGES\\ads\\coronavirusTrans.png",
+      "PackagePath": "staticwebassets\\IMAGES\\ads\\coronavirusTrans.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\IMAGES\\ads\\coronavirusTrans200.png",
+      "PackagePath": "staticwebassets\\IMAGES\\ads\\coronavirusTrans200.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\IMAGES\\background\\2FaceRomainLaurent.jpg",
+      "PackagePath": "staticwebassets\\IMAGES\\background\\2FaceRomainLaurent.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\IMAGES\\background\\9ARTH8.JPG",
+      "PackagePath": "staticwebassets\\IMAGES\\background\\9ARTH8.JPG"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\IMAGES\\background\\Android.jpg",
+      "PackagePath": "staticwebassets\\IMAGES\\background\\Android.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\IMAGES\\background\\Art.jpg",
+      "PackagePath": "staticwebassets\\IMAGES\\background\\Art.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\IMAGES\\background\\Art2.jpg",
+      "PackagePath": "staticwebassets\\IMAGES\\background\\Art2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\IMAGES\\background\\Art3.jpg",
+      "PackagePath": "staticwebassets\\IMAGES\\background\\Art3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\IMAGES\\background\\BLACK2.JPG",
+      "PackagePath": "staticwebassets\\IMAGES\\background\\BLACK2.JPG"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\IMAGES\\background\\BLACK3.JPG",
+      "PackagePath": "staticwebassets\\IMAGES\\background\\BLACK3.JPG"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\IMAGES\\background\\BLACK4.JPG",
+      "PackagePath": "staticwebassets\\IMAGES\\background\\BLACK4.JPG"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\IMAGES\\background\\BLACK5.JPG",
+      "PackagePath": "staticwebassets\\IMAGES\\background\\BLACK5.JPG"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\IMAGES\\background\\BLACK6.PNG",
+      "PackagePath": "staticwebassets\\IMAGES\\background\\BLACK6.PNG"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\IMAGES\\background\\BLACK7.JPG",
+      "PackagePath": "staticwebassets\\IMAGES\\background\\BLACK7.JPG"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\IMAGES\\background\\BLACK8.JPG",
+      "PackagePath": "staticwebassets\\IMAGES\\background\\BLACK8.JPG"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\IMAGES\\background\\Bensinmack.jpg",
+      "PackagePath": "staticwebassets\\IMAGES\\background\\Bensinmack.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\IMAGES\\background\\BiginJapan2.jpg",
+      "PackagePath": "staticwebassets\\IMAGES\\background\\BiginJapan2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\IMAGES\\background\\BiginJapan3.jpg",
+      "PackagePath": "staticwebassets\\IMAGES\\background\\BiginJapan3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\IMAGES\\background\\BiginJapanEkaterinaBelinskaya.jpg",
+      "PackagePath": "staticwebassets\\IMAGES\\background\\BiginJapanEkaterinaBelinskaya.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\IMAGES\\background\\Black1.jpg",
+      "PackagePath": "staticwebassets\\IMAGES\\background\\Black1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\IMAGES\\background\\CapBakgrund.jpg",
+      "PackagePath": "staticwebassets\\IMAGES\\background\\CapBakgrund.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\IMAGES\\background\\EARTH2.JPG",
+      "PackagePath": "staticwebassets\\IMAGES\\background\\EARTH2.JPG"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\IMAGES\\background\\EARTH3.JPG",
+      "PackagePath": "staticwebassets\\IMAGES\\background\\EARTH3.JPG"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\IMAGES\\background\\EARTH4.JPG",
+      "PackagePath": "staticwebassets\\IMAGES\\background\\EARTH4.JPG"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\IMAGES\\background\\EARTH5.JPG",
+      "PackagePath": "staticwebassets\\IMAGES\\background\\EARTH5.JPG"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\IMAGES\\background\\EARTH6.JPG",
+      "PackagePath": "staticwebassets\\IMAGES\\background\\EARTH6.JPG"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\IMAGES\\background\\EARTH8-2.JPG",
+      "PackagePath": "staticwebassets\\IMAGES\\background\\EARTH8-2.JPG"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\IMAGES\\background\\EARTH9.JPG",
+      "PackagePath": "staticwebassets\\IMAGES\\background\\EARTH9.JPG"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\IMAGES\\background\\Havet.jpg",
+      "PackagePath": "staticwebassets\\IMAGES\\background\\Havet.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\IMAGES\\background\\IMAXSea.jpg",
+      "PackagePath": "staticwebassets\\IMAGES\\background\\IMAXSea.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\IMAGES\\background\\PLANET.JPG",
+      "PackagePath": "staticwebassets\\IMAGES\\background\\PLANET.JPG"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\IMAGES\\background\\Photo.jpg",
+      "PackagePath": "staticwebassets\\IMAGES\\background\\Photo.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\IMAGES\\background\\Photo44.jpg",
+      "PackagePath": "staticwebassets\\IMAGES\\background\\Photo44.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\IMAGES\\background\\PhotoFace.jpg",
+      "PackagePath": "staticwebassets\\IMAGES\\background\\PhotoFace.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\IMAGES\\background\\Shanghai.PNG",
+      "PackagePath": "staticwebassets\\IMAGES\\background\\Shanghai.PNG"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\IMAGES\\background\\Shanghai.jpg",
+      "PackagePath": "staticwebassets\\IMAGES\\background\\Shanghai.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\IMAGES\\background\\Solnedgång.jpg",
+      "PackagePath": "staticwebassets\\IMAGES\\background\\Solnedgång.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\IMAGES\\background\\SurrealSciFiAntonioCaparo.jpg",
+      "PackagePath": "staticwebassets\\IMAGES\\background\\SurrealSciFiAntonioCaparo.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\IMAGES\\background\\TheWall.jpg",
+      "PackagePath": "staticwebassets\\IMAGES\\background\\TheWall.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\IMAGES\\background\\black-edition-1882.jpg",
+      "PackagePath": "staticwebassets\\IMAGES\\background\\black-edition-1882.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\IMAGES\\background\\blackgreen.jpg",
+      "PackagePath": "staticwebassets\\IMAGES\\background\\blackgreen.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\IMAGES\\background\\earthfire.jpg",
+      "PackagePath": "staticwebassets\\IMAGES\\background\\earthfire.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\IMAGES\\background\\ladda ned.jpg",
+      "PackagePath": "staticwebassets\\IMAGES\\background\\ladda ned.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\IMAGES\\blue-world-Fluffy.png",
+      "PackagePath": "staticwebassets\\IMAGES\\blue-world-Fluffy.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\IMAGES\\food\\BistroMD.png",
+      "PackagePath": "staticwebassets\\IMAGES\\food\\BistroMD.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\IMAGES\\food\\Caviar2.png",
+      "PackagePath": "staticwebassets\\IMAGES\\food\\Caviar2.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\IMAGES\\food\\Caviar3.jpg",
+      "PackagePath": "staticwebassets\\IMAGES\\food\\Caviar3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\IMAGES\\food\\Caviar4.jpg",
+      "PackagePath": "staticwebassets\\IMAGES\\food\\Caviar4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\IMAGES\\food\\Caviar6.jpg",
+      "PackagePath": "staticwebassets\\IMAGES\\food\\Caviar6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\IMAGES\\food\\CaviarFood.jpg",
+      "PackagePath": "staticwebassets\\IMAGES\\food\\CaviarFood.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\IMAGES\\food\\CaymusCabernetSauvignon.jpg",
+      "PackagePath": "staticwebassets\\IMAGES\\food\\CaymusCabernetSauvignon.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\IMAGES\\food\\GoldBelly.png",
+      "PackagePath": "staticwebassets\\IMAGES\\food\\GoldBelly.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\IMAGES\\food\\GoldBelly2.png",
+      "PackagePath": "staticwebassets\\IMAGES\\food\\GoldBelly2.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\IMAGES\\food\\GoldBellyFood.jpg",
+      "PackagePath": "staticwebassets\\IMAGES\\food\\GoldBellyFood.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\IMAGES\\food\\HomeBistro.jpg",
+      "PackagePath": "staticwebassets\\IMAGES\\food\\HomeBistro.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\IMAGES\\food\\Homechef.jpg",
+      "PackagePath": "staticwebassets\\IMAGES\\food\\Homechef.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\IMAGES\\food\\McDonlds.jpg",
+      "PackagePath": "staticwebassets\\IMAGES\\food\\McDonlds.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\IMAGES\\food\\McDonlds2.jpg",
+      "PackagePath": "staticwebassets\\IMAGES\\food\\McDonlds2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\IMAGES\\food\\McDonldsBigMac.jpg",
+      "PackagePath": "staticwebassets\\IMAGES\\food\\McDonldsBigMac.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\IMAGES\\food\\Menulog.jpg",
+      "PackagePath": "staticwebassets\\IMAGES\\food\\Menulog.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\IMAGES\\food\\PissaHutLogg.PNG",
+      "PackagePath": "staticwebassets\\IMAGES\\food\\PissaHutLogg.PNG"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\IMAGES\\food\\PizzaHut.jpg",
+      "PackagePath": "staticwebassets\\IMAGES\\food\\PizzaHut.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\IMAGES\\food\\PizzaHut1.jpg",
+      "PackagePath": "staticwebassets\\IMAGES\\food\\PizzaHut1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\IMAGES\\food\\PizzaHut2.jpg",
+      "PackagePath": "staticwebassets\\IMAGES\\food\\PizzaHut2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\IMAGES\\food\\PizzaHut3.jpg",
+      "PackagePath": "staticwebassets\\IMAGES\\food\\PizzaHut3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\IMAGES\\food\\PizzaHutTakeaway.jpg",
+      "PackagePath": "staticwebassets\\IMAGES\\food\\PizzaHutTakeaway.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\IMAGES\\food\\PizzaHutdelivery.png",
+      "PackagePath": "staticwebassets\\IMAGES\\food\\PizzaHutdelivery.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\IMAGES\\food\\PizzaHutpepperoni-lovers.jpg",
+      "PackagePath": "staticwebassets\\IMAGES\\food\\PizzaHutpepperoni-lovers.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\IMAGES\\food\\PizzaHutpizzabuff.png",
+      "PackagePath": "staticwebassets\\IMAGES\\food\\PizzaHutpizzabuff.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\IMAGES\\food\\Postmates2.jpg",
+      "PackagePath": "staticwebassets\\IMAGES\\food\\Postmates2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\IMAGES\\food\\UberEats.jpeg",
+      "PackagePath": "staticwebassets\\IMAGES\\food\\UberEats.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\IMAGES\\food\\Zomato3.jpg",
+      "PackagePath": "staticwebassets\\IMAGES\\food\\Zomato3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\IMAGES\\food\\Zomato4.jpg",
+      "PackagePath": "staticwebassets\\IMAGES\\food\\Zomato4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\IMAGES\\food\\bistroMD.jpg",
+      "PackagePath": "staticwebassets\\IMAGES\\food\\bistroMD.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\IMAGES\\me\\Jag Nu.jpg",
+      "PackagePath": "staticwebassets\\IMAGES\\me\\Jag Nu.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\IMAGES\\me\\Me Nick3.jpg",
+      "PackagePath": "staticwebassets\\IMAGES\\me\\Me Nick3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\IMAGES\\me\\Me1.jpg",
+      "PackagePath": "staticwebassets\\IMAGES\\me\\Me1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\IMAGES\\me\\Me2.jpg",
+      "PackagePath": "staticwebassets\\IMAGES\\me\\Me2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\IMAGES\\me\\Me3.jpg",
+      "PackagePath": "staticwebassets\\IMAGES\\me\\Me3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\IMAGES\\me\\Nick2.JPG",
+      "PackagePath": "staticwebassets\\IMAGES\\me\\Nick2.JPG"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\IMAGES\\me\\Niklas.jpg",
+      "PackagePath": "staticwebassets\\IMAGES\\me\\Niklas.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\IMAGES\\orange-world-2.png",
+      "PackagePath": "staticwebassets\\IMAGES\\orange-world-2.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\IMAGES\\retail\\BarnBoozt.JPG",
+      "PackagePath": "staticwebassets\\IMAGES\\retail\\BarnBoozt.JPG"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\IMAGES\\retail\\BooztKvinnor1.JPG",
+      "PackagePath": "staticwebassets\\IMAGES\\retail\\BooztKvinnor1.JPG"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\IMAGES\\retail\\GantUngdom.JPG",
+      "PackagePath": "staticwebassets\\IMAGES\\retail\\GantUngdom.JPG"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\IMAGES\\retail\\H&MHem.PNG",
+      "PackagePath": "staticwebassets\\IMAGES\\retail\\H&MHem.PNG"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\IMAGES\\retail\\H&MNyheter1.PNG",
+      "PackagePath": "staticwebassets\\IMAGES\\retail\\H&MNyheter1.PNG"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\IMAGES\\retail\\H&MNyheter2.PNG",
+      "PackagePath": "staticwebassets\\IMAGES\\retail\\H&MNyheter2.PNG"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\IMAGES\\retail\\HMBarn.PNG",
+      "PackagePath": "staticwebassets\\IMAGES\\retail\\HMBarn.PNG"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\IMAGES\\retail\\HMHerr.PNG",
+      "PackagePath": "staticwebassets\\IMAGES\\retail\\HMHerr.PNG"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\IMAGES\\retail\\HMHome.PNG",
+      "PackagePath": "staticwebassets\\IMAGES\\retail\\HMHome.PNG"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\IMAGES\\retail\\HMSpring.PNG",
+      "PackagePath": "staticwebassets\\IMAGES\\retail\\HMSpring.PNG"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\IMAGES\\retail\\KvinnorBoss.JPG",
+      "PackagePath": "staticwebassets\\IMAGES\\retail\\KvinnorBoss.JPG"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\IMAGES\\retail\\LightInTheBox.jpg",
+      "PackagePath": "staticwebassets\\IMAGES\\retail\\LightInTheBox.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\IMAGES\\retail\\MänBoozt.JPG",
+      "PackagePath": "staticwebassets\\IMAGES\\retail\\MänBoozt.JPG"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\IMAGES\\retail\\PoloMän.JPG",
+      "PackagePath": "staticwebassets\\IMAGES\\retail\\PoloMän.JPG"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\IMAGES\\retail\\Walmart.jpg",
+      "PackagePath": "staticwebassets\\IMAGES\\retail\\Walmart.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\IMAGES\\science\\AIMovieYoutube1024.jpg",
+      "PackagePath": "staticwebassets\\IMAGES\\science\\AIMovieYoutube1024.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\IMAGES\\science\\AIMovieYoutube2_1024.jpg",
+      "PackagePath": "staticwebassets\\IMAGES\\science\\AIMovieYoutube2_1024.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\IMAGES\\science\\SophiaRobot.jpg",
+      "PackagePath": "staticwebassets\\IMAGES\\science\\SophiaRobot.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\IMAGES\\science\\sophia_therobot_hat.jpg",
+      "PackagePath": "staticwebassets\\IMAGES\\science\\sophia_therobot_hat.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\IMAGES\\travel\\Explorer2.jpg",
+      "PackagePath": "staticwebassets\\IMAGES\\travel\\Explorer2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\IMAGES\\travel\\London2.jpg",
+      "PackagePath": "staticwebassets\\IMAGES\\travel\\London2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\IMAGES\\travel\\LondonBigBen.jpg",
+      "PackagePath": "staticwebassets\\IMAGES\\travel\\LondonBigBen.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\IMAGES\\travel\\LosAngelesHollywood.jpg",
+      "PackagePath": "staticwebassets\\IMAGES\\travel\\LosAngelesHollywood.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\IMAGES\\travel\\LosAngelesOrg.jpg",
+      "PackagePath": "staticwebassets\\IMAGES\\travel\\LosAngelesOrg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\IMAGES\\travel\\Marocko.jpg",
+      "PackagePath": "staticwebassets\\IMAGES\\travel\\Marocko.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\IMAGES\\travel\\MoulinRouge.jpg",
+      "PackagePath": "staticwebassets\\IMAGES\\travel\\MoulinRouge.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\IMAGES\\travel\\NewYorkManhattan.jpg",
+      "PackagePath": "staticwebassets\\IMAGES\\travel\\NewYorkManhattan.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\IMAGES\\travel\\Phone booth.jpg",
+      "PackagePath": "staticwebassets\\IMAGES\\travel\\Phone booth.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\IMAGES\\travel\\Rom.jpg",
+      "PackagePath": "staticwebassets\\IMAGES\\travel\\Rom.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\IMAGES\\travel\\SanFransisco.jpg",
+      "PackagePath": "staticwebassets\\IMAGES\\travel\\SanFransisco.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Video\\VideoExploreMe.mp4",
+      "PackagePath": "staticwebassets\\Video\\VideoExploreMe.mp4"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\Video\\VideoExploreMe2.mp4",
+      "PackagePath": "staticwebassets\\Video\\VideoExploreMe2.mp4"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\css\\ANIMATE.CSS",
+      "PackagePath": "staticwebassets\\css\\ANIMATE.CSS"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\css\\EffectsPictures.css",
+      "PackagePath": "staticwebassets\\css\\EffectsPictures.css"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\css\\Highlight-Img.css",
+      "PackagePath": "staticwebassets\\css\\Highlight-Img.css"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\css\\Site1.css",
+      "PackagePath": "staticwebassets\\css\\Site1.css"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\css\\Site2.css",
+      "PackagePath": "staticwebassets\\css\\Site2.css"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\css\\SiteCarouselChrome.css",
+      "PackagePath": "staticwebassets\\css\\SiteCarouselChrome.css"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\css\\SiteCarouselFirefox.css",
+      "PackagePath": "staticwebassets\\css\\SiteCarouselFirefox.css"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\css\\SiteContact.css",
+      "PackagePath": "staticwebassets\\css\\SiteContact.css"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\css\\contactForm.css",
+      "PackagePath": "staticwebassets\\css\\contactForm.css"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\css\\popupmenu.css",
+      "PackagePath": "staticwebassets\\css\\popupmenu.css"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\css\\searchState.css",
+      "PackagePath": "staticwebassets\\css\\searchState.css"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\js\\ANGULAR.JS",
+      "PackagePath": "staticwebassets\\js\\ANGULAR.JS"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\js\\AngularSearch.js",
+      "PackagePath": "staticwebassets\\js\\AngularSearch.js"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\js\\AngularWorldNews\\africaNews.js",
+      "PackagePath": "staticwebassets\\js\\AngularWorldNews\\africaNews.js"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\js\\AngularWorldNews\\asiaNews.js",
+      "PackagePath": "staticwebassets\\js\\AngularWorldNews\\asiaNews.js"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\js\\AngularWorldNews\\australiaNews.js",
+      "PackagePath": "staticwebassets\\js\\AngularWorldNews\\australiaNews.js"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\js\\AngularWorldNews\\canadaNews.js",
+      "PackagePath": "staticwebassets\\js\\AngularWorldNews\\canadaNews.js"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\js\\AngularWorldNews\\centralamNews.js",
+      "PackagePath": "staticwebassets\\js\\AngularWorldNews\\centralamNews.js"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\js\\AngularWorldNews\\europeNews.js",
+      "PackagePath": "staticwebassets\\js\\AngularWorldNews\\europeNews.js"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\js\\AngularWorldNews\\southamNews.js",
+      "PackagePath": "staticwebassets\\js\\AngularWorldNews\\southamNews.js"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\js\\AngularWorldNews\\usaNews.js",
+      "PackagePath": "staticwebassets\\js\\AngularWorldNews\\usaNews.js"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\js\\JavaScriptImageMapster.js",
+      "PackagePath": "staticwebassets\\js\\JavaScriptImageMapster.js"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\js\\SITE.JS",
+      "PackagePath": "staticwebassets\\js\\SITE.JS"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\js\\angular.min.js",
+      "PackagePath": "staticwebassets\\js\\angular.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\js\\jquery-1.11.3.intellisense.js",
+      "PackagePath": "staticwebassets\\js\\jquery-1.11.3.intellisense.js"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\js\\jquery-1.11.3.js",
+      "PackagePath": "staticwebassets\\js\\jquery-1.11.3.js"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\js\\jquery-1.11.3.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery-1.11.3.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\js\\jquery-1.11.3.min.map",
+      "PackagePath": "staticwebassets\\js\\jquery-1.11.3.min.map"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\js\\jquery-1.7.2.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery-1.7.2.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\js\\jquery-1.8.2.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery-1.8.2.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\js\\jquery-1.9.1.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery-1.9.1.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\js\\jquery.containerFood.js",
+      "PackagePath": "staticwebassets\\js\\jquery.containerFood.js"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\js\\jquery.editCanada.imagemapster.js",
+      "PackagePath": "staticwebassets\\js\\jquery.editCanada.imagemapster.js"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\js\\jquery.editUSA.imagemapster.js",
+      "PackagePath": "staticwebassets\\js\\jquery.editUSA.imagemapster.js"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\js\\jquery.editWorld.imagemapster.js",
+      "PackagePath": "staticwebassets\\js\\jquery.editWorld.imagemapster.js"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\js\\jquery.imagemapster.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.imagemapster.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\js\\popupmenu.js",
+      "PackagePath": "staticwebassets\\js\\popupmenu.js"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\js\\searchState.js",
+      "PackagePath": "staticwebassets\\js\\searchState.js"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\js\\site.min.js",
+      "PackagePath": "staticwebassets\\js\\site.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\lib\\JQUERY\\.bower.json",
+      "PackagePath": "staticwebassets\\lib\\JQUERY\\.bower.json"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\lib\\JQUERY\\DIST\\JQUERY.JS",
+      "PackagePath": "staticwebassets\\lib\\JQUERY\\DIST\\JQUERY.JS"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\lib\\JQUERY\\DIST\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\JQUERY\\DIST\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\lib\\JQUERY\\DIST\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\JQUERY\\DIST\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\lib\\JQUERY\\LICENSE.TXT",
+      "PackagePath": "staticwebassets\\lib\\JQUERY\\LICENSE.TXT"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\lib\\bootstrap\\.bower.json",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\.bower.json"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\lib\\bootstrap\\DIST\\CSS\\bootstrap-theme.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\DIST\\CSS\\bootstrap-theme.css"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\lib\\bootstrap\\DIST\\CSS\\bootstrap-theme.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\DIST\\CSS\\bootstrap-theme.css.map"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\lib\\bootstrap\\DIST\\CSS\\bootstrap-theme.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\DIST\\CSS\\bootstrap-theme.min.css"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\lib\\bootstrap\\DIST\\CSS\\bootstrap-theme.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\DIST\\CSS\\bootstrap-theme.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\lib\\bootstrap\\DIST\\CSS\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\DIST\\CSS\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\lib\\bootstrap\\DIST\\CSS\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\DIST\\CSS\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\lib\\bootstrap\\DIST\\CSS\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\DIST\\CSS\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\lib\\bootstrap\\DIST\\CSS\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\DIST\\CSS\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\lib\\bootstrap\\DIST\\FONTS\\glyphicons-halflings-regular.eot",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\DIST\\FONTS\\glyphicons-halflings-regular.eot"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\lib\\bootstrap\\DIST\\FONTS\\glyphicons-halflings-regular.svg",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\DIST\\FONTS\\glyphicons-halflings-regular.svg"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\lib\\bootstrap\\DIST\\FONTS\\glyphicons-halflings-regular.ttf",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\DIST\\FONTS\\glyphicons-halflings-regular.ttf"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\lib\\bootstrap\\DIST\\FONTS\\glyphicons-halflings-regular.woff",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\DIST\\FONTS\\glyphicons-halflings-regular.woff"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\lib\\bootstrap\\DIST\\FONTS\\glyphicons-halflings-regular.woff2",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\DIST\\FONTS\\glyphicons-halflings-regular.woff2"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\lib\\bootstrap\\DIST\\JS\\NPM.JS",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\DIST\\JS\\NPM.JS"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\lib\\bootstrap\\DIST\\JS\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\DIST\\JS\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\lib\\bootstrap\\DIST\\JS\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\DIST\\JS\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\lib\\jquery-validation-unobtrusive\\.bower.json",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\.bower.json"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.TXT",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.TXT"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\lib\\jquery-validation\\.bower.json",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\.bower.json"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\lib\\jquery-validation\\DIST\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\DIST\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\lib\\jquery-validation\\DIST\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\DIST\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\lib\\jquery-validation\\DIST\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\DIST\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\lib\\jquery-validation\\DIST\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\DIST\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\lib\\jquery-validation\\LICENSE.MD",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.MD"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\pic\\NEWSAPPS\\9MSN.PNG",
+      "PackagePath": "staticwebassets\\pic\\NEWSAPPS\\9MSN.PNG"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\pic\\NEWSAPPS\\ABC.PNG",
+      "PackagePath": "staticwebassets\\pic\\NEWSAPPS\\ABC.PNG"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\pic\\NEWSAPPS\\ALJAZ.PNG",
+      "PackagePath": "staticwebassets\\pic\\NEWSAPPS\\ALJAZ.PNG"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\pic\\NEWSAPPS\\Asia.png",
+      "PackagePath": "staticwebassets\\pic\\NEWSAPPS\\Asia.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\pic\\NEWSAPPS\\BBC.PNG",
+      "PackagePath": "staticwebassets\\pic\\NEWSAPPS\\BBC.PNG"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\pic\\NEWSAPPS\\Bild.jpg",
+      "PackagePath": "staticwebassets\\pic\\NEWSAPPS\\Bild.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\pic\\NEWSAPPS\\CBC.PNG",
+      "PackagePath": "staticwebassets\\pic\\NEWSAPPS\\CBC.PNG"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\pic\\NEWSAPPS\\CBS.PNG",
+      "PackagePath": "staticwebassets\\pic\\NEWSAPPS\\CBS.PNG"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\pic\\NEWSAPPS\\CCTV.PNG",
+      "PackagePath": "staticwebassets\\pic\\NEWSAPPS\\CCTV.PNG"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\pic\\NEWSAPPS\\CNN.PNG",
+      "PackagePath": "staticwebassets\\pic\\NEWSAPPS\\CNN.PNG"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\pic\\NEWSAPPS\\CTV.PNG",
+      "PackagePath": "staticwebassets\\pic\\NEWSAPPS\\CTV.PNG"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\pic\\NEWSAPPS\\DD.PNG",
+      "PackagePath": "staticwebassets\\pic\\NEWSAPPS\\DD.PNG"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\pic\\NEWSAPPS\\DW.PNG",
+      "PackagePath": "staticwebassets\\pic\\NEWSAPPS\\DW.PNG"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\pic\\NEWSAPPS\\ESMAS.PNG",
+      "PackagePath": "staticwebassets\\pic\\NEWSAPPS\\ESMAS.PNG"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\pic\\NEWSAPPS\\ESPN.PNG",
+      "PackagePath": "staticwebassets\\pic\\NEWSAPPS\\ESPN.PNG"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\pic\\NEWSAPPS\\Fox.png",
+      "PackagePath": "staticwebassets\\pic\\NEWSAPPS\\Fox.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\pic\\NEWSAPPS\\Fr24.png",
+      "PackagePath": "staticwebassets\\pic\\NEWSAPPS\\Fr24.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\pic\\NEWSAPPS\\G1Glob.png",
+      "PackagePath": "staticwebassets\\pic\\NEWSAPPS\\G1Glob.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\pic\\NEWSAPPS\\Global.png",
+      "PackagePath": "staticwebassets\\pic\\NEWSAPPS\\Global.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\pic\\NEWSAPPS\\Goog.png",
+      "PackagePath": "staticwebassets\\pic\\NEWSAPPS\\Goog.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\pic\\NEWSAPPS\\I24.PNG",
+      "PackagePath": "staticwebassets\\pic\\NEWSAPPS\\I24.PNG"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\pic\\NEWSAPPS\\LeMonde.jfif",
+      "PackagePath": "staticwebassets\\pic\\NEWSAPPS\\LeMonde.jfif"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\pic\\NEWSAPPS\\MSN.PNG",
+      "PackagePath": "staticwebassets\\pic\\NEWSAPPS\\MSN.PNG"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\pic\\NEWSAPPS\\MSNBC.PNG",
+      "PackagePath": "staticwebassets\\pic\\NEWSAPPS\\MSNBC.PNG"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\pic\\NEWSAPPS\\MilTV.png",
+      "PackagePath": "staticwebassets\\pic\\NEWSAPPS\\MilTV.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\pic\\NEWSAPPS\\NBC.PNG",
+      "PackagePath": "staticwebassets\\pic\\NEWSAPPS\\NBC.PNG"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\pic\\NEWSAPPS\\NDTV.PNG",
+      "PackagePath": "staticwebassets\\pic\\NEWSAPPS\\NDTV.PNG"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\pic\\NEWSAPPS\\NHK.PNG",
+      "PackagePath": "staticwebassets\\pic\\NEWSAPPS\\NHK.PNG"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\pic\\NEWSAPPS\\News24.png",
+      "PackagePath": "staticwebassets\\pic\\NEWSAPPS\\News24.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\pic\\NEWSAPPS\\R7.PNG",
+      "PackagePath": "staticwebassets\\pic\\NEWSAPPS\\R7.PNG"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\pic\\NEWSAPPS\\RAI.PNG",
+      "PackagePath": "staticwebassets\\pic\\NEWSAPPS\\RAI.PNG"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\pic\\NEWSAPPS\\RT.PNG",
+      "PackagePath": "staticwebassets\\pic\\NEWSAPPS\\RT.PNG"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\pic\\NEWSAPPS\\RTVE.PNG",
+      "PackagePath": "staticwebassets\\pic\\NEWSAPPS\\RTVE.PNG"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\pic\\NEWSAPPS\\Reut.png",
+      "PackagePath": "staticwebassets\\pic\\NEWSAPPS\\Reut.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\pic\\NEWSAPPS\\Sky.png",
+      "PackagePath": "staticwebassets\\pic\\NEWSAPPS\\Sky.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\pic\\NEWSAPPS\\TN.PNG",
+      "PackagePath": "staticwebassets\\pic\\NEWSAPPS\\TN.PNG"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\pic\\NEWSAPPS\\World.png",
+      "PackagePath": "staticwebassets\\pic\\NEWSAPPS\\World.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\pic\\NEWSAPPS\\Yaho.png",
+      "PackagePath": "staticwebassets\\pic\\NEWSAPPS\\Yaho.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\pic\\NEWSAPPS\\Yaho200.png",
+      "PackagePath": "staticwebassets\\pic\\NEWSAPPS\\Yaho200.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\pic\\NEWSAPPS\\unnamed.png",
+      "PackagePath": "staticwebassets\\pic\\NEWSAPPS\\unnamed.png"
+    },
+    {
+      "Id": "C:\\Users\\nikla\\OneDrive\\Skrivbord\\Google4news\\Google4news Latest\\Google4news\\Explore4u\\wwwroot\\pic\\searchIcon20.png",
+      "PackagePath": "staticwebassets\\pic\\searchIcon20.png"
+    },
+    {
+      "Id": "obj\\Release\\net6.0\\staticwebassets\\msbuild.build.google4news.props",
+      "PackagePath": "build\\google4news.props"
+    },
+    {
+      "Id": "obj\\Release\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.google4news.props",
+      "PackagePath": "buildMultiTargeting\\google4news.props"
+    },
+    {
+      "Id": "obj\\Release\\net6.0\\staticwebassets\\msbuild.buildTransitive.google4news.props",
+      "PackagePath": "buildTransitive\\google4news.props"
+    },
+    {
+      "Id": "obj\\Release\\net6.0\\staticwebassets\\msbuild.google4news.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Release\\net6.0\\staticwebassets\\msbuild.google4news.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

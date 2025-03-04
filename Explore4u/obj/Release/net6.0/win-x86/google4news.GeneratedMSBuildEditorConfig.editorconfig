@@ -1,0 +1,89 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = google4news
+build_property.RootNamespace = google4news
+build_property.ProjectDir = C:\Users\Admin\Desktop\Google4news\Google4news Latest\Google4news\Explore4u\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Admin\Desktop\Google4news\Google4news Latest\Google4news\Explore4u
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Admin/Desktop/Google4news/Google4news Latest/Google4news/Explore4u/Views/Continent/Africa.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGluZW50XEFmcmljYS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Desktop/Google4news/Google4news Latest/Google4news/Explore4u/Views/Continent/Asia.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGluZW50XEFzaWEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Desktop/Google4news/Google4news Latest/Google4news/Explore4u/Views/Continent/Australia.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGluZW50XEF1c3RyYWxpYS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Desktop/Google4news/Google4news Latest/Google4news/Explore4u/Views/Continent/Canada.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGluZW50XENhbmFkYS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Desktop/Google4news/Google4news Latest/Google4news/Explore4u/Views/Continent/CentralAmerica.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGluZW50XENlbnRyYWxBbWVyaWNhLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Desktop/Google4news/Google4news Latest/Google4news/Explore4u/Views/Continent/Europe.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGluZW50XEV1cm9wZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Desktop/Google4news/Google4news Latest/Google4news/Explore4u/Views/Continent/SouthAmerica.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGluZW50XFNvdXRoQW1lcmljYS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Desktop/Google4news/Google4news Latest/Google4news/Explore4u/Views/Continent/USA.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGluZW50XFVTQS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Desktop/Google4news/Google4news Latest/Google4news/Explore4u/Views/Home/Contact.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb250YWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Desktop/Google4news/Google4news Latest/Google4news/Explore4u/Views/Home/eShop.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxlU2hvcC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Desktop/Google4news/Google4news Latest/Google4news/Explore4u/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Desktop/Google4news/Google4news Latest/Google4news/Explore4u/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Desktop/Google4news/Google4news Latest/Google4news/Explore4u/Views/Home/Sport.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTcG9ydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Desktop/Google4news/Google4news Latest/Google4news/Explore4u/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Desktop/Google4news/Google4news Latest/Google4news/Explore4u/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Desktop/Google4news/Google4news Latest/Google4news/Explore4u/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Desktop/Google4news/Google4news Latest/Google4news/Explore4u/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Desktop/Google4news/Google4news Latest/Google4news/Explore4u/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 

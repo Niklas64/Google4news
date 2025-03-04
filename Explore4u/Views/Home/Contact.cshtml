@@ -1,0 +1,66 @@
+﻿@{
+    ViewData["Title"] = "Contact";
+}
+
+<!-- Google Tag Manager -->
+<script>
+    (function (w, d, s, l, i) {
+        w[l] = w[l] || []; w[l].push({
+            'gtm.start':
+                new Date().getTime(), event: 'gtm.js'
+        }); var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-56R3HPGS');</script>
+<!-- End Google Tag Manager -->
+
+<h2>@ViewData["Title"]</h2>
+<div class="container-fluid">
+    <div class="row rowContact">
+        <div class="col-sm-6 col-md-6 col-lg-6">
+            <h2>Contact</h2>
+            <div class="containerMail">
+                <form action="mailto:browser4news@gmail.com" method="post" enctype="text/plain">
+
+                    <label for="fname">Name</label>
+                    <input type="text" id="fname" name="" placeholder="">
+
+                    <!----      <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="" placeholder="Your last name.."> ---->
+
+                    <label for="email">Email</label>
+                    <input type="text" id="email" name="" placeholder="">
+
+                    <label for="subject">Subject</label>
+                    <input type="text" value="" id="subject" name="" placeholder="">
+
+                    <label for="area">Message</label>
+                    <textarea type="text" id="area" name="" placeholder="" style="height:200px"></textarea>
+
+                    <input type="submit" value="Submit" action="mailto:browser4news@gmail.com">
+                    <input type="reset" style="margin-left:150px" value="Reset">
+
+                </form>
+        </div>
+    </div>
+    <div class="col-sm-6 col-md-6 col-lg-6">
+        <img class="img-circle" src="~/images/me/Niklas.jpg" alt="Generic placeholder image" width="240"><br /><br /><br /><br />
+        <div style="text-align:center">
+                <!-----<h2>google4news@gmail.com</h2><br/>
+                 <p><a class="btn btn-lg btn-success" href="~/CSS/CV Niklas Karlsson Eng.doc" role="button" target="_blank">Resume</a></p> --->
+                    <!---<address>
+    <strong>LinkedIn: </strong> <a href="https://www.linkedin.com/in/niklaskarlssonswe" target="_blank">https://www.linkedin.com/in/niklaskarlssonswe</a><br />
+    </address>---->
+        </div>
+    </div>
+  </div>
+</div>
+
+<!-- Google Tag Manager (noscript) -->
+<noscript>
+    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-56R3HPGS"
+            height="0" width="0" style="display:none;visibility:hidden"></iframe>
+</noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+

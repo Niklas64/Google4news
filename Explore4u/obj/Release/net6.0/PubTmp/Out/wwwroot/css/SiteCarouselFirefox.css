@@ -1,0 +1,330 @@
+﻿.carousel-caption {
+    left: 0%;
+    right: 0%;
+    top: 20px;
+}
+.pull-right {
+    margin-right:40px;
+}
+.overlay { 
+  color:#fff;
+  position:absolute;
+  z-index:20;
+  top:225%;
+  margin-left:20px;
+  /*width:100%;*/
+  text-align:left;
+}
+.adCarousel {
+    /*width: 160px;
+    background: rgba(0,0,0,.3);
+    padding: 1em;
+    text-shadow: 0px 1px 2px #000000;
+    box-shadow: 0 2px 10px rgba(255,255,255,0.6);
+    border-radius: 7px; 
+    margin-left: -550px;
+    margin-top: 340px;
+    /*z-index:1000;*/
+}
+.adPainting1 {
+    margin-left: -530px;
+    margin-top: -600px;
+    max-width: 230px;
+}
+.adPainting {
+    margin-left: -530px;
+    margin-top: -40px;
+    max-width: 230px;
+}
+/*.animated {
+    margin-left: 600px;
+    margin-top: 200px;
+    max-width: 100px;
+    max-height: 200px;
+} */
+.animatedSize {
+    width: auto;
+    height: auto;
+    max-width: 400px;
+}
+
+.animatedTextSize {
+    color: white;
+    font-size: 40px;
+    margin-left: 280px;
+    font-family: 'Times New Roman', Times, serif;
+    background: rgba(0,0,0,.3);
+    padding: 10px;
+    text-shadow: 0px 1px 2px #000000;
+    box-shadow: 0 2px 10px rgba(255,255,255,0.6);
+    border-radius: 7px;
+}
+
+.fillAnimate {
+    width: 220px;
+    background: rgba(255,255,255,.6);
+    /*text-shadow: 0px 1px 2px #000000;
+  padding: 1em;
+  margin: 1em auto;*/
+    box-shadow: 0 2px 10px rgba(255,255,255,0.8);
+    border-radius: 5px;
+    color: red;
+}
+
+.fillAnimate .ASPNetCore {
+    width: 220px;
+    /*background: ;
+    text-shadow: 0px 1px 2px #000000;
+    padding: 1em;
+    margin: 1em auto;*/
+    border-radius: 5px;
+    color: red;
+}
+
+/*@media only screen and (max-width: 930px) and (min-width: 800px) {
+
+    .adPainting {
+        margin-left: -580px;
+        margin-top: -140px;
+        max-width: 130px;
+    }
+    .adPainting1 {
+        margin-left: -580px;
+        margin-top: -700px;
+        max-width: 130px;
+    }
+
+    .carousel-inner {
+        height: auto;
+    }
+
+    .carousel-caption h1 {
+        font-size: 35px;
+    }
+
+    .carousel-caption h2 {
+        font-size: 90%;
+        margin-top: 0;
+        font-weight: bold;
+    }
+
+    .carousel-caption h3 {
+        font-size: 85%;
+        margin-top: 0;
+        font-weight: bold;
+    }
+
+    .carousel-caption p {
+        font-size: 95%;
+        font-weight: bold;
+    }
+
+    .btn-lg {
+        padding: 6px 8px;
+        font-size: 17px;
+        line-height: 1;
+        border-radius: 6px;
+    }
+
+    .animated {
+        margin-top: -230px;
+        margin-left: 300px;
+    }
+
+    .animatedSize {
+        width: auto;
+        height: auto;
+        max-width: 150px;
+    }
+
+}*/
+
+@media only screen and (max-width: 930px) and (min-width: 736px) {
+
+    .adPainting {
+        margin-left: -550px;
+        margin-top: -20px;
+        max-width: 160px;
+    }
+
+    .adPainting1 {
+        margin-left: -565px;
+        margin-top: -650px;
+        max-width: 170px;
+    }
+
+    .carousel-inner {
+        height: auto;
+    }
+
+    .carousel-caption h1 {
+        font-size: 35px;
+    }
+
+    .carousel-caption h2 {
+        font-size: 90%;
+        margin-top: 0;
+        font-weight: bold;
+    }
+
+    .carousel-caption h3 {
+        font-size: 85%;
+        margin-top: 0;
+        font-weight: bold;
+    }
+
+    .carousel-caption p {
+        font-size: 95%;
+        font-weight: bold;
+    }
+
+    .btn-lg {
+        padding: 6px 8px;
+        font-size: 17px;
+        line-height: 1;
+        border-radius: 6px;
+    }
+
+    /*.animated {
+        margin-top: -230px;
+        margin-left: 300px;
+    } */
+
+    .animatedSize {
+        width: auto;
+        height: auto;
+        max-width: 150px;
+    }
+}
+
+@media only screen and (max-width: 734px) and (min-width: 230px) {
+    .adPainting {
+        margin-left: -555px;
+        margin-top: -220px;
+        max-width: 80px;
+    }
+
+    .adPainting1 {
+        margin-left: -560px;
+        margin-top: -1030px;
+        max-width: 90px;
+    }
+
+    .carousel-inner {
+        height: auto;
+    }
+
+    .carousel-caption h1 {
+        font-size: 35px;
+    }
+
+    .carousel-caption h2 {
+        font-size: 90%;
+        margin-top: 0;
+        font-weight: bold;
+    }
+
+    .carousel-caption h3 {
+        font-size: 85%;
+        margin-top: 0;
+        font-weight: bold;
+    }
+
+    .carousel-caption p {
+        font-size: 95%;
+        font-weight: bold;
+    }
+
+    .btn-lg {
+        padding: 6px 8px;
+        font-size: 17px;
+        line-height: 1;
+        border-radius: 6px;
+    }
+
+    /* .animated {
+        margin-top: -250px;
+        margin-left: 210px;
+    } */
+
+    .animatedSize {
+        width: auto;
+        height: auto;
+        max-width: 150px;
+    }
+    /*.pictureCorona {
+        margin-left: -105px;
+        margin-top: -100px;
+        max-width: 90px;
+    }
+
+   @media only screen and (max-width: 465px) and (min-width: 300px)
+    @media screen and (max-width: 465px)  {
+        .adPainting {
+            margin-left: -120px;
+            margin-top: 170px;
+            max-width: 85px;
+        }
+
+        .adPainting1 {
+            margin-left: -120px;
+            margin-top: 115px;
+            max-width: 85px;
+        }
+
+        .carousel-inner {
+            height: auto;
+        }
+
+        .carousel-caption h1 {
+            font-size: 35px;
+        }
+
+        .carousel-caption h2 {
+            font-size: 90%;
+            margin-top: 0;
+            font-weight: bold;
+        }
+
+        .carousel-caption h3 {
+            font-size: 85%;
+            margin-top: 0;
+            font-weight: bold;
+        }
+
+        .carousel-caption p {
+            font-size: 95%;
+            font-weight: bold;
+        }
+
+        .btn-lg {
+            padding: 6px 8px;
+            font-size: 14px;
+            line-height: 1;
+            border-radius: 6px;
+        }
+
+          .animated, rotateIn {
+            margin-top: -130px;
+            margin-left: 110px;
+        } 
+
+        .animatedSize {
+            margin-bottom: 100px;
+            width: auto;
+            height: auto;
+            max-width: 70px;
+        }
+    }*/
+
+    /*  .fillAnimate {
+width: 130px;
+background: rgba(255,255,255,.6);
+text-shadow: 0px 1px 2px #000000;
+padding: 1em;
+margin: 1em auto;
+box-shadow: 0 2px 10px rgba(255,255,255,0.8);
+border-radius: 5px;
+color: red;
+}*/
+}

@@ -1,0 +1,801 @@
+﻿@{
+    ViewData["Title"] = "Asia";
+}
+
+<script src="../js/AngularWorldNews/asiaNews.js" type="text/javascript"></script>
+<script src="../js/jquery.editWorld.imagemapster.js" type="text/javascript"></script>
+<script src="~/js/JavaScriptImageMapster.js" type="text/javascript"></script>
+
+<!-- Google Tag Manager -->
+<script>
+    (function (w, d, s, l, i) {
+        w[l] = w[l] || []; w[l].push({
+            'gtm.start':
+                new Date().getTime(), event: 'gtm.js'
+        }); var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-56R3HPGS');</script>
+<!-- End Google Tag Manager -->
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-FDV46RZ94D"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-FDV46RZ94D');
+</script>
+
+<!-- First carousel for ads and more -->
+<div class="container-fluid container-carousel containerMarginTop">
+    <div id="myCarousel" class="carousel slide carousel-fade" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+            <li data-target="#myCarousel" data-slide-to="3"></li>
+            <li data-target="#myCarousel" data-slide-to="4"></li>
+            <li data-target="#myCarousel" data-slide-to="5"></li>
+        </ol>
+
+        <!-- Carousel for ads -->
+        <div class="carousel-inner" role="listbox">
+            <div class="item active">
+                    <img src="../images/background/2FaceRomainLaurent.jpg" alt="">
+                <div class="carousel-caption">
+                    <div class="animated flip">
+                        <a href="https://www.zatista.com/product/details/142991/The-Greatest-Revolution-Original-Painting-Canvas" target="_blank">
+                            <img class="adPainting" src="../images/Paintings/Zatista/TheGreatestRevolution.png" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="../images/background/Android.jpg" alt="">
+                <div class="carousel-caption">
+                    <div class="animated zoomInRight">
+                        <a href="https://www.saatchiart.com/art/Photography-Faith-Coloured-Limited-Edition-of-2-1AP/908925/8404868/view" target="_blank">
+                            <img class="adPainting" src="../images/Paintings/Saatchiart/FaithColoured.png" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="../images/background/TheWall.jpg" alt="">
+                <div class="carousel-caption">
+                    <div class="animated zoomInDown">
+                        <a href="https://www.saatchiart.com/art/Painting-FLATSCREEN-EIN-PROZENTER-2014-mixed-media-on-canvas-200x150cm/122339/2275251/view" target="_blank">
+                            <img class="adPainting" src="../images/Paintings/Saatchiart/FLATSCREENEINPROZENTER.png" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="../images/background/Shanghai.jpg" alt="">
+                <div class="carousel-caption">
+                    <div class="animated rotateIn">
+                        <a href="https://www.saatchiart.com/art/Painting-MALGR-L-HIVER/664392/2841806/view" target="_blank">
+                            <img class="adPainting" src="~/images/Paintings/Saatchiart/MALGRÉ_L'HIVER_Painting.png">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="../images/background/Photo.jpg" alt="">
+                <div class="carousel-caption">
+                    <div class="animated zoomInRight">
+                        <a href="https://www.zatista.com/product/details/138944/Sky-Above-Us" target="_blank">
+                            <img class="adPainting" src="~/images/Paintings/Zatista/SkyAboveUs.png">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="../images/background/Bensinmack.jpg" alt="">
+                <div class="carousel-caption">
+                    <div class="animated flip">
+                        <a href="https://www.saatchiart.com/art/Painting-How-are-you-QUEEN/600402/6958797/view" target="_blank">
+                            <img class="adPainting" src="../images/Paintings/Saatchiart/PORTRAITPainting.png" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Carousel -->
+        <!-- Left and right controls -->
+        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+</div>
+
+<!-- Carousel for news papers -->
+<div class="container-fluid backgroundMaps containerMarginTopNews">
+    <div class="row ipadBottom">
+        <div class="col-sm-3 col-md-3 col-lg-3">
+            <h3 class="mobileHeader">Find country and news</h3>
+            <input type="text" id="myInput" onkeyup="myFunctionSearch()" placeholder="Search country..." title="Type in a name" />
+            <div class="searchState">
+                <ul id="myUL">
+                    <li><a id="Afghanistan" class="selectAsia">Afghanistan</a></li>
+                    <li><a id="Bangladesh" class="selectAsia">Bangladesh</a></li>
+                    <li><a id="Bhutan" class="selectAsia">Bhutan</a></li>
+                    <li><a id="Burma" class="selectAsia">Burma</a></li>
+                    <li><a id="Cambodia" class="selectAsia">Cambodia</a></li>
+                    <li><a id="China" class="selectAsia">China</a></li>
+                    <li><a id="Hong Kong" class="selectAsia">Hong Kong</a></li>
+                    <li><a id="India" class="selectAsia">India</a></li>
+                    <li><a id="Indonesia" class="selectAsia">Indonesia</a></li>
+                    <li><a id="Iran" class="selectAsia">Iran</a></li>
+                    <li><a id="Iraq" class="selectAsia">Iraq</a></li>
+                    <li><a id="Israel" class="selectAsia">Israel</a></li>
+                    <li><a id="Japan" class="selectAsia">Japan</a></li>
+                    <li><a id="Jordan" class="selectAsia">Jordan</a></li>
+                    <li><a id="Kazakhstan" class="selectAsia">Kazakhstan</a></li>
+                    <li><a id="Kyrgyzstan" class="selectAsia">Kyrgyzstan</a></li>
+                    <li><a id="Laos" class="selectAsia">Laos</a></li>
+                    <li><a id="Lebanon" class="selectAsia">Lebanon</a></li>
+                    <li><a id="Malaysia" class="selectAsia">Malaysia</a></li>
+                    <li><a id="Mongolia" class="selectAsia">Mongolia</a></li>
+                    <li><a id="Nepal" class="selectAsia">Nepal</a></li>
+                    <li><a id="Oman" class="selectAsia">Oman</a></li>
+                    <li><a id="Pakistan" class="selectAsia">Pakistan</a></li>
+                    <li><a id="Philippines" class="selectAsia">Philippines</a></li>
+                    <li><a id="Russia" class="selectAsia">Russia</a></li>
+                    <li><a id="Saudi Arabia" class="selectAsia">Saudi Arabia</a></li>
+                    <li><a id="Singapore" class="selectAsia">Singapore</a></li>
+                    <li><a id="South Korea" class="selectAsia">South Korea</a></li>
+                    <li><a id="Sri Lanka" class="selectAsia">Sri Lanka</a></li>
+                    <li><a id="Syria" class="selectAsia">Syria</a></li>
+                    <li><a id="Taiwan" class="selectAsia">Taiwan</a></li>
+                    <li><a id="Tajikistan" class="selectAsia">Tajikistan</a></li>
+                    <li><a id="Thailand" class="selectAsia">Thailand</a></li>
+                    <li><a id="Turkmenistan" class="selectAsia">Turkmenistan</a></li>
+                    <li><a id="United Arab Emirates" class="selectAsia">UAE United Arab Emirates</a></li>
+                    <li><a id="Uzbekistan" class="selectAsia">Uzbekistan</a></li>
+                    <li><a id="Vietnam" class="selectAsia">Vietnam</a></li>
+                    <li><a id="Yemen" class="selectAsia">Yemen</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="col-sm-7 col-md-7 col-lg-7">
+            <img id="world" src="../images/Asia-a.png" usemap="#world" style="width:100%;">
+            <map id="usa_image_map" name="world">
+                <area data-popupmenu="yemen" coords="152,338, 145,338, 141,338, 134,339, 131,342, 128,347, 120,346, 113,346, 109,345, 108,351, 107,355, 107,360, 109,364, 109,371, 112,374, 116,373, 119,371, 126,368, 132,366, 134,365, 138,362, 146,359, 149,357, 153,354, 154,352, 156,349, 153,342" shape="poly" alt="#" full="Yemen" state="Yemen" href="#">
+                <area data-popupmenu="oman" coords="186,317, 184,314, 183,312, 180,310, 177,310, 172,308, 170,306, 168,305, 167,310, 163,314, 164,318, 167,321, 165,328, 164,332, 155,337, 151,339, 156,351, 161,349, 164,349, 167,345, 172,344, 173,341, 177,338, 177,333, 180,330, 183,326, 185,319" shape="poly" alt="#" full="Oman" state="Oman" href="#">
+                <area data-popupmenu="uae" coords="165,318, 165,310, 167,305, 169,300, 167,297, 163,302, 161,304, 157,307, 149,308, 144,309, 148,317, 154,318, 164,319" shape="poly" alt="#" full="United Arab Emirates" state="United Arab Emirates" href="#">
+                <area data-popupmenu="saudi" coords="129,285, 125,285, 124,282, 111,282, 87,265, 86,266, 80,271, 79,277, 72,280, 69,286, 68,289, 72,297, 76,302, 77,308, 85,313, 85,319, 86,326, 89,331, 96,340, 102,347, 105,350, 108,347, 123,347, 128,348, 129,341, 136,339, 147,338, 151,337, 165,332, 165,327, 167,323, 165,319, 157,317, 150,316, 149,310, 146,307, 147,302, 147,299, 145,298, 141,297, 139,293, 137,292, 132,287" shape="poly" alt="#" full="Saudi Arabia" state="Saudi Arabia" href="#">
+                <area data-popupmenu="jordan" coords="85,257, 75,263, 69,263, 67,268, 66,274, 68,281, 74,278, 80,273, 85,265" shape="poly" alt="#" full="Jordan" state="Jordan" href="#">
+                <area data-popupmenu="lebanon" coords="4,217,84,236" shape="rect" alt="#" full="Lebanon" state="Lebanon" href="#">
+                <area data-popupmenu="israel" coords="67,277, 67,271, 67,264, 67,261, 65,257, 62,257, 62,262, 59,267, 58,269, 59,272, 61,276, 63,280, 61,284, 67,289, 70,282, 68,280" shape="poly" alt="#" full="Israel" state="Israel" href="#">
+                <area data-popupmenu="israel" coords="2,267,60,287" shape="rect" alt="#" full="Israel" state="Israel" href="#">
+                <area data-popupmenu="syria" coords="93,251, 92,242, 93,237, 90,237, 86,238, 80,238, 78,238, 74,239, 70,238, 68,242, 66,245, 66,253, 69,257, 70,262, 74,263, 78,259, 83,259, 91,253" shape="poly" alt="#" full="Syria" state="Syria" href="#">
+                <area data-popupmenu="iraq" coords="84,267, 83,260, 91,253, 92,248, 93,243, 93,238, 94,237, 101,237, 107,238, 110,244, 115,246, 113,250, 113,255, 117,261, 124,267, 126,273, 122,277, 124,282, 112,281, 103,274, 95,269, 91,267, 87,267" shape="poly" alt="#" full="Iraq" state="Iraq" href="#">
+                <area data-popupmenu="iran" coords="185,268, 185,264, 183,260, 185,258, 182,256, 183,251, 183,247, 181,241, 178,239, 173,236, 168,234, 163,232, 157,233, 153,233, 151,235, 151,239, 149,241, 146,241, 140,241, 139,240, 136,237, 135,236, 130,235, 127,232, 125,228, 126,223, 123,222, 118,224, 115,226, 113,226, 110,223, 107,221, 104,222, 102,228, 105,235, 108,241, 113,247, 113,253, 115,258, 115,261, 122,264, 125,271, 128,278, 132,276, 137,278, 139,283, 143,288, 147,291, 153,294, 157,296, 163,295, 169,292, 171,299, 173,302, 179,303, 185,302, 192,303, 194,298, 199,295, 199,293, 197,290, 197,288, 194,287, 190,282, 188,279, 188,277, 190,273, 191,269, 188,268" shape="poly" alt="#" full="Iran" state="Iran" href="#">
+                <area data-popupmenu="turkmen" coords="149,235, 148,229, 145,227, 142,225, 144,224, 140,222, 141,219, 146,219, 148,218, 145,215, 143,212, 145,210, 150,213, 157,214, 159,212, 163,209, 166,209, 171,211, 172,214, 180,216, 184,222, 197,229, 203,232, 207,235, 202,236, 199,237, 198,240, 197,244, 193,244, 193,248, 188,248, 185,247, 183,244, 182,241, 178,240, 176,238, 173,237, 170,234, 165,233, 161,231, 155,233, 152,235" shape="poly" alt="#" full="Turkmenistan" state="Turkmenistan" href="#">
+                <area data-popupmenu="uzbek" coords="155,213, 150,201, 148,196, 149,193, 153,195, 158,192, 165,194, 172,199, 177,203, 183,203, 190,202, 198,209, 202,214, 206,215, 210,218, 212,213, 217,212, 222,214, 229,218, 221,221, 219,218, 218,218, 213,220, 212,223, 207,223, 211,229, 213,235, 206,236, 204,232, 199,231, 196,229, 192,227, 188,225, 184,221, 181,218, 179,215, 174,215, 171,211, 169,209, 166,208, 162,207, 160,210, 158,212" shape="poly" alt="#" full="Uzbekistan" state="Uzbekistan" href="#">
+                <area data-popupmenu="kazak" coords="152,214, 146,211, 142,209, 139,211, 138,208, 134,206, 130,203, 128,199, 133,196, 137,193, 138,190, 133,184, 131,186, 127,184, 120,186, 115,189, 115,183, 114,180, 108,181, 107,178, 104,174, 106,169, 105,167, 108,165, 112,168, 113,163, 118,160, 125,158, 131,160, 136,163, 143,162, 149,162, 152,160, 156,164, 159,164, 162,163, 165,160, 160,159, 157,157, 157,155, 161,153, 159,149, 158,147, 165,147, 172,144, 179,143, 184,142, 190,138, 193,139, 199,142, 198,145, 203,145, 208,149, 213,149, 217,146, 222,145, 230,150, 238,159, 243,163, 245,160, 250,164, 254,163, 259,161, 263,166, 268,167, 272,168, 278,172, 275,175, 274,180, 274,183, 270,184, 265,183, 264,188, 265,191, 261,193, 257,194, 258,199, 262,204, 259,208, 255,208, 254,207, 247,206, 242,206, 237,206, 233,204, 230,206, 223,206, 219,209, 218,212, 216,211, 212,214, 211,217, 208,215, 203,215, 199,210, 197,207, 195,204, 192,203, 188,202, 183,202, 179,202, 173,200, 166,195, 163,193, 160,192, 154,191, 151,195, 153,203, 153,208, 155,213" shape="poly" alt="#" full="Kazakhstan" state="Kazakhstan" href="#">
+                <area data-popupmenu="kyrgyzstan" coords="257,208, 253,206, 244,206, 238,206, 235,206, 232,203, 230,206, 223,207, 219,209, 217,213, 221,215, 226,216, 227,219, 221,220, 218,219, 212,223, 221,225, 229,225, 236,224, 239,221, 242,219, 247,218, 252,215, 256,213, 261,210, 260,209" shape="poly" alt="#" full="Kyrgyzstan" state="Kyrgyzstan" href="#">
+                <area data-popupmenu="tajikistan" coords="246,239, 243,234, 243,231, 238,230, 236,225, 231,226, 226,226, 223,224, 215,222, 211,224, 208,225, 212,228, 214,233, 215,238, 222,235, 221,232, 223,231, 228,236, 231,240, 234,235, 241,239, 244,240" shape="poly" alt="#" full="Tajikistan" state="Tajikistan" href="#">
+                <area data-popupmenu="afghanistan" coords="213,239, 206,237, 198,238, 199,242, 195,243, 193,246, 186,247, 184,251, 182,256, 184,266, 188,268, 191,273, 188,279, 195,280, 203,279, 212,276, 213,272, 217,268, 222,266, 226,261, 228,257, 231,251, 230,247, 226,244, 229,241, 229,239, 225,234, 223,233, 217,236, 215,238" shape="poly" alt="#" full="Afghanistan" state="Afghanistan" href="#">
+                <area data-popupmenu="pakistan" coords="245,237, 236,237, 234,239, 229,242, 231,246, 231,250, 229,253, 226,255, 227,258, 225,263, 223,267, 218,266, 216,270, 213,269, 211,272, 211,277, 207,279, 203,280, 199,279, 194,279, 188,280, 195,286, 199,291, 196,297, 193,304, 201,304, 205,303, 213,302, 217,306, 221,310, 227,310, 229,307, 237,307, 235,300, 233,297, 230,296, 230,292, 232,289, 238,289, 241,284, 245,280, 247,272, 249,268, 251,261, 248,260, 243,256, 245,252, 254,251, 257,248, 250,243, 250,240, 248,237" shape="poly" alt="#" full="Pakistan" state="Pakistan" href="#">
+                <area data-popupmenu="nepal" coords="317,297, 317,289, 311,288, 300,284, 291,277, 286,276, 283,274, 279,276, 277,279, 278,285, 285,290, 292,292, 301,294, 306,297, 314,298" shape="poly" alt="#" full="Nepal" state="Nepal" href="#">
+                <area data-popupmenu="india" coords="278,285, 278,279, 280,276, 284,276, 277,272, 274,271, 269,269, 269,265, 268,263, 273,263, 270,260, 267,257, 269,253, 271,251, 270,247, 265,244, 260,248, 257,248, 255,250, 245,251, 244,254, 252,265, 249,268, 249,273, 248,276, 242,280, 241,286, 238,289, 232,287, 230,291, 228,293, 231,296, 233,300, 237,303, 236,308, 231,309, 228,307, 227,309, 228,314, 229,317, 228,319, 232,324, 236,328, 240,329, 245,325, 248,334, 249,344, 252,349, 254,354, 258,363, 260,370, 262,376, 267,383, 271,391, 273,397, 277,397, 278,395, 282,393, 285,388, 287,385, 287,378, 290,373, 289,370, 286,357, 288,354, 293,352, 297,350, 296,347, 300,346, 303,341, 307,336, 312,333, 315,328, 317,323, 321,323, 325,321, 323,312, 320,309, 319,307, 322,302, 320,300, 325,300, 328,302, 335,303, 336,306, 335,310, 338,312, 343,319, 344,310, 348,306, 350,296, 354,291, 358,292, 360,285, 356,283, 352,280, 347,282, 344,280, 336,285, 335,293, 329,296, 324,295, 319,291, 316,295, 314,297, 304,295, 300,291, 295,292, 281,286" shape="poly" alt="#" full="India" state="India" href="#">
+                <area data-popupmenu="bhutan" coords="325,295, 331,295, 336,293, 334,289, 329,285, 322,285, 319,288, 318,291, 323,296" shape="poly" alt="#" full="Bhutan" state="Bhutan" href="#">
+                <area data-popupmenu="bangladesh" coords="342,326, 343,321, 339,315, 336,315, 333,310, 336,308, 339,304, 327,304, 325,301, 322,299, 321,305, 321,310, 326,321, 330,320, 334,318, 340,320, 342,323" shape="poly" alt="#" full="Bangladesh" state="Bangladesh" href="#">
+                <area data-popupmenu="burma" coords="365,306, 366,301, 368,297, 367,292, 364,290, 364,286, 361,285, 359,289, 353,292, 351,300, 349,307, 347,311, 345,319, 342,325, 343,331, 345,335, 349,339, 352,345, 352,351, 354,354, 358,355, 362,353, 365,352, 368,353, 371,359, 372,364, 373,369, 375,373, 376,379, 377,387, 379,379, 377,369, 375,360, 377,353, 375,351, 369,344, 368,340, 368,335, 371,334, 376,330, 379,327, 382,323, 379,322, 375,320, 373,317, 373,314, 371,312, 370,310, 365,309" shape="poly" alt="#" full="Burma" state="Burma" href="#">
+                <area data-popupmenu="thailand" coords="379,328, 375,332, 370,334, 368,341, 373,348, 375,359, 380,365, 380,374, 379,386, 377,387, 375,391, 376,396, 382,401, 385,405, 387,409, 392,408, 396,408, 393,404, 390,403, 388,397, 387,394, 384,391, 382,389, 382,385, 385,378, 385,371, 386,370, 390,373, 395,375, 396,371, 396,367, 398,364, 403,362, 409,364, 410,355, 408,353, 405,352, 403,351, 403,350, 402,345, 399,342, 396,342, 393,343, 392,343, 389,343, 387,345, 386,339, 386,335, 382,336, 382,328" shape="poly" alt="#" full="Thailand" state="Thailand" href="#">
+                <area data-popupmenu="vietnam" coords="408,338, 408,334, 409,331, 410,328, 413,325, 409,322, 409,316, 407,317, 403,315, 401,313, 399,316, 393,317, 389,316, 386,318, 391,321, 392,326, 397,328, 402,331, 399,332, 398,338, 403,340, 409,347, 418,357, 418,362, 419,367, 418,371, 417,376, 413,381, 407,385, 410,388, 409,391, 410,394, 412,392, 416,390, 415,387, 419,384, 425,381, 429,376, 430,370, 428,364, 425,357, 422,355, 409,341" shape="poly" alt="#" full="Vietnam" state="Vietnam" href="#">
+                <area data-popupmenu="cambodia" coords="419,374, 418,366, 417,363, 413,363, 409,363, 402,364, 399,363, 396,367, 397,375, 399,380, 402,384, 407,385, 411,382, 411,378, 416,376" shape="poly" alt="#" full="Cambodia" state="Cambodia" href="#">
+                <area data-popupmenu="malaysia" coords="390,409, 397,409, 402,413, 403,418, 405,427, 409,433, 405,436, 396,430, 393,427, 389,422, 388,417, 387,411, 389,410" shape="poly" alt="#" full="Malaysia" state="Malaysia" href="#">
+                <area data-popupmenu="malaysia" coords="433,432, 440,439, 445,439, 449,436, 457,435, 459,431, 462,425, 462,422, 471,421, 475,419, 478,416, 479,413, 476,412, 474,410, 471,405, 471,403, 468,404, 463,406, 461,410, 455,416, 451,419, 448,422, 444,425, 441,428, 439,432, 435,432" shape="poly" alt="#" full="Malaysia" state="Malaysia" href="#">
+                <area data-popupmenu="laos" coords="416,362, 418,360, 415,353, 412,349, 406,342, 401,340, 398,335, 401,332, 399,328, 396,329, 393,326, 394,324, 386,319, 387,325, 383,323, 378,330, 382,332, 386,334, 387,343, 391,342, 396,341, 405,347, 403,349, 408,355, 408,362, 412,364, 415,363" shape="poly" alt="#" full="Laos" state="Laos" href="#">
+                <area data-popupmenu="singapore" coords="411,437, 410,435, 406,437, 407,441, 412,441, 413,437" shape="poly" alt="#" full="Singapore" state="Singapore" href="#">
+                <area data-popupmenu="singapore" coords="276,437,366,457" shape="rect" alt="#" full="Singapore" state="Singapore" href="#">
+                <area data-popupmenu="indonesia" coords="364,410, 371,411, 376,415, 380,419, 387,426, 393,430, 402,438, 404,441, 405,447, 408,449, 416,450, 431,432, 437,436, 444,436, 446,434, 452,433, 459,432, 463,425, 465,421, 472,421, 474,427, 475,432, 480,435, 489,435, 497,436, 501,435, 506,432, 524,426, 570,447, 581,452, 586,453, 589,456, 589,461, 587,468, 587,472, 587,480, 585,487, 587,492, 579,489, 576,489, 572,489, 507,498, 500,500, 483,499, 468,493, 459,492, 452,490, 446,489, 441,488, 435,487, 430,486, 423,484, 417,482, 412,481, 410,477, 409,474, 404,470, 399,468, 396,465, 388,460, 380,454, 371,436, 363,427, 362,416, 363,412" shape="poly" alt="#" full="Indonesia" state="Indonesia" href="#">
+                <area data-popupmenu="srilanka" coords="299,403, 292,390, 290,389, 287,391, 287,398, 288,406, 291,410, 300,406" shape="poly" alt="#" full="Sri Lanka" state="Sri Lanka" href="#">
+                <area data-popupmenu="philippines" coords="515,395, 511,390, 510,386, 508,381, 508,376, 507,372, 502,373, 501,370, 503,367, 500,364, 496,362, 493,361, 489,359, 489,354, 491,350, 489,345, 488,343, 490,340, 484,338, 480,337, 478,340, 478,346, 477,352, 477,356, 480,363, 480,369, 480,376, 474,388, 468,392, 470,395, 475,392, 482,382, 485,377, 488,381, 491,385, 493,389, 498,394, 494,396, 491,403, 487,408, 489,413, 493,409, 498,403, 499,402, 502,408, 507,412, 512,411, 514,408, 511,404, 515,405, 517,401, 516,399" shape="poly" alt="#" full="Philippines" state="Philippines" href="#">
+                <area data-popupmenu="taiwan" coords="478,319, 480,310, 480,305, 477,303, 475,303, 472,306, 471,314, 473,319, 477,321" shape="poly" alt="#" full="Taiwan" state="Taiwan" href="#">
+                <area data-popupmenu="taiwan" coords="475,281,547,301" shape="rect" alt="#" full="Taiwan" state="Taiwan" href="#">
+                <area data-popupmenu="hongkong" coords="445,320, 442,317, 439,316, 438,322, 444,323" shape="poly" alt="#" full="Hong Kong " state="Hong Kong" href="#">
+                <area data-popupmenu="hongkong" coords="484,317,578,336" shape="rect" alt="#" full="Hong Kong " state="Hong Kong" href="#">
+                <area data-popupmenu="japan" coords="543,202, 534,199, 528,195, 526,194, 524,196, 526,203, 525,207, 527,214, 530,212, 531,210, 537,212, 538,211, 540,208, 543,207, 542,206" shape="poly" alt="#" full="Japan" state="Japan" href="#">
+                <area data-popupmenu="japan" coords="546,244, 545,236, 542,233, 544,228, 541,224, 538,221, 534,219, 531,219, 530,222, 532,227, 532,234, 530,237, 526,237, 525,241, 523,244, 519,245, 515,246, 510,247, 508,250, 505,254, 503,259, 505,263, 505,268, 508,270, 512,270, 514,261, 519,259, 524,257, 529,259, 530,255, 530,251, 535,253, 539,251, 541,249, 545,250, 547,248" shape="poly" alt="#" full="Japan" state="Japan" href="#">
+                <area data-popupmenu="china" coords="438,322, 442,320, 446,320, 447,317, 453,316, 455,313, 459,310, 461,307, 464,305, 464,302, 467,298, 466,296, 469,292, 469,289, 471,286, 472,283, 471,279, 471,277, 466,276, 465,274, 470,272, 469,270, 467,268, 466,265, 460,260, 457,254, 454,252, 451,250, 451,246, 453,242, 457,240, 460,238, 461,236, 457,234, 453,232, 450,232, 446,234, 443,232, 440,232, 435,228, 438,227, 440,223, 443,221, 445,218, 449,219, 449,223, 451,226, 453,225, 456,223, 463,223, 463,219, 467,215, 468,213, 471,212, 475,210, 476,207, 482,207, 482,203, 480,199, 478,196, 479,193, 485,194, 484,187, 481,184, 482,179, 480,177, 473,180, 467,180, 463,175, 457,172, 448,170, 442,165, 427,152, 423,152, 416,148, 411,150, 405,150, 405,153, 410,157, 409,161, 410,166, 407,170, 400,169, 401,178, 407,179, 412,178, 419,182, 422,184, 414,186, 409,189, 407,192, 403,193, 402,195, 394,193, 394,197, 398,200, 394,204, 392,206, 388,208, 379,208, 372,210, 369,213, 363,212, 358,211, 354,208, 341,208, 337,207, 329,206, 324,200, 316,196, 306,194, 301,193, 299,190, 299,185, 294,182, 291,179, 286,178, 281,175, 279,172, 275,175, 271,178, 274,182, 269,184, 265,183, 264,189, 264,193, 257,195, 260,202, 260,206, 260,210, 254,213, 249,218, 244,220, 240,221, 235,223, 237,228, 242,229, 246,238, 251,244, 257,247, 263,244, 270,247, 270,250, 268,257, 270,261, 268,261, 267,264, 270,269, 280,276, 283,274, 296,282, 312,287, 320,287, 325,286, 331,288, 337,286, 341,282, 349,279, 354,281, 356,284, 360,284, 364,288, 366,291, 368,296, 367,300, 365,305, 366,309, 369,308, 370,313, 374,315, 377,321, 382,323, 386,323, 385,319, 389,316, 394,317, 398,315, 400,313, 408,316, 409,320, 413,323, 417,322, 420,323, 424,326, 425,329, 428,329, 426,325, 432,324, 434,323, 436,322" shape="poly" alt="#" full="China" state="China" href="#">
+                <area data-popupmenu="china" coords="431,332, 430,332, 425,332, 422,335, 421,340, 426,343, 428,342, 430,341, 431,339, 432,336, 432,335" shape="poly" alt="#" full="China" state="China" href="#">
+                <area data-popupmenu="southkorea" coords="478,239, 480,237, 480,233, 484,231, 491,234, 493,239, 497,246, 495,249, 491,250, 487,252, 483,252, 482,250, 482,246, 479,242" shape="poly" alt="#" full="South Korea" state="South Korea" href="#">
+                <area data-popupmenu="mongolia" coords="365,171, 363,167, 359,166, 354,165, 349,166, 342,167, 336,164, 335,161, 331,158, 325,158, 318,157, 315,161, 320,165, 319,167, 313,168, 309,168, 305,166, 301,165, 297,162, 289,165, 285,168, 281,170, 278,174, 284,177, 291,179, 295,183, 299,189, 299,192, 304,195, 315,196, 324,200, 329,206, 334,208, 341,209, 350,208, 354,209, 360,210, 370,212, 373,212, 375,210, 385,209, 391,208, 392,205, 396,202, 397,201, 393,199, 393,194, 400,196, 402,193, 408,192, 409,190, 410,188, 414,185, 420,186, 421,185, 418,181, 414,178, 410,178, 406,178, 403,178, 401,175, 399,170, 395,169, 391,167, 386,166, 383,171, 378,172, 374,172, 368,172" shape="poly" alt="#" full="Mongolia" state="Mongolia" href="#">
+                <area data-popupmenu="russia" coords="31,82, 39,84, 47,84, 54,86, 60,84, 63,82, 62,78, 59,76, 52,72, 44,70, 39,70, 36,69, 32,68, 31,67, 28,66, 24,67, 20,68, 17,69, 14,72, 16,75, 19,80, 20,85, 21,91, 22,96, 25,99, 27,105, 23,108, 20,112, 18,118, 17,123, 21,130, 21,135, 28,138, 32,140, 33,145, 37,149, 37,152, 39,157, 47,154, 50,157, 50,161, 53,163, 57,164, 64,167, 74,170, 75,176, 74,179, 69,185, 67,191, 67,195, 74,199, 82,203, 89,205, 97,207, 106,209, 116,215, 119,214, 116,209, 114,205, 114,200, 109,197, 111,194, 110,191, 115,188, 115,181, 111,180, 108,180, 105,174, 105,168, 109,166, 113,166, 115,161, 121,159, 130,159, 140,164, 147,161, 152,163, 158,164, 164,164, 164,162, 158,160, 159,155, 162,153, 159,149, 161,146, 178,144, 185,142, 189,139, 194,140, 200,147, 208,147, 213,150, 221,145, 230,150, 238,159, 244,163, 247,160, 252,165, 258,161, 268,169, 275,168, 282,171, 286,168, 296,163, 303,164, 308,167, 313,167, 320,169, 321,166, 317,162, 317,158, 322,156, 331,160, 336,159, 339,167, 345,167, 352,165, 361,168, 369,171, 377,172, 382,170, 387,166, 396,168, 404,170, 410,167, 409,160, 410,156, 405,152, 412,149, 423,150, 429,153, 448,170, 454,170, 461,172, 468,180, 480,177, 483,180, 484,188, 485,193, 480,194, 478,197, 481,203, 487,205, 494,207, 497,204, 500,201, 500,197, 503,190, 504,184, 504,172, 502,169, 499,165, 498,161, 503,163, 506,169, 512,175, 514,181, 516,187, 521,189, 524,185, 521,182, 517,175, 516,173, 520,172, 512,163, 504,157, 502,153, 499,149, 496,147, 491,148, 481,144, 479,144, 475,146, 469,143, 460,142, 463,138, 465,134, 464,132, 466,128, 468,122, 470,118, 480,119, 488,119, 494,118, 504,119, 508,121, 515,122, 517,121, 514,118, 511,117, 512,113, 512,110, 512,107, 520,107, 525,110, 530,112, 532,107, 532,102, 537,109, 537,118, 535,123, 532,128, 532,133, 536,137, 561,162, 565,163, 568,159, 567,156, 565,154, 565,152, 564,148, 565,145, 568,143, 565,140, 563,138, 561,136, 564,134, 562,132, 558,128, 554,128, 550,126, 550,120, 548,116, 556,115, 563,113, 571,116, 573,110, 577,107, 580,104, 588,104, 592,102, 581,97, 578,94, 574,94, 576,92, 574,89, 572,85, 583,88, 590,91, 596,93, 601,94, 604,94, 606,92, 605,90, 607,88, 607,85, 603,82, 598,81, 589,81, 582,79, 575,76, 558,72, 546,70, 534,67, 523,66, 515,65, 511,66, 511,69, 505,67, 496,68, 489,68, 482,69, 475,67, 466,63, 461,62, 452,62, 447,62, 441,62, 436,61, 431,61, 424,56, 419,56, 415,59, 408,57, 404,55, 396,55, 391,55, 389,57, 383,58, 378,59, 369,59, 366,62, 359,62, 355,59, 352,55, 350,53, 344,51, 337,51, 331,49, 329,51, 329,54, 322,52, 315,53, 312,50, 306,49, 300,50, 295,50, 289,50, 280,52, 273,53, 277,50, 284,47, 285,43, 282,41, 279,39, 277,37, 265,36, 261,36, 254,35, 249,34, 245,34, 239,34, 232,38, 225,40, 219,40, 210,42, 205,43, 201,45, 202,49, 197,50, 188,51, 186,53, 182,56, 178,58, 174,58, 172,55, 169,58, 167,60, 171,64, 174,71, 178,77, 177,82, 169,85, 170,82, 173,78, 172,74, 170,71, 167,63, 161,60, 162,57, 162,54, 158,53, 151,53, 149,54, 147,60, 147,65, 148,69, 154,72, 158,74, 144,69, 139,68, 136,68, 131,68, 129,67, 127,69, 126,73, 123,73, 116,72, 113,73, 109,74, 106,73, 103,72, 97,73, 90,76, 85,78, 83,82, 79,81, 79,80, 81,79, 81,76, 79,74, 75,73, 71,73, 70,81, 72,84, 65,86, 62,90, 58,92, 53,91, 48,90, 46,92, 41,92, 40,89, 39,87" shape="poly" alt="#" full="Russia" state="Russia" href="#">
+                <area data-popupmenu="russia" coords="91,56, 96,49, 102,43, 107,41, 112,39, 122,38, 131,36, 137,38, 132,41, 120,43, 112,46, 106,51, 103,54, 105,59, 110,63, 105,65, 102,66, 100,63, 96,61, 94,61, 91,60, 92,59" shape="poly" alt="#" full="Russia" state="Russia" href="#">
+                <area data-popupmenu="russia" coords="203,26, 198,24, 198,20, 206,20, 213,23, 220,23, 226,28, 233,26, 244,29, 243,32, 236,32, 232,32, 227,31, 219,29, 216,30, 206,28" shape="poly" alt="#" full="Russia" state="Russia" href="#">
+                <area data-popupmenu="russia" coords="363,44, 362,41, 372,39, 380,41, 385,41, 390,45, 380,46, 374,47, 366,46" shape="poly" alt="#" full="Russia" state="Russia" href="#">  
+            </map>
+
+            <div ng-controller="asiaController">
+                <ul id="russia" class="jqpopupmenu" style="visibility: visible; z-index: 1001; left: 0px; top: 0px; display: none;">
+                    <li>
+                        <a id="popup-on" href="#">Russia<img class="rightarrowclass" style="border:0;" src="../Flags/Asia/Russia_flag.png"></a>
+                    </li>
+                    <li ng-repeat="paper in russia">
+                        <a href="{{paper.news}}" target="_blank">{{paper.name}}</a>
+                    </li>
+                </ul>
+
+                <ul id="mongolia" class="jqpopupmenu" style="visibility: visible; z-index: 1001; left: 0px; top: 0px; display: none;">
+                    <li>
+                        <a id="popup-on" href="#">Mongolia<img class="rightarrowclass" style="border:0;" src="../Flags/Asia/Mongolia_flag.png"></a>
+                    </li>
+                    <li ng-repeat="paper in mongolia">
+                        <a href="{{paper.news}}" target="_blank">{{paper.name}}</a>
+                    </li>
+                </ul>
+
+                <ul id="japan" class="jqpopupmenu" style="visibility: visible; z-index: 1001; left: 0px; top: 0px; display: none;">
+                    <li>
+                        <a id="popup-on" href="#">Japan<img class="rightarrowclass" style="border:0;" src="../Flags/Asia/Japan_flag.png"></a>
+                    </li>
+                    <li ng-repeat="paper in japan">
+                        <a href="{{paper.news}}" target="_blank">{{paper.name}}</a>
+                    </li>
+                </ul>
+
+                <ul id="southkorea" class="jqpopupmenu" style="visibility: visible; z-index: 1001; left: 0px; top: 0px; display: none;">
+                    <li>
+                        <a id="popup-on" href="#">South Korea<img class="rightarrowclass" style="border:0;" src="../Flags/Asia/South_Korea_flag.png"></a>
+                    </li>
+                    <li ng-repeat="paper in southkorea">
+                        <a href="{{paper.news}}" target="_blank">{{paper.name}}</a>
+                    </li>
+                </ul>
+
+                <ul id="china" class="jqpopupmenu" style="visibility: visible; z-index: 1001; left: 0px; top: 0px; display: none;">
+                    <li>
+                        <a id="popup-on" href="#">China<img class="rightarrowclass" style="border:0;" src="../Flags/Asia/China_flag.png"></a>
+                    </li>
+                    <li ng-repeat="paper in china">
+                        <a href="{{paper.news}}" target="_blank">{{paper.name}}</a>
+                    </li>
+                </ul>
+
+                <ul id="hongkong" class="jqpopupmenu" style="visibility: visible; z-index: 1001; left: 0px; top: 0px; display: none;">
+                    <li>
+                        <a id="popup-on" href="#">Hong Kong<img class="rightarrowclass" style="border:0;" src="../Flags/Asia/Hong_Kong_flag.png"></a>
+                    </li>
+                    <li ng-repeat="paper in hongkong">
+                        <a href="{{paper.news}}" target="_blank">{{paper.name}}</a>
+                    </li>
+                </ul>
+
+                <ul id="taiwan" class="jqpopupmenu" style="visibility: visible; z-index: 1001; left: 0px; top: 0px; display: none;">
+                    <li>
+                        <a id="popup-on" href="#">Taiwan<img class="rightarrowclass" style="border:0;" src="../Flags/Asia/Taiwan_flag.png"></a>
+                    </li>
+                    <li ng-repeat="paper in taiwan">
+                        <a href="{{paper.news}}" target="_blank">{{paper.name}}</a>
+                    </li>
+                </ul>
+
+                <ul id="philippines" class="jqpopupmenu" style="visibility: visible; z-index: 1001; left: 0px; top: 0px; display: none;">
+                    <li>
+                        <a id="popup-on" href="#">Philippines<img class="rightarrowclass" style="border:0;" src="../Flags/Asia/Philippines_flag.png"></a>
+                    </li>
+                    <li ng-repeat="paper in philippines">
+                        <a href="{{paper.news}}" target="_blank">{{paper.name}}</a>
+                    </li>
+                </ul>
+
+                <ul id="srilanka" class="jqpopupmenu" style="visibility: visible; z-index: 1001; left: 0px; top: 0px; display: none;">
+                    <li>
+                        <a id="popup-on" href="#">Sri Lanka<img class="rightarrowclass" style="border:0;" src="../Flags/Asia/Sri_Lanka_flag.png"></a>
+                    </li>
+                    <li ng-repeat="paper in srilanka">
+                        <a href="{{paper.news}}" target="_blank">{{paper.name}}</a>
+                    </li>
+                </ul>
+
+                <ul id="indonesia" class="jqpopupmenu" style="visibility: visible; z-index: 1001; left: 0px; top: 0px; display: none;">
+                    <li>
+                        <a id="popup-on" href="#">Indonesia<img class="rightarrowclass" style="border:0;" src="../Flags/Asia/Indonesia_flag.png"></a>
+                    </li>
+                    <li ng-repeat="paper in indonesia">
+                        <a href="{{paper.news}}" target="_blank">{{paper.name}}</a>
+                    </li>
+                </ul>
+
+                <ul id="laos" class="jqpopupmenu" style="visibility: visible; z-index: 1001; left: 0px; top: 0px; display: none;">
+                    <li>
+                        <a id="popup-on" href="#">Laos<img class="rightarrowclass" style="border:0;" src="../Flags/Asia/Laos_flag.png"></a>
+                    </li>
+                    <li ng-repeat="paper in laos">
+                        <a href="{{paper.news}}" target="_blank">{{paper.name}}</a>
+                    </li>
+                </ul>
+
+                <ul id="singapore" class="jqpopupmenu" style="visibility: visible; z-index: 1001; left: 0px; top: 0px; display: none;">
+                    <li>
+                        <a id="popup-on" href="#">Singapore<img class="rightarrowclass" style="border:0;" src="../Flags/Asia/Singapore_flag.png"></a>
+                    </li>
+                    <li ng-repeat="paper in singapore">
+                        <a href="{{paper.news}}" target="_blank">{{paper.name}}</a>
+                    </li>
+                </ul>
+
+                <ul id="malaysia" class="jqpopupmenu" style="visibility: visible; z-index: 1001; left: 0px; top: 0px; display: none;">
+                    <li>
+                        <a id="popup-on" href="#">Malaysia<img class="rightarrowclass" style="border:0;" src="../Flags/Asia/Malaysia_flag.png"></a>
+                    </li>
+                    <li ng-repeat="paper in malaysia">
+                        <a href="{{paper.news}}" target="_blank">{{paper.name}}</a>
+                    </li>
+                </ul>
+
+                <ul id="cambodia" class="jqpopupmenu" style="visibility: visible; z-index: 1001; left: 0px; top: 0px; display: none;">
+                    <li>
+                        <a id="popup-on" href="#">Cambodia<img class="rightarrowclass" style="border:0;" src="../Flags/Asia/Cambodia_flag.png"></a>
+                    </li>
+                    <li ng-repeat="paper in cambodia">
+                        <a href="{{paper.news}}" target="_blank">{{paper.name}}</a>
+                    </li>
+                </ul>
+
+                <ul id="vietnam" class="jqpopupmenu" style="visibility: visible; z-index: 1001; left: 0px; top: 0px; display: none;">
+                    <li>
+                        <a id="popup-on" href="#">Vietnam<img class="rightarrowclass" style="border:0;" src="../Flags/Asia/Vietnam_flag.png"></a>
+                    </li>
+                    <li ng-repeat="paper in vietnam">
+                        <a href="{{paper.news}}" target="_blank">{{paper.name}}</a>
+                    </li>
+                </ul>
+
+                <ul id="thailand" class="jqpopupmenu" style="visibility: visible; z-index: 1001; left: 0px; top: 0px; display: none;">
+                    <li>
+                        <a id="popup-on" href="#">Thailand<img class="rightarrowclass" style="border:0;" src="../Flags/Asia/Thailand_flag.png"></a>
+                    </li>
+                    <li ng-repeat="paper in thailand">
+                        <a href="{{paper.news}}" target="_blank">{{paper.name}}</a>
+                    </li>
+                </ul>
+
+                <ul id="burma" class="jqpopupmenu" style="visibility: visible; z-index: 1001; left: 0px; top: 0px; display: none;">
+                    <li>
+                        <a id="popup-on" href="#">Burma<img class="rightarrowclass" style="border:0;" src="../Flags/Asia/Burma_flag.png"></a>
+                    </li>
+                    <li ng-repeat="paper in burma">
+                        <a href="{{paper.news}}" target="_blank">{{paper.name}}</a>
+                    </li>
+                </ul>
+
+                <ul id="bangladesh" class="jqpopupmenu" style="visibility: visible; z-index: 1001; left: 0px; top: 0px; display: none;">
+                    <li>
+                        <a id="popup-on" href="#">Bangladesh<img class="rightarrowclass" style="border:0;" src="../Flags/Asia/Bangladesh_flag.png"></a>
+                    </li>
+                    <li ng-repeat="paper in bangladesh">
+                        <a href="{{paper.news}}" target="_blank">{{paper.name}}</a>
+                    </li>
+                </ul>
+
+                <ul id="bhutan" class="jqpopupmenu" style="visibility: visible; z-index: 1001; left: 0px; top: 0px; display: none;">
+                    <li>
+                        <a id="popup-on" href="#">Bhutan<img class="rightarrowclass" style="border:0;" src="../Flags/Asia/Bhutan_flag.png"></a>
+                    </li>
+                    <li ng-repeat="paper in bhutan">
+                        <a href="{{paper.news}}" target="_blank">{{paper.name}}</a>
+                    </li>
+                </ul>
+
+                <ul id="nepal" class="jqpopupmenu" style="visibility: visible; z-index: 1001; left: 0px; top: 0px; display: none;">
+                    <li>
+                        <a id="popup-on" href="#">Nepal<img class="rightarrowclass" style="border:0;" src="../Flags/Asia/Nepal_flag.png"></a>
+                    </li>
+                    <li ng-repeat="paper in nepal">
+                        <a href="{{paper.news}}" target="_blank">{{paper.name}}</a>
+                    </li>
+                </ul>
+
+                <ul id="india" class="jqpopupmenu" style="visibility: visible; z-index: 1001; left: 0px; top: 0px; display: none;">
+                    <li>
+                        <a id="popup-on" href="#">India<img class="rightarrowclass" style="border:0;" src="../Flags/Asia/India_flag.png"></a>
+                    </li>
+                    <li ng-repeat="paper in india">
+                        <a href="{{paper.news}}" target="_blank">{{paper.name}}</a>
+                    </li>
+                </ul>
+
+                <ul id="pakistan" class="jqpopupmenu" style="visibility: visible; z-index: 1001; left: 0px; top: 0px; display: none;">
+                    <li>
+                        <a id="popup-on" href="#">Pakistan<img class="rightarrowclass" style="border:0;" src="../Flags/Asia/Pakistan_flag.png"></a>
+                    </li>
+                    <li ng-repeat="paper in pakistan">
+                        <a href="{{paper.news}}" target="_blank">{{paper.name}}</a>
+                    </li>
+                </ul>
+
+                <ul id="afghanistan" class="jqpopupmenu" style="visibility: visible; z-index: 1001; left: 0px; top: 0px; display: none;">
+                    <li>
+                        <a id="popup-on" href="#">Afghanistan<img class="rightarrowclass" style="border:0;" src="../Flags/Asia/Afghanistan_flag.png"></a>
+                    </li>
+                    <li ng-repeat="paper in afghanistan">
+                        <a href="{{paper.news}}" target="_blank">{{paper.name}}</a>
+                    </li>
+                </ul>
+
+                <ul id="tajikistan" class="jqpopupmenu" style="visibility: visible; z-index: 1001; left: 0px; top: 0px; display: none;">
+                    <li>
+                        <a id="popup-on" href="#">Tajikistan<img class="rightarrowclass" style="border:0;" src="../Flags/Asia/Tajikistan_flag.png"></a>
+                    </li>
+                    <li ng-repeat="paper in tajikistan">
+                        <a href="{{paper.news}}" target="_blank">{{paper.name}}</a>
+                    </li>
+                </ul>
+
+                <ul id="kyrgyzstan" class="jqpopupmenu" style="visibility: visible; z-index: 1001; left: 0px; top: 0px; display: none;">
+                    <li>
+                        <a id="popup-on" href="#">Kyrgyzstan<img class="rightarrowclass" style="border:0;" src="../Flags/Asia/Kyrgyzstan_flag.png"></a>
+                    </li>
+                    <li ng-repeat="paper in kyrgyzstan">
+                        <a href="{{paper.news}}" target="_blank">{{paper.name}}</a>
+                    </li>
+                </ul>
+
+                <ul id="kazak" class="jqpopupmenu" style="visibility: visible; z-index: 1001; left: 0px; top: 0px; display: none;">
+                    <li>
+                        <a id="popup-on" href="#">Kazakhstan<img class="rightarrowclass" style="border:0;" src="../Flags/Asia/Kazakhstan_flag.png"></a>
+                    </li>
+                    <li ng-repeat="paper in kazak">
+                        <a href="{{paper.news}}" target="_blank">{{paper.name}}</a>
+                    </li>
+                </ul>
+
+                <ul id="uzbek" class="jqpopupmenu" style="visibility: visible; z-index: 1001; left: 0px; top: 0px; display: none;">
+                    <li>
+                        <a id="popup-on" href="#">Uzbekistan<img class="rightarrowclass" style="border:0;" src="../Flags/Asia/Uzbekistan_flag.png"></a>
+                    </li>
+                    <li ng-repeat="paper in uzbek">
+                        <a href="{{paper.news}}" target="_blank">{{paper.name}}</a>
+                    </li>
+                </ul>
+
+                <ul id="turkmen" class="jqpopupmenu" style="visibility: visible; z-index: 1001; left: 0px; top: 0px; display: none;">
+                    <li>
+                        <a id="popup-on" href="#"><span style="font-size:13px;">Turkmenistan</span><img class="rightarrowclass" style="border:0;" src="../Flags/Asia/Turkmenistan_flag.png"></a>
+                    </li>
+                    <li ng-repeat="paper in turkmen">
+                        <a href="{{paper.news}}" target="_blank">{{paper.name}}</a>
+                    </li>
+                </ul>
+
+                <ul id="iran" class="jqpopupmenu" style="visibility: visible; z-index: 1001; left: 0px; top: 0px; display: none;">
+                    <li>
+                        <a id="popup-on" href="#">Iran<img class="rightarrowclass" style="border:0;" src="../Flags/Asia/Iran_flag.png"></a>
+                    </li>
+                    <li ng-repeat="paper in iran">
+                        <a href="{{paper.news}}" target="_blank">{{paper.name}}</a>
+                    </li>
+                </ul>
+
+                <ul id="iraq" class="jqpopupmenu" style="visibility: visible; z-index: 1001; left: 0px; top: 0px; display: none;">
+                    <li>
+                        <a id="popup-on" href="#">Iraq<img class="rightarrowclass" style="border:0;" src="../Flags/Asia/Iraq_flag.png"></a>
+                    </li>
+                    <li ng-repeat="paper in iraq">
+                        <a href="{{paper.news}}" target="_blank">{{paper.name}}</a>
+                    </li>
+                </ul>
+
+                <ul id="syria" class="jqpopupmenu" style="visibility: visible; z-index: 1001; left: 0px; top: 0px; display: none;">
+                    <li>
+                        <a id="popup-on" href="#">Syria<img class="rightarrowclass" style="border:0;" src="../Flags/Asia/Syria_flag.png"></a>
+                    </li>
+                    <li ng-repeat="paper in syria">
+                        <a href="{{paper.news}}" target="_blank">{{paper.name}}</a>
+                    </li>
+                </ul>
+
+                <ul id="israel" class="jqpopupmenu" style="visibility: visible; z-index: 1001; left: 0px; top: 0px; display: none;">
+                    <li>
+                        <a id="popup-on" href="#">Israel<img class="rightarrowclass" style="border:0;" src="../Flags/Asia/Israel_flag.png"></a>
+                    </li>
+                    <li ng-repeat="paper in israel">
+                        <a href="{{paper.news}}" target="_blank">{{paper.name}}</a>
+                    </li>
+                </ul>
+
+                <ul id="jordan" class="jqpopupmenu" style="visibility: visible; z-index: 1001; left: 0px; top: 0px; display: none;">
+                    <li>
+                        <a id="popup-on" href="#">Jordan<img class="rightarrowclass" style="border:0;" src="../Flags/Asia/Jordan_flag.png"></a>
+                    </li>
+                    <li ng-repeat="paper in jordan">
+                        <a href="{{paper.news}}" target="_blank">{{paper.name}}</a>
+                    </li>
+                </ul>
+
+                <ul id="lebanon" class="jqpopupmenu" style="visibility: visible; z-index: 1001; left: 0px; top: 0px; display: none;">
+                    <li>
+                        <a id="popup-on" href="#">Lebanon<img class="rightarrowclass" style="border:0;" src="../Flags/Asia/Lebanon.png"></a>
+                    </li>
+                    <li ng-repeat="paper in lebanon">
+                        <a href="{{paper.news}}" target="_blank">{{paper.name}}</a>
+                    </li>
+                </ul>
+
+                <ul id="saudi" class="jqpopupmenu" style="visibility: visible; z-index: 1001; left: 0px; top: 0px; display: none;">
+                    <li>
+                        <a id="popup-on" href="#">Saudi Arabia<img class="rightarrowclass" style="border:0;" src="../Flags/Asia/Saudi_flag.png"></a>
+                    </li>
+                    <li ng-repeat="paper in saudi">
+                        <a href="{{paper.news}}" target="_blank">{{paper.name}}</a>
+                    </li>
+                </ul>
+
+                <ul id="uae" class="jqpopupmenu" style="visibility: visible; z-index: 1001; left: 0px; top: 0px; display: none;">
+                    <li>
+                        <a id="popup-on" href="#">UAE<img class="rightarrowclass" style="border:0;" src="../Flags/Asia/UAE_flag.png"></a>
+                    </li>
+                    <li ng-repeat="paper in uae">
+                        <a href="{{paper.news}}" target="_blank">{{paper.name}}</a>
+                    </li>
+                </ul>
+
+                <ul id="oman" class="jqpopupmenu" style="visibility: visible; z-index: 1001; left: 0px; top: 0px; display: none;">
+                    <li>
+                        <a id="popup-on" href="#">Oman<img class="rightarrowclass" style="border:0;" src="../Flags/Asia/Oman_flag.png"></a>
+                    </li>
+                    <li ng-repeat="paper in oman">
+                        <a href="{{paper.news}}" target="_blank">{{paper.name}}</a>
+                    </li>
+                </ul>
+
+                <ul id="yemen" class="jqpopupmenu" style="visibility: visible; z-index: 1001; left: 0px; top: 0px; display: none;">
+                    <li>
+                        <a id="popup-on" href="#">Yemen<img class="rightarrowclass" style="border:0;" src="../Flags/Asia/Yemen_flag.png"></a>
+                    </li>
+                    <li ng-repeat="paper in yemen">
+                        <a href="{{paper.news}}" target="_blank">{{paper.name}}</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="col-sm-2 col-md-2 col-lg-2">
+            <a target="_blank" href="http://www.cnn.com/" class="highlightit"><img class="mobilApp" src="../pic/newsapps/cnn.png" title="CNN World" width="53" height="53" /></a>
+            <a target="_blank" href="http://www.foxnews.com/" class="highlightit"><img class="mobilApp" src="../pic/newsapps/Fox.png" title="Fox News" width="53" height="53" /></a>
+            <a target="_blank" href="http://abcnews.go.com/" class="highlightit"><img class="mobilApp" src="../pic/newsapps/abc.png" title="ABC News" width="53" height="53" /></a>
+            <a target="_blank" href="https://www.cbsnews.com/" class="highlightit"><img class="mobilApp" src="../pic/newsapps/cbs.png" title="CBS News" width="53" height="53" /></a>
+            <a target="_blank" href="https://www.bbc.com/" class="highlightit"><img class="mobilApp" src="../pic/newsapps/bbc.png" title="BBC World" width="53" height="53" /></a>
+            <a target="_blank" href="https://www.dw.com/" class="highlightit"><img class="mobilApp" src="../pic/newsapps/DW.PNG" title="DW World" width="53" height="53" /></a>
+            <a target="_blank" href="http://www.nbcnews.com/" class="highlightit"><img class="mobilApp" src="../pic/newsapps/nbc.png" title="NBC News" width="53" height="53" /></a>
+            <a target="_blank" href="http://www.aljazeera.com/" class="highlightit"><img class="mobilApp" src="../pic/newsapps/aljaz.png" title="Al Jazeera" width="53" height="53" /></a>
+            <a target="_blank" href="https://www.france24.com/" class="highlightit"><img class="mobilApp" src="../pic/newsapps/Fr24.png" title="MSN News" width="53" height="53" /></a>
+            <a target="_blank" href="http://www.aljazeera.com/" class="highlightit"><img class="mobilApp" src="../pic/newsapps/Reut.png" title="Reuters" width="53" height="53" /></a>
+            <a target="_blank" href="http://www.cbc.ca/" class="highlightit"><img class="mobilApp" src="../pic/newsapps/cbc.png" title="CBC News" width="53" height="53" /></a>
+            <a target="_blank" href="https://www.ctvnews.ca/" class="highlightit"><img class="mobilApp" src="../pic/newsapps/ctv.png" title="CTV News" width="53" height="53" /></a>
+            <a target="_blank" href="http://news.sky.com/" class="highlightit"><img class="mobilApp" src="../pic/newsapps/Sky.png" title="Sky News" width="53" height="53" /></a>
+            <a target="_blank" href="http://espn.go.com/" class="highlightit"><img class="mobilApp" src="../pic/newsapps/espn.png" title="ESPN" width="53" height="53" /></a>
+            <a target="_blank" href="https://www.msn.com/en-us/news/world" class="highlightit"><img class="mobilApp" src="../pic/newsapps/msn.png" title="MSN News" width="53" height="53" /></a>
+        </div>
+    </div>
+</div>
+
+<!-----------                Marketing messaging and featurettes                    ------>
+<!------------------ Shopping Hover Effect Style --------------->
+<div class="container-fluid">
+    <h1 class="text-center">Time for shopping</h1>
+    <div class="row rowShop">
+        <div class="col-md-4 col-sm-6 rowShopResp">
+            <div class="pictureBox">
+                <a href="https://www.ebay.com/" target="_blank"><img class="featurette-image img-responsive" data-src="holder.js/200x200/auto" alt="Generic placeholder image" src="~/images/Shopping/eBay.png"></a>
+                <!---  <div class="pictureBox-content">
+                     <h2 class="title">eBay</h2>
+                </div> --->
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-6 rowShopResp">
+            <div class="pictureBox">
+                <a href="https://www.lightinthebox.com/" target="_blank"><img src="~/images/retail/LightInTheBox.jpg" alt=""></a>
+                <!--- <div class="pictureBox-content">
+                    <h3 class="title">Dam</h3>
+                    <span class="post">Skjortor och blusar</span>
+                </div>  --->
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-6 rowShopResp">
+            <div class="pictureBox">
+                <a href="https://www.walmart.com/" target="_blank"> <img src="~/images/retail/Walmart.jpg" alt=""></a>
+                <!--- <div class="pictureBox-content">
+                    <h3 class="title">Herr</h3>
+                    <span class="post">Jackor & rockar för herr</span>
+                </div>  --->
+            </div>
+        </div>
+
+    </div>
+</div>
+<!------------------ End shopping Hover Effect Style --------------->
+<!------------------ Shopping eBay, Alibaba, Amazon  --------------->
+<div class="container-fluid">
+    <div class="row rowShop">
+        <div class="col-md-4 col-sm-6 rowShopResp">
+            <div class="pictureBox">
+                <a href="https://www.amazon.com/" target="_blank"><img class="featurette-image img-responsive" data-src="holder.js/200x200/auto" alt="Generic placeholder image" src="~/images/Shopping/Amazon.jpg"></a>
+                <!---<div class="pictureBox-content">
+                      <h2 class="title">Amazon</h2>
+                 </div>--->
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-6 rowShopResp">
+            <div class="pictureBox">
+                <a href="https://www.alibaba.com/" target="_blank"><img class="featurette-image img-responsive" data-src="holder.js/200x200/auto" alt="Generic placeholder image" src="~/images/Shopping/Alibaba.png"></a>
+                <!---<div class="pictureBox-content">
+                     <h2 class="title">Alibaba</h2>
+                </div>--->
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-6 rowShopResp">
+            <div class="pictureBox">
+                <a href="https://www2.hm.com/en_us/index.html" target="_blank"> <img src="~/images/retail/H&MHem.PNG"></a>
+                <!---   <div class="pictureBox-content">
+                       <h3 class="title">H&M</h3>
+                       <span class="post"></span>
+                   </div> --->
+            </div>
+        </div>
+    </div>
+</div>
+<!------------------ End shopping eBay, Alibaba, Amazon  --------------->
+
+<!--- Food delivery-->
+<div class="container-fluid">
+    <h1 class="text-center">Hungry?</h1>
+    <div class="row rowShop">
+        <div class="col-md-4 col-sm-7">
+            <div class="pictureBox">
+                <a href="https://www.swiggy.com/" target="_blank"><img class="featurette-image img-responsive" data-src="holder.js/200x200/auto" alt="Generic placeholder image" src="~/images/food/CaviarFood.jpg"></a>
+                <div class="pictureBox-content">
+                    <h2 class="title">Swiggy</h2>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-6">
+            <div class="pictureBox">
+                <a href="https://www.ubereats.com/" target="_blank"><img class="featurette-image img-responsive" data-src="holder.js/200x200/auto" alt="Generic placeholder image" src="~/images/food/McDonldsBigMac.jpg"></a>
+                <div class="pictureBox-content">
+                    <h2 class="title">Uber Eats Delivery</h2>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-7">
+            <div class="pictureBox">
+                <a href="https://order.popmeals.com.my/menu" target="_blank"><img class="featurette-image img-responsive" data-src="holder.js/200x200/auto" alt="Generic placeholder image" src="~/images/food/bistroMD.jpg"></a>
+                <div class="pictureBox-content">
+                    <h2 class="title">Pop Meals</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!---- End Food delivery  -->
+
+
+<!--------------------- Travel ------------------------------->
+<div class="container-fluid">
+    <h1 class="text-center">Travel somewhere?</h1>
+    <div class="row featurette rowShop">
+        <div class="col-md-4 col-sm-6">
+            <div class="pictureBox">
+                <a href="https://www.cheapoair.com/" target="_blank"><img class="featurette-image img-responsive" data-src="holder.js/200x200/auto" alt="Generic placeholder image" src="~/images/travel/NewYorkManhattan.jpg"></a>
+                <div class="pictureBox-content">
+                    <h2 class="title">CheapOair</h2>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-6">
+            <div class="pictureBox">
+                <a href="https://www.booking.com/flights" target="_blank"><img class="featurette-image img-responsive" data-src="holder.js/200x200/auto" alt="Generic placeholder image" src="~/images/travel/SanFransisco.jpg"></a>
+                <div class="pictureBox-content">
+                    <h2 class="title">Booking.com</h2>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-6">
+            <div class="pictureBox">
+                <a href="https://www.cheapflights.com/" target="_blank"><img class="featurette-image img-responsive" data-src="holder.js/200x200/auto" alt="Generic placeholder image" src="~/images/travel/LosAngelesHollywood.jpg"></a>
+                <div class="pictureBox-content">
+                    <h2 class="title">Cheap Flights</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container-fluid">
+    <div class="row featurette rowShop">
+        <div class="col-md-4 col-sm-6">
+            <div class="pictureBox">
+                <a href="https://www.expedia.com/" target="_blank"><img class="featurette-image img-responsive" data-src="holder.js/200x200/auto" alt="Generic placeholder image" src="~/images/travel/LondonBigBen.jpg"></a>
+                <div class="pictureBox-content">
+                    <h2 class="title">Expedia</h2>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-6">
+            <div class="pictureBox">
+                <a href="https://www.onetravel.com/" target="_blank"><img class="featurette-image img-responsive" data-src="holder.js/200x200/auto" alt="Generic placeholder image" src="~/images/travel/MoulinRouge.jpg"></a>
+                <div class="pictureBox-content">
+                    <h2 class="title">OneTravel</h2>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-6">
+            <div class="pictureBox">
+                <a href="https://www.momondo.com/flight/" target="_blank"><img class="featurette-image img-responsive" data-src="holder.js/200x200/auto" alt="Generic placeholder image" src="~/images/travel/Rom.jpg"></a>
+                <div class="pictureBox-content">
+                    <h2 class="title">Momondo</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!----------------------- End Travel ----------------------->
+
+<!-- Job Sites  -->
+<div class="container-fluid">
+    <h1 class="text-center">Looking for a job?</h1>
+    <div class="row featurette rowShop">
+        <div class="col-md-4 col-sm-6">
+            <div class="pictureBox">
+                <a href="https://www.linkedin.com/jobs" target="_blank"><img class="featurette-image img-responsive" data-src="holder.js/200x200/auto" alt="Generic placeholder image" src="~/images/Jobs/LinkedInJobs.jpg"></a>
+                <!----<div class="pictureBox-content">
+                    <h2 class="title">Job</h2>
+                    <span class="post">Now</span>
+                </div>  --->
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-6">
+            <div class="pictureBox">
+                <a href="https://www.indeed.com/" target="_blank"><img class="featurette-image img-responsive" data-src="holder.js/200x200/auto" alt="Generic placeholder image" src="~/images/Jobs/IndeedJobs.jpg"></a>
+                <!----<div class="pictureBox-content">
+                    <h2 class="title">Weekend in New York</h2>
+                    <span class="post">Book now</span>
+                </div> ---->
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-6">
+            <div class="pictureBox">
+                <a href="https://www.monster.com/" target="_blank"><img class="featurette-image img-responsive" data-src="holder.js/200x200/auto" alt="Generic placeholder image" src="~/images/Jobs/MonsterJobs.jpg"></a>
+                <!----<div class="pictureBox-content">
+                    <h2 class="title">Job</h2>
+                    <span class="post">Now</span>
+                </div> ---->
+            </div>
+        </div>
+    </div>
+</div>
+<!---- End Job Sites -->
+
+
+<div class="footercon">
+    <div class="footer">
+        <div class="footer-content">
+            <div class="footer-header">
+                <a href="/"><p class="footfont" title="Google4news"></p></a>
+            </div>
+            <div class="footer-col" style="color:#fff;">
+                <!--- Contact info --->
+                <a href="">
+                    <!--- email: -->
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
